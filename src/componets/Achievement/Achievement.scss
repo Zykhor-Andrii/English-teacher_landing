@@ -1,0 +1,168 @@
+@import '../../style/utils/mixins';
+
+.slider {
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__arrow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+
+    @include onTablet() {
+      display: block;
+    }
+
+    &--rigth {
+      right: 0;
+
+    }
+  }
+
+
+  &__content {
+    display: flex;
+    // overflow: hidden;
+    position: relative;
+    // width: 500px;
+    // height: 560px;
+    margin: 0 74px;
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  &__item {
+    position: absolute;
+    height: 0px;
+    z-index: 0;
+    // list-style: none;
+    transition: 400ms;
+
+    &--first-left,
+    &--first-rigth {
+      width: 142px;
+      height: 204px;
+
+      top: 21px;
+      border-radius: 8px;
+      transform: translateX(-80%);
+      box-shadow: -10px 15px 19px 0px #00000040;
+      z-index: 2;
+      filter: blur(2px);
+
+      @include onTablet() {
+        width: 250px;
+        height: 368px;
+        top: 24px
+      }
+
+      @include onDesktop() {
+        width: 320px;
+        height: 470px;
+        top: 45px;
+      }
+    }
+
+    &--first-rigth {
+      transform: translateX(80%);
+    }
+
+    &--second-left,
+    &--second-rigth {
+      display: none;
+      z-index: 1;
+
+      border-radius: 8px;
+      box-shadow: -10px 15px 19px 0px #00000040;
+      filter: blur(2px);
+
+      @include onTablet() {
+        display: block;
+        width: 212px;
+        height: 300px;
+        top: 58px;
+      }
+
+      @include onDesktop() {
+        width: 274px;
+        height: 388px;
+        top: 86px;
+      }
+
+    }
+
+    &--second-left {
+      left: 0;
+
+    }
+
+    &--second-rigth {
+      right: 0;
+    }
+
+  }
+
+  &__selected {
+    position: relative;
+    min-width: 168px;
+    height: 246px;
+    border-radius: 8px;
+    z-index: 3;
+
+    @include onTablet() {
+      min-width: 286px;
+      height: 416px;
+    }
+
+    @include onDesktop() {
+      min-width: 384px;
+          min-height: 500px;
+      // max-width: 704px;
+    }
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__point {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+    @include onTablet() {
+      margin-top: 32px;
+
+    }
+
+    @include onDesktop() {}
+
+    &-item {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 16px;
+      background-color: #E9ECEF;
+
+      cursor: pointer;
+
+      &--selected {
+        cursor: default;
+        width: 32px;
+        height: 16px;
+        border-radius: 16px;
+        background-color: #F9C08B;
+
+      }
+
+    }
+  }
+}

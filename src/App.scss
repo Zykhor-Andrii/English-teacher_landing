@@ -1,0 +1,22 @@
+@import './style/reset.scss';
+@import './style/utils/mixins';
+@import './style/container.scss';
+@import './style/utils/normalize';
+
+.App {}
+
+
+.page {
+  &__block {
+    margin-bottom: 82px ;
+  }
+
+  @include onTablet() {
+    margin-bottom: 100px ;
+  }
+
+  @include onDesktop() {
+    margin-bottom: 152px ;
+
+  }
+}

@@ -1,0 +1,220 @@
+@import '../../style/utils/mixins';
+
+
+.header {
+  // background-image: url('./foto/bg-shadow.png');
+  background-image: url("../../foto/photo.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 95vw;
+  position: relative;
+  background-color: #495057;
+
+  @include onTablet {
+    background-size: 704px 900px;
+  }
+
+  &__credo {
+    width: 338px;
+    height: 91px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 24px;
+
+    @include onTablet() {
+      width: 384px;
+      height: 116px;
+      margin-bottom: 32px;
+
+    }
+
+    @include onDesktop() {
+      margin-bottom: 42px;
+
+      height: 151px;
+    }
+
+    &-content {
+      padding: 8px 16px;
+
+      @include onTablet() {
+        padding: 16px 24px;
+
+
+      }
+
+    }
+
+    &-title {
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 20px;
+
+      @include onTablet() {
+        font-size: 18px;
+      }
+
+      @include onTablet() {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+
+  }
+
+  &__ellipse {
+    position: absolute;
+    width: 477px;
+    height: 403px;
+    left: -275px;
+    border: 1px solid #ADB5BD;
+    border-radius: 50%;
+    z-index: 0;
+
+    @include onTablet() {
+      width: 545px;
+      height: 545px;
+      top: 118px;
+      left: -311px;
+    }
+
+    @include onDesktop() {
+      width: 677px;
+      height: 635px;
+      top: 205px;
+      left: -187px;
+    }
+  }
+
+  &__top {
+
+    &-underline {
+      display: none;
+
+      @include onTablet() {
+        display: block;
+
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-color: #495057;
+      }
+
+      @include onDesktop {
+        width: 1050px;
+      }
+
+    }
+  }
+
+  &__burger {
+    margin-top: 32px;
+
+    @include onTablet() {
+      display: none;
+    }
+  }
+
+  &__nav {
+    display: none;
+
+    @include onTablet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 84px;
+      font-size: 16px;
+    }
+
+    @include onDesktop {
+      font-size: 20px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    margin-top: 512px;
+    width: 300px;
+
+    @include onTablet {
+      width: 352px;
+      margin-top: 77px;
+
+    }
+
+    @include onDesktop {
+      width: 598px;
+      margin-top: 178px;
+    }
+  }
+
+  &__name {
+    margin-bottom: 16px;
+  }
+
+  &__info-university {
+    margin-bottom: 24px;
+  }
+}
+
+.nav {
+  transition: 1000ms;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  &__item {
+    padding-bottom: 8px;
+
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-link {
+      text-decoration: none;
+      border-bottom: 1px solid #F8F9FA;
+      padding-bottom: 8px;
+
+    }
+  }
+
+  &__close-menu {
+    margin: 36px 0;
+  }
+
+
+  &__burger {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transform: translateX(-1000%);
+
+    @include onTablet() {
+      display: none;
+    }
+  }
+
+  &__burger-open {
+    transform: translateX(0);
+  }
+
+  &__content {
+    width: 279px;
+    height: 364px;
+    background-color: #fff;
+  }
+
+  &__burger {
+    width: 32px;
+    height: 27px;
+  }
+}
