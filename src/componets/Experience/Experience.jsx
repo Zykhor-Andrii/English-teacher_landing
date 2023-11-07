@@ -7,7 +7,7 @@ import certificate3 from '../../foto/certificate3.png'
 import certificate4 from '../../foto/certificate4.png'
 
 export const Experience = () => (
-  <section className='page__block experience'>
+  <section className='page__section experience'>
     <div className="container">
       <h1 className="experience__title">
         Мій досвід

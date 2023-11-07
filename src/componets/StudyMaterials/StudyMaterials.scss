@@ -1,0 +1,166 @@
+@import '../../style/utils/mixins';
+
+
+.materials {
+  background: linear-gradient(99.26deg, #F5E9C4 -2.62%, rgba(255, 255, 255, 0.518325) 48.69%, #CCFBD0 99.47%);
+
+  &__title {
+    padding-top: 24px;
+
+    @include onTablet() {
+      padding-top: 32px;
+    }
+
+    @include onDesktop() {
+      padding-bottom: 48px;
+    }
+  }
+
+  &__content {
+    padding-bottom: 32px;
+
+    @include onDesktop() {
+      padding-bottom: 48px;
+      width: 1008px;
+      margin: 0 auto;
+    }
+  }
+
+  &__subjects {
+    display: flex;
+    justify-content: space-between;
+    width: 358px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+
+    @include onTablet() {
+      width: 352px;
+      height: 46px;
+
+    }
+
+    @include onDesktop() {
+      width: 437px;
+      height: 68px;
+      margin-bottom: 48px;
+
+    }
+
+
+
+    &-item {
+      width: 167px;
+      height: 100%;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      @include onTablet() {
+        width: 160px;
+      }
+
+      @include onDesktop() {
+        width: 203px;
+      }
+
+      &--active {
+        background-color: #FDE1BA;
+      }
+    }
+
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ADB5BD;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+
+    @include onTablet() {
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+    }
+
+    @include onDesktop() {
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+    }
+
+    &--last {
+      margin-bottom: 0;
+    }
+
+
+  }
+
+  &__lesson {
+    padding-bottom: 24px;
+
+    @include onTablet() {
+      padding-bottom: 32px;
+    }
+
+    @include onDesktop() {
+      padding-bottom: 54px;
+    }
+  }
+
+  &__lesson-section {
+    width: 100%;
+    margin-bottom: 24px;
+
+    @include onTablet() {
+      width: 224px;
+      margin-bottom: 0;
+
+    }
+
+    @include onDesktop() {
+      width: 384px;
+    }
+  }
+
+  &__lesson-content {
+    @include onTablet() {
+      display: flex;
+      gap: 32px;
+    }
+  }
+
+  &__lesson-title {
+    margin-bottom: 32px;
+
+    @include onTablet() {
+      margin-bottom: 24px;
+
+    }
+
+    @include onDesktop() {
+      margin-bottom: 48px;
+
+    }
+  }
+
+  &__section-title {
+    padding-bottom: 16px;
+    font-size: 16px;
+
+    @include onTablet() {
+      height: 54px;
+      padding-bottom: 24px;
+      font-size: 18px;
+
+    }
+
+    @include onDesktop() {
+      height: 72px;
+      padding-bottom: 32px;
+      font-size: 24px;
+
+    }
+  }
+}

@@ -89,8 +89,11 @@ export const Slider = () => {
 
 
   return (
-    <section className="slider">
+    <section className="page__section slider">
       <div className="container">
+        <h2 className='page__title'>
+        Сертифікати та досягнення
+        </h2>
         <div className="slider__wrapper">
         <ul className="slider__content">
           {images.map(image => (

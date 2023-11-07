@@ -7,7 +7,7 @@
 
 
 .page {
-  &__block {
+  &__section {
     margin-bottom: 82px ;
   }
 
@@ -18,5 +18,19 @@
   @include onDesktop() {
     margin-bottom: 152px ;
 
+  }
+
+  &__title {
+    margin-bottom: 32px;
+    text-align: center;
+
+    @include onTablet() {
+      margin-bottom: 48px;
+    }
+
+    @include onDesktop() {
+      margin-bottom: 72px;
+
+    }
   }
 }
