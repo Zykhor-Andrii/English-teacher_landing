@@ -1,5 +1,6 @@
 import './Header.scss'
 import { useState } from 'react';
+import foto from '../../foto/photo.png'
 
 import burger from '../../foto/icons/Vector.svg';
 import closeMenu from '../../foto/icons/icon_close.svg';
@@ -29,15 +30,15 @@ export const Header = () => {
           />
           <hr className='header__top-underline' />
         </div>
-
+        <img src={foto} alt="" className="header__foto" />
         <div className="header__content">
           <div className="header__ellipse"></div>
           <h3 className='header__title'>
             Викладач англійської мови та всесвітньої історії
           </h3>
           <h1 className="header__name">
-            Кикина <br/>
-             Марія
+            Кикина <br />
+            Марія
           </h1>
           <h4 className="header__info-university">
             Вищого професійного  училища №34 м. Виноградів

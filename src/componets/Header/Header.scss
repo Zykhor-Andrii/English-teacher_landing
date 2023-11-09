@@ -2,16 +2,33 @@
 
 
 .header {
-  // background-image: url('./foto/bg-shadow.png');
-  background-image: url("../../foto/photo.png");
+  background-image: url('../../foto/bg-shadow.png');
+  // background-image: url("../../foto/photo.png");
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 95vw;
+  // background-position: top right;
+  // background-size: 95vw;
   position: relative;
-  background-color: #495057;
+  // background-color: #495057;
 
   @include onTablet {
     background-size: 704px 900px;
+  }
+
+  &__foto {
+    width: 92vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    @include onTablet() {
+      width: 400px;
+      height: 596px;
+    }
+
+    @include onDesktop() {
+      width: 704px;
+      height: 900px;
+    }
   }
 
   &__credo {
