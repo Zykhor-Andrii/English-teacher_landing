@@ -1,20 +1,20 @@
 import './UsefulLinks.scss'
 
-import linkImage1 from '../../foto/usefulLinkImage/linkImage1.png'
-import linkImage2 from '../../foto/usefulLinkImage/linkImage2.png'
-import linkImage3 from '../../foto/usefulLinkImage/linkImage3.png'
-import linkImage4 from '../../foto/usefulLinkImage/linkImage4.png'
-import linkImage5 from '../../foto/usefulLinkImage/linkImage5.png'
-import linkImage6 from '../../foto/usefulLinkImage/linkImage6.png'
-import linkImage7 from '../../foto/usefulLinkImage/linkImage7.png'
-import linkImage8 from '../../foto/usefulLinkImage/linkImage8.png'
-import linkImage9 from '../../foto/usefulLinkImage/linkImage9.png'
-import linkImage10 from '../../foto/usefulLinkImage/linkImage10.png'
-import linkImage11 from '../../foto/usefulLinkImage/linkImage11.png'
-import linkImage12 from '../../foto/usefulLinkImage/linkImage12.png'
-import linkImage13 from '../../foto/usefulLinkImage/linkImage13.png'
-import linkImage14 from '../../foto/usefulLinkImage/linkImage14.png'
-import linkImage15 from '../../foto/usefulLinkImage/linkImage15.png'
+import linkImage1 from '../../img/usefulLinkImage/linkImage1.png'
+import linkImage2 from '../../img/usefulLinkImage/linkImage2.png'
+import linkImage3 from '../../img/usefulLinkImage/linkImage3.png'
+import linkImage4 from '../../img/usefulLinkImage/linkImage4.png'
+import linkImage5 from '../../img/usefulLinkImage/linkImage5.png'
+import linkImage6 from '../../img/usefulLinkImage/linkImage6.png'
+import linkImage7 from '../../img/usefulLinkImage/linkImage7.png'
+import linkImage8 from '../../img/usefulLinkImage/linkImage8.png'
+import linkImage9 from '../../img/usefulLinkImage/linkImage9.png'
+import linkImage10 from '../../img/usefulLinkImage/linkImage10.png'
+import linkImage11 from '../../img/usefulLinkImage/linkImage11.png'
+import linkImage12 from '../../img/usefulLinkImage/linkImage12.png'
+import linkImage13 from '../../img/usefulLinkImage/linkImage13.png'
+import linkImage14 from '../../img/usefulLinkImage/linkImage14.png'
+import linkImage15 from '../../img/usefulLinkImage/linkImage15.png'
 
 const usefulLinks = [
   {
@@ -126,84 +126,23 @@ export const UsefulLinks = () => {
             {
               usefulLinks.map(item => (
                 <div className="links__item">
-                <img
-                  src={item.image}
-                  alt={item.description}
-                  className="links__item-img"
-                />
-                <a
-                  href={item.link}
-                  className="links__item-link"
-                >
-                  {item.description}
-                </a>
-              </div>
+                  <a href={item.link}>
+                    <img
+                      src={item.image}
+                      alt={item.description}
+                      className="links__item-img"
+                    />
+                  </a>
+
+                  <a
+                    href={item.link}
+                    className="links__item-link"
+                  >
+                    {item.description}
+                  </a>
+                </div>
               ))
             }
-            {/* <div className="links__item">
-              <img
-                src={linkImage1}
-                alt="Grammar explanations and practice tests at A1 level"
-                className="links__item-img"
-              />
-              <a href="https://www.examenglish.com/grammar/a1_grammar.html" className="links__item-link">
-                Grammar explanations and practice tests at A1 level
-              </a>
-            </div>
-
-            <div className="links__item">
-              <img
-                src={linkImage2}
-                alt="English grammar, vocabulary, sentence transformation, pronunciation, common confusions, word..."
-                className="links__item-img"
-              />
-              <a
-                href="https://www.englishaula.com/en/english-language-training-and-support/"
-                className="links__item-link"
-              >
-                English grammar, vocabulary, sentence transformation, pronunciation, common confusions, word...
-              </a>
-            </div>
-
-            <div className="links__item">
-              <img
-                src={linkImage3}
-                alt="Macmillan Dictionary Blog | Vocabulary | Adults | Onestopenglish"
-                className="links__item-img"
-              />
-              <a
-                href="https://www.onestopenglish.com/adults/vocabulary/macmillan-dictionary-blog"
-                className="links__item-link"
-              >
-                Macmillan Dictionary Blog | Vocabulary | Adults | Onestopenglish
-              </a>
-            </div>
-
-            <div className="links__item">
-              <img
-                src={linkImage4}
-                alt="English Language PDFs"
-                className="links__item-img"
-              />
-              <a
-                href="https://www.perfect-english-grammar.com/english-language-pdf.html"
-                className="links__item-link">
-                English Language PDFs
-              </a>
-            </div>
-
-            <div className="links__item">
-              <img
-                src={linkImage5}
-                alt="BBC Learning English"
-                className="links__item-img"
-              />
-              <a
-                href="https://www.bbc.co.uk/learningenglish"
-                className="links__item-link">
-                BBC Learning English
-              </a>
-            </div> */}
           </div>
         </div>
       </div>

@@ -1,0 +1,99 @@
+@import '../../style/utils/mixins';
+
+.photos {
+  position: relative;
+
+  &__item {
+    border-radius: 8px;
+    width: 167px;
+    height: 179px;
+    object-fit: cover;
+
+    @include onTablet() {
+      width: 224px;
+      height: 240px;
+
+
+    }
+
+    @include onDesktop() {
+      width: 384px;
+      height: 413px;
+    }
+  }
+
+  &__button {
+    display: none;
+
+    @include onTablet() {
+      position: absolute;
+
+      display: block;
+      top: 50%;
+
+      width: 38px;
+      height: 38px;
+      background-color: #F8F9FA;
+      border-radius: 50%;
+
+
+    }
+  }
+
+  &__next {
+    right: 5px;
+
+    z-index: 4;
+    background-image: url(../../img/icons/Arrow-rigth.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center center;
+  }
+
+  &__prev {
+    left: 5px;
+    z-index: 4;
+    background-image: url(../../img/icons/Arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center center;
+  }
+
+  &__pagination {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    // margin: 0 auto;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  background-color: black !important;
+
+
+  @include onTablet() {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  @include onDesktop() {
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #E5C5FD !important;
+  width: 16px !important;
+  border-radius: 16px !important;
+
+  @include onDesktop() {
+    width: 32px !important;
+
+  }
+}

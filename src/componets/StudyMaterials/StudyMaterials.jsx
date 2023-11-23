@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { useState } from 'react';
 import './StudyMaterials.scss';
-import download from '../../foto/icons/download.svg';
+import download from '../../img/icons/download.svg';
 import emails from '../../materials/materials-en/emails.docx';
 import professional__direction from '../../materials/materials-en/foreign-by-professional-direction.doc';
 import distance_lesson__direction from '../../materials/materials-en/distance_lesson__professional-direction.pptx';

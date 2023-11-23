@@ -1,10 +1,10 @@
 import './Experience.scss'
-import vpu from '../../foto/vpu34.jpeg'
-import universitySumi from '../../foto/universitySumi.png'
-import certificate1 from '../../foto/certificate1.png'
-import certificate2 from '../../foto/certificate2.png'
-import certificate3 from '../../foto/certificate3.png'
-import certificate4 from '../../foto/certificate4.png'
+import vpu from '../../img/vpu34.jpeg'
+import universitySumi from '../../img/universitySumi.png'
+import certificate1 from '../../img/certificate1.png'
+import certificate2 from '../../img/certificate2.png'
+import certificate3 from '../../img/certificate3.png'
+import certificate4 from '../../img/certificate4.png'
 
 export const Experience = () => (
   <section className='page__section experience'>

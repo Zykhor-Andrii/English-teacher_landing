@@ -1,0 +1,62 @@
+@import '../../style/utils/mixins';
+
+
+.contact {
+
+  &__content {
+    @include onTablet() {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__info {
+    margin-bottom: 24px;
+
+    @include onTablet() {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item {
+    display: flex;
+
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+
+    @include onDesktop() {
+      margin-bottom: 40px;
+
+    }
+
+    &-info {
+      margin-left: 16px;
+    }
+  }
+
+  &__name {
+    margin-bottom: 8px;
+  }
+
+  &__map {
+    width: 358px;
+    height: 265px;
+
+    @include onTablet() {
+      width: 352px;
+      height: 260px;
+
+    }
+
+    @include onDesktop() {
+      width: 696px;
+      height: 516px;
+
+    }
+  }
+}

@@ -1,6 +1,6 @@
-import telegram from '../../foto/icons/telegram.svg'
-import instagram from '../../foto/icons/instagram.svg'
-import facebook from '../../foto/icons/facebook.svg'
+import telegram from '../../img/icons/telegram.svg'
+import instagram from '../../img/icons/instagram.svg'
+import facebook from '../../img/icons/facebook.svg'
 import './SocialMedia.scss'
 
 export const SocialMedia = () => (

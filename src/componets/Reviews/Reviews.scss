@@ -1,0 +1,45 @@
+@import '../../style/utils/mixins';
+
+
+.reviews {
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+    @include onTablet() {
+      grid-template-columns: 1fr 1fr 1fr;
+
+
+     }
+  }
+
+  &__item {
+    @include onTablet() {
+
+    }
+  }
+
+  &__photo {
+    width: 32px;
+    height: 32px;
+  }
+
+  &__name {
+    margin-left: 8px;
+    align-self: center;
+  }
+
+  &__info {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin: 14px 0 8px 12px;
+  }
+
+  &__text {
+    margin: 0 12px 16px;
+  }
+}
+

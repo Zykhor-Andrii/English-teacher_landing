@@ -3,20 +3,20 @@ import './Achievement.scss';
 import classNames from 'classnames/bind';
 
 
-import certificate1 from '../../foto/certificate/certificate1.png';
-import certificate2 from '../../foto/certificate/certificate2.png';
-import certificate3 from '../../foto/certificate/certificate3.png';
-import certificate4 from '../../foto/certificate/certificate4.png';
-import certificate5 from '../../foto/certificate/certificate5.png';
-import certificate6 from '../../foto/certificate/certificate6.png';
-import certificate7 from '../../foto/certificate/certificate7.png';
-import certificate8 from '../../foto/certificate/certificate8.png';
-import certificate9 from '../../foto/certificate/certificate9.png';
-import certificate10 from '../../foto/certificate/certificate10.png';
-import certificate11 from '../../foto/certificate/certificate11.png';
-import certificate12 from '../../foto/certificate/certificate12.png';
-import arrowLeft from '../../foto/icons/Arrow-left.svg'
-import arrowRigth from '../../foto/icons/Arrow-rigth.svg'
+import certificate1 from '../../img/certificate/certificate1.png';
+import certificate2 from '../../img/certificate/certificate2.png';
+import certificate3 from '../../img/certificate/certificate3.png';
+import certificate4 from '../../img/certificate/certificate4.png';
+import certificate5 from '../../img/certificate/certificate5.png';
+import certificate6 from '../../img/certificate/certificate6.png';
+import certificate7 from '../../img/certificate/certificate7.png';
+import certificate8 from '../../img/certificate/certificate8.png';
+import certificate9 from '../../img/certificate/certificate9.png';
+import certificate10 from '../../img/certificate/certificate10.png';
+import certificate11 from '../../img/certificate/certificate11.png';
+import certificate12 from '../../img/certificate/certificate12.png';
+import arrowLeft from '../../img/icons/Arrow-left.svg'
+import arrowRigth from '../../img/icons/Arrow-rigth.svg'
 import { useState } from 'react';
 
 const images = [

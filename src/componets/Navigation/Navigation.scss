@@ -1,6 +1,8 @@
 @import '../../style/utils/mixins';
 
 .nav {
+  position: relative;
+  z-index: 1;
 
   &__list {
     list-style: none;
