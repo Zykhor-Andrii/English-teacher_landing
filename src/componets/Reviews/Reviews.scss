@@ -9,14 +9,18 @@
     gap: 24px;
 
     @include onTablet() {
-      grid-template-columns: 1fr 1fr 1fr;
-
+      display: flex;
+      flex-wrap: wrap;
+   height: max-content;
 
      }
   }
 
   &__item {
     @include onTablet() {
+   width: 30%;
+   height: fit-content;
+   align-items: start;
 
     }
   }

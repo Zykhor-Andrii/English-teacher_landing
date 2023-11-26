@@ -20,6 +20,7 @@
     z-index: 1;
     top: 0;
     right: 0;
+    object-fit: cover;
 
     @include onTablet() {
       width: 400px;
@@ -216,6 +217,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 3;
 
     transform: translateX(-1000%);
 
@@ -232,6 +234,7 @@
     width: 279px;
     height: 364px;
     background-color: #fff;
+    padding-left: 16px;
   }
 
   &__burger {

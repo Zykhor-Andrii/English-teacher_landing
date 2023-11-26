@@ -63,7 +63,6 @@ export const Header = () => {
       <nav className={classNames("nav nav__burger page__nav", { 'nav__burger-open': openMenu })}>
 
         <div className="nav__content">
-          <div className="container">
             <img
               onClick={toggleMenu}
               src={closeMenu}
@@ -72,7 +71,6 @@ export const Header = () => {
             <Navigation />
 
           </div>
-        </div>
       </nav>
     </header>
   )
