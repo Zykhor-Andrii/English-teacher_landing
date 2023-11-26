@@ -1,0 +1,99 @@
+@import '../../style/utils/mixins';
+
+.footer {
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+  }
+
+  &__title {
+
+    @include onDesktop() {
+      padding-bottom: 17px;
+
+    }
+  }
+
+  &__social-media {
+
+    @include onDesktop() {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+
+  }
+
+  &__media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include onDesktop() {
+      // flex-direction: row;
+    }
+  }
+
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+
+    @include onDesktop() {
+      flex-direction: row;
+    }
+  }
+
+  &__nav-item {
+    margin-bottom: 24px;
+    text-align: right;
+
+    @include onDesktop() {
+      margin: 0 24px 0 0;
+    }
+  }
+
+
+  &__line {
+    margin: 32px 0;
+
+    @include onDesktop() {
+      margin: 51px 0 32px 0;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    @include onTablet() {
+      justify-content: center;
+    }
+  }
+
+  &__policy {
+    display: flex;
+    flex-direction: column;
+
+    @include onTablet() {
+      flex-direction: row;
+    }
+
+    &-item {
+      margin-bottom: 24px;
+      text-decoration: underline;
+
+      @include onTablet() {
+        margin: 0 24px 0 0;
+      }
+    }
+  }
+
+  &__author {
+    @include onTablet() {
+      margin-right: 24px;
+    }
+  }
+}
