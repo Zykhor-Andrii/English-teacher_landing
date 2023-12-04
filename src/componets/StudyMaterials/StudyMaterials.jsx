@@ -33,7 +33,7 @@ export const StudyMaterials = () => {
   const [isEnglish, setIsEnglish] = useState(true);
 
   return (
-    <section className="page__section materials">
+    <section id="materials" className="page__section materials">
       <div className="container">
         <h2 className="page__title materials__title">
           Матеріали для вивчення

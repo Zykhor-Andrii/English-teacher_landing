@@ -5,12 +5,13 @@ import { UsefulLinks } from "../UsefulLinks/UsefulLinks"
 import { Contacts } from "../Contacts/Contacts"
 import { Photos } from "../Photos/Photos"
 import { Reviews } from "../Reviews/Reviews"
-// import { Test } from "../test/Test"
+// import { Test } from "../Test/Test"
 
 export const Main = () => (
   <main>
     <Experience />
     <Slider />
+    {/* <Test/> */}
     <StudyMaterials />
     <UsefulLinks />
     <Photos/>

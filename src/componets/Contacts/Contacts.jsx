@@ -6,7 +6,7 @@ import Pin from '../../img/icons/Pin.svg'
 import Map from '../../img/Map.png'
 
 export const Contacts = () => (
-  <section className="page__section contact">
+  <section id="contacts" className="page__section contact">
     <div className="container">
       <h2 className="page__title">
         Контакти

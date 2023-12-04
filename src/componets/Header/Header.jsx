@@ -3,7 +3,7 @@ import { useState } from 'react';
 import foto from '../../img/photo.png'
 
 import burger from '../../img/icons/Vector.svg';
-import closeMenu from '../../img/icons/icon_close.svg';
+import closeMenuIcon from '../../img/icons/icon_close.svg';
 import { SocialMedia } from '../SocialMedia/SocialMedia';
 import { Navigation } from '../Navigation/Navigation';
 import classNames from 'classnames';
@@ -12,6 +12,10 @@ export const Header = () => {
 
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
+  }
+
+  const closeMenu = () => {
+    setOpenMenu(false)
   }
 
   return (
@@ -28,17 +32,21 @@ export const Header = () => {
             className="header__burger"
             alt="openMenu"
           />
-          <hr className='header__top-underline' />
+
         </div>
+        <hr className='header__top-underline' />
         <img src={foto} alt="" className="header__foto" />
         <div className="header__content">
           <div className="header__ellipse"></div>
-          <h3 className='header__title'> 
+          <h3 id="header" className='header__title'>
             Викладач англійської мови та всесвітньої історії
           </h3>
           <h1 className="header__name">
-            Кикина <br />
-            Марія
+            Кикина Марія <br />
+            <span className="header__name--right">
+              Олександрівна
+            </span>
+
           </h1>
           <h4 className="header__info-university">
             Вищого професійного  училища №34 м. Виноградів
@@ -63,14 +71,14 @@ export const Header = () => {
       <nav className={classNames("nav nav__burger page__nav", { 'nav__burger-open': openMenu })}>
 
         <div className="nav__content">
-            <img
-              onClick={toggleMenu}
-              src={closeMenu}
-              className='nav__close-menu'
-              alt="close menu" />
-            <Navigation />
+          <img
+            onClick={toggleMenu}
+            src={closeMenuIcon}
+            className='nav__close-menu'
+            alt="close menu" />
+          <Navigation closeMenu={closeMenu} />
 
-          </div>
+        </div>
       </nav>
     </header>
   )

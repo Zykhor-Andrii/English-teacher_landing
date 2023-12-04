@@ -27,6 +27,12 @@
     border-bottom: 2px solid #CED4DA;
     position: relative;
 
+    margin-bottom: 32px;
+
+    @include onDesktop() {
+      margin-bottom: 64px;
+    }
+
   }
 
   &__description {
@@ -134,8 +140,10 @@
     flex-basis: calc(50% - 10px);
 
     @include onTablet() {
-      width: 280px;
+      flex-basis: 280px;
     }
+
+
   }
 
   &__info {

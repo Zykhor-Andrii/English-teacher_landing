@@ -7,20 +7,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
+    // align-content: start;
+    // flex-wrap: wrap;
 
     @include onTablet() {
-      display: flex;
-      flex-wrap: wrap;
-   height: max-content;
+      grid-template-columns: 1fr 1fr 1fr;
+      // grid-auto-rows: minmax(173px, 717px);
+      // grid-auto-flow: row;
+      // align-items: flex-start;
+
+
 
      }
   }
 
   &__item {
+    // width: 50%;
+
     @include onTablet() {
-   width: 30%;
-   height: fit-content;
-   align-items: start;
+      // grid-auto-rows: min-content;
+  //  width: ;
+  //  height: fit-content;
+  //  align-items: start;
 
     }
   }

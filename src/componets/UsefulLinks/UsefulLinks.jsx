@@ -112,7 +112,7 @@ const usefulLinks = [
 export const UsefulLinks = () => {
 
   return (
-    <section className="page__section links">
+    <section id="usefulLinks" className="page__section links">
       <div className="container">
         <h2 className="page__title links__title">
           Корисні посилання

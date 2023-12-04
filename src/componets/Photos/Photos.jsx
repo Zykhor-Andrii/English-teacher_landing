@@ -33,6 +33,10 @@ import photo19 from '../../img/photo_video/photo19.jpeg'
 import photo20 from '../../img/photo_video/photo20.jpeg'
 import photo21 from '../../img/photo_video/photo21.jpeg'
 import photo22 from '../../img/photo_video/photo22.jpeg'
+import placeholder from '../../img/photo_video/placeholder.png'
+import video from '../../img/photo_video/video of the lesson.mp4'
+
+
 import { useEffect, useState } from 'react';
 
 // console.log(photo)
@@ -147,53 +151,67 @@ export const Photos = () => {
 
   console.log(windowWidth);
   return (
-    <section className="page__section photos">
-
-
-
+    <section id="photos" className="page__section photos">
       <div className="container">
-        <h1 className="page__title">
-          Фото
-        </h1>
-        <div className="photos__content">
-          <div className="photos__button photos__next  swiper-button-next">
-          </div>
-          <div className="photos__prev photos__button swiper-button-prev">
-          </div>
-          <Swiper
-            slidesPerView={windowWidth >= 768 ? 3 : 2}
-            spaceBetween={24}
-            // freeMode={true}
-            loop={true}
-            navigation={{
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            }
-            }
-            pagination={{
-              el: '.swiper-pagination',
-              type: 'bullets',
-              clickable: true,
-            }}
-            modules={[FreeMode, Pagination, Navigation]}
-            className="mySwiper"
-          >
 
-            {
-              photos.map(photo => (
-                <SwiperSlide>
-                  <img
-                    className='photos__item'
-                    id={photo.id}
-                    src={photo.photo}
-                    alt="teacher"
-                  />
-                </SwiperSlide>
-              ))
-            }
-          </Swiper>
-          <div className="photos__pagination swiper-pagination">
-          </div>
+
+
+      <h1 className="page__title">
+        Фото
+      </h1>
+      <div className="photos__content">
+        <div className="photos__button photos__next  swiper-button-next">
+        </div>
+        <div className="photos__prev photos__button swiper-button-prev">
+        </div>
+        <Swiper
+          slidesPerView={windowWidth >= 768 ? 3 : 2}
+          // spaceBetween={}
+          // freeMode={true}
+          loop={true}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
+          }
+          pagination={{
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true,
+          }}
+          modules={[FreeMode, Pagination, Navigation]}
+          className="mySwiper"
+        >
+
+          {
+            photos.map(photo => (
+              <SwiperSlide>
+                <img
+                  className='photos__item'
+                  id={photo.id}
+                  src={photo.photo}
+                  alt="teacher"
+                />
+              </SwiperSlide>
+            ))
+          }
+        </Swiper>
+        <div className="photos__pagination swiper-pagination">
+        </div>
+      </div>
+
+        <div className="photos__video-content">
+          <h3 className="photos__video-title">
+            Відкритий урок
+          </h3>
+
+          <video className="photos__video" poster={placeholder} controls>
+            <source
+              src={video}
+              type="video/mp4" />
+          </video>
+
+
         </div>
       </div>
     </section>

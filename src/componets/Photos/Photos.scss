@@ -3,6 +3,10 @@
 .photos {
   position: relative;
 
+  &__content {
+    position: relative;
+  }
+
   &__item {
     border-radius: 8px;
     width: 167px;
@@ -66,6 +70,25 @@
     margin-top: 24px;
     // margin: 0 auto;
   }
+
+  &__video {
+    width: 358px;
+    height: 179px;
+    border-radius: 8px;
+    margin: 0 auto;
+    cursor: pointer;
+
+    @include onTablet() {
+      width: 736px;
+      height: 370px;
+    }
+
+    @include onDesktop() {
+      width: 1216px;
+      height: 610px;
+    }
+
+  }
 }
 
 .swiper-pagination-bullet {
@@ -96,4 +119,6 @@
     width: 32px !important;
 
   }
+
+
 }

@@ -211,7 +211,7 @@ export const Reviews = () => {
     }
   }, [windowWidth])
   return (
-    <section className="page__section reviews">
+    <section id="reviews" className="page__section reviews">
       <div className="container">
         <h2 className="page__title">
           Відгуки
