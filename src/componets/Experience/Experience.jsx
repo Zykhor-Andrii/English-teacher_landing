@@ -36,6 +36,8 @@ export const Experience = () => {
 
   return (
     <section className='page__section experience'>
+
+      <div className="experience__circle"></div>
       <div className="container">
         <h2 className="experience__title">
           Мій досвід
@@ -172,16 +174,16 @@ export const Experience = () => {
               </p>
             </div>
             {isViewerOpen && (
-        <ImageViewer
-          src={ images }
-          currentIndex={ currentImage }
-          disableScroll={ true }
-          closeOnClickOutside={ true }
-          onClose={ closeImageViewer }
-          leftArrowComponent={false}
-          rightArrowComponent={false}
-        />
-      )}
+              <ImageViewer
+                src={images}
+                currentIndex={currentImage}
+                disableScroll={true}
+                closeOnClickOutside={true}
+                onClose={closeImageViewer}
+                leftArrowComponent={false}
+                rightArrowComponent={false}
+              />
+            )}
           </div>
         </div>
       </div>

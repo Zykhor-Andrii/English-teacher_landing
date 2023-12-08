@@ -68,7 +68,36 @@
     display: flex;
     justify-content: center;
     margin-top: 24px;
-    // margin: 0 auto;
+  }
+
+  &__video-content {
+    display: flex;
+    height: 323px;
+    background: linear-gradient(279.67deg, rgba(245, 233, 196, 0.72) -11.91%, rgba(229, 197, 253, 0.72) 115.83%);
+
+    @include onTablet() {
+      height: 566px;
+    }
+
+    @include onDesktop() {
+      height: 904px;
+    }
+  }
+
+  &__video-title {
+    text-align: center;
+    margin: 15px 0 32px 0;
+
+    @include onTablet() {
+      margin: 32px 0 42px 0;
+
+    }
+
+    @include onDesktop() {
+      margin-bottom: 64px;
+
+    }
+
   }
 
   &__video {

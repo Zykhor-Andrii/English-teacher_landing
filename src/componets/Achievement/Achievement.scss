@@ -16,8 +16,13 @@
       display: block;
     }
 
+    &--left {
+      left: -25px;
+
+    }
+
     &--rigth {
-      right: 0;
+      right: -25px;
 
     }
   }

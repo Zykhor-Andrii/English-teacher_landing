@@ -118,7 +118,7 @@ export const Slider = () => {
 
         </ul>
         <img
-        className='slider__arrow'
+        className='slider__arrow slider__arrow--left'
          src={arrowLeft}
           alt="arrow left"
           onClick={scrollLeft}

@@ -20,6 +20,10 @@ export const Header = () => {
 
   return (
     <header className="header page__section">
+      <div className="header__circle header__circle--top"></div>
+      <div className="header__circle header__circle--bottom"></div>
+      <div className="header__ellipse"></div>
+
       <div className="container">
         <div className="header__top">
           <div className="header__nav">
@@ -37,7 +41,6 @@ export const Header = () => {
         <hr className='header__top-underline' />
         <img src={foto} alt="" className="header__foto" />
         <div className="header__content">
-          <div className="header__ellipse"></div>
           <h3 id="header" className='header__title'>
             Викладач англійської мови та всесвітньої історії
           </h3>

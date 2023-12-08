@@ -1,6 +1,39 @@
 @import '../../style/utils/mixins';
 
 .experience {
+  position: relative;
+
+  &__circle {
+    position: absolute;
+    width: 469px;
+    height: 469px;
+    top: 415px;
+    right: -139px;
+
+    border-radius: 50%;
+    background: rgba(248, 236, 254, 1);
+
+    box-shadow: 1px 1px 201px 4px rgba(255, 255, 255, 1) inset,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset;
+
+    @include onTablet() {
+      width: 513px;
+      height: 513px;
+      top: 358px;
+      right: -195px;
+    }
+
+
+    @include onDesktop() {
+      width: 591px;
+      height: 591px;
+      top: 568px;
+      right: -371px;
+
+    }
+  }
 
   &__title {
     margin-bottom: 72px;
@@ -153,7 +186,7 @@
 
     @include onTablet() {
       padding-top: 12px;
-     }
+    }
 
   }
 

@@ -2,9 +2,6 @@
 
 
 .header {
-  background-image: url('../../img/bg-shadow.png');
-  background-repeat: no-repeat;
-  background-position: center;
   position: relative;
 
 
@@ -17,6 +14,76 @@
     background-position: left;
     background-size: contain;
   }
+
+  &__content {
+    position: relative;
+  }
+
+  &__circle {
+    position: absolute;
+    border-radius: 50%;
+
+    &--top {
+      width: 439px;
+      height: 439px;
+      top: -88px;
+      left: -172px;
+      background: rgba(253, 225, 186, 0.6);
+      box-shadow: 1px 1px 201px 4px rgba(255, 255, 255, 1) ,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset,
+      1px 1px 201px 4px rgba(253, 225, 186, 0.6) ;
+      
+
+      @include onTablet() {
+        width: 553px;
+        height: 553px;
+        top: -181px;
+        left: -185px;
+
+      }
+
+      @include onDesktop() {
+        width: 811px;
+        height: 811px;
+        top: -280px;
+        left: -242px;
+
+      }
+    }
+
+    &--bottom {
+      background: rgba(204, 251, 208, 0.6);
+
+      width: 537px;
+      height: 537px;
+      top: 412px;
+      left: -237px;
+
+      box-shadow: 1px 1px 201px 4px rgba(255, 255, 255, 1) ,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset,
+      1px 1px 201px 4px rgba(255, 255, 255, 1) inset,  
+      1px 1px 201px 4px rgba(204, 251, 208, 0.6) ;
+
+      @include onTablet() {
+        width: 495px;
+        height: 495px;
+        top: 304px;
+        left: 25px;
+      }
+
+      @include onDesktop() {
+        width: 591px;
+        height: 591px;
+        top: 364px;
+        left: 131px;
+      }
+    }
+  }
+
+
+
+
 
   &__top {
     position: relative;
@@ -72,7 +139,7 @@
     width: 92vw;
     height: 510px;
     position: absolute;
-    
+
     z-index: 1;
     top: 0;
     right: 0;
@@ -113,17 +180,17 @@
       font-size: 16px;
       font-style: italic;
 
-      
-    @include onTablet() {
-      font-size: 18px;
+
+      @include onTablet() {
+        font-size: 18px;
 
 
-    }
+      }
 
-    @include onDesktop() {
-      font-size: 20px;
-    
-    }
+      @include onDesktop() {
+        font-size: 20px;
+
+      }
     }
 
     &-content {
@@ -158,6 +225,7 @@
     width: 477px;
     height: 403px;
     left: -275px;
+    bottom: 30px;
     border: 1px solid #ADB5BD;
     border-radius: 50%;
     z-index: 0;
