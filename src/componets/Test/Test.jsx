@@ -43,8 +43,6 @@ export const Test = () => {
       <div className="container">
         <Swiper
           slidesPerView={5}
-          // spaceBetween={}
-          // freeMode={true}
           loop={true}
           navigation={{
             nextEl: '.swiper-button-next',
