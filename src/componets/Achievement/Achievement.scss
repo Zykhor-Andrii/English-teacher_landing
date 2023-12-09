@@ -117,9 +117,10 @@
   &__selected {
     position: relative;
     min-width: 168px;
-    height: 246px;
+    min-height: 246px;
     border-radius: 8px;
     z-index: 3;
+    object-fit: contain;
 
     @include onTablet() {
       min-width: 286px;
