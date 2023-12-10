@@ -33,7 +33,7 @@ import photo19 from '../../img/photo_video/photo19.jpeg'
 import photo20 from '../../img/photo_video/photo20.jpeg'
 import photo21 from '../../img/photo_video/photo21.jpeg'
 import photo22 from '../../img/photo_video/photo22.jpeg'
-import placeholder from '../../img/photo_video/placeholder.png'
+// import placeholder from '../../img/photo_video/placeholder.png'
 // import video from '../../img/photo_video/videoOfLesson.mp4'
 
 
