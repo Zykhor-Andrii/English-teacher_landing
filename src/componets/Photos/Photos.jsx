@@ -39,8 +39,6 @@ import photo22 from '../../img/photo_video/photo22.jpeg'
 
 import { useEffect, useState } from 'react';
 
-// console.log(photo)
-
 const photos = [
   {
     id: 1,
