@@ -26,7 +26,7 @@ export const Footer = () => {
               <li className="footer__nav-item">
                 <a
                   className="footer__nav-item-link"
-                  href="#relevant"
+                  href="#header"
                 >
                   Про себе
                 </a>
@@ -34,33 +34,33 @@ export const Footer = () => {
               <li className="footer__nav-item">
                 <a
                   className="footer__nav-item-link"
-                  href="#event"
+                  href="#sertificate"
                 >
                   Сертифікати
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#news">
+                <a class="footer__nav-item-link" href="#materials">
                   Матеріали для вивчення
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#news">
+                <a class="footer__nav-item-link" href="#usefulLinks">
                   Корисні посилання
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#news">
+                <a class="footer__nav-item-link" href="#photos">
                   Фото
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#news">
+                <a class="footer__nav-item-link" href="#reviews">
                   Відгуки
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#news">
+                <a class="footer__nav-item-link" href="#contacts">
                   Контакти
                 </a>
               </li>

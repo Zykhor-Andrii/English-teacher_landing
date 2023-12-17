@@ -3,13 +3,13 @@ import ImageViewer from 'react-simple-image-viewer';
 import vpu from '../../img/vpu34.jpeg'
 import universitySumi from '../../img/universitySumi.png'
 import certificate1 from '../../img/certification/certificate1.png'
-import certificate1view from '../../img/certification/certificate1view.png'
+import certificate1view from '../../img/certification/certificate1view.jpg'
 import certificate2 from '../../img/certification/certificate2.png'
-import certificate2view from '../../img/certification/certificate2view.png'
+import certificate2view from '../../img/certification/certificate2view.jpg'
 import certificate3 from '../../img/certification/certificate3.png'
-import certificate3view from '../../img/certification/certificate3view.png'
+import certificate3view from '../../img/certification/certificate3view.jpg'
 import certificate4 from '../../img/certification/certificate4.png'
-import certificate4view from '../../img/certification/certificate4view.png'
+import certificate4view from '../../img/certification/certificate4view.jpg'
 import { useCallback, useState } from 'react'
 
 export const Experience = () => {
@@ -180,8 +180,8 @@ export const Experience = () => {
                 disableScroll={true}
                 closeOnClickOutside={true}
                 onClose={closeImageViewer}
-                leftArrowComponent={false}
-                rightArrowComponent={false}
+                // leftArrowComponent={false}
+                // rightArrowComponent={false}
               />
             )}
           </div>
