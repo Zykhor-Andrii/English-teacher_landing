@@ -31,9 +31,10 @@
 
     @include onTablet() {
       position: absolute;
-
       display: block;
+      cursor: pointer;
       top: 50%;
+      transform: translateY(-50%);
 
       width: 38px;
       height: 38px;
@@ -45,7 +46,7 @@
   }
 
   &__next {
-    right: 5px;
+    right: -40px;
 
     z-index: 4;
     background-image: url(../../img/icons/Arrow-rigth.svg);
@@ -55,7 +56,7 @@
   }
 
   &__prev {
-    left: 5px;
+    left: -40px;
     z-index: 4;
     background-image: url(../../img/icons/Arrow-left.svg);
     background-repeat: no-repeat;
@@ -118,6 +119,10 @@
     }
 
   }
+}
+
+.swiper-pagination {
+  z-index: 1 !important;
 }
 
 .swiper-pagination-bullet {

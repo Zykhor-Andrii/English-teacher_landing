@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import ImageViewer from 'react-simple-image-viewer';
 
 import './Photos.scss'
 import 'swiper/scss';
@@ -37,100 +38,47 @@ import placeholder from '../../img/photo_video/placeholder.png'
 import video from '../../img/photo_video/videoOfLesson.mp4'
 
 
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 const photos = [
-  {
-    id: 1,
-    photo: photo1,
-  },
-  {
-    id: 2,
-    photo: photo2,
-  },
-  {
-    id: 3,
-    photo: photo3,
-  },
-  {
-    id: 4,
-    photo: photo4,
-  },
-  {
-    id: 5,
-    photo: photo5,
-  },
-  {
-    id: 6,
-    photo: photo6,
-  },
-  {
-    id: 7,
-    photo: photo7,
-  },
-  {
-    id: 8,
-    photo: photo8,
-  },
-  {
-    id: 9,
-    photo: photo9,
-  },
-  {
-    id: 10,
-    photo: photo10,
-  },
-  {
-    id: 11,
-    photo: photo11,
-  },
-  {
-    id: 12,
-    photo: photo12,
-  },
-  {
-    id: 13,
-    photo: photo13,
-  },
-  {
-    id: 14,
-    photo: photo14,
-  },
-  {
-    id: 15,
-    photo: photo15,
-  },
-  {
-    id: 16,
-    photo: photo16,
-  },
-  {
-    id: 17,
-    photo: photo17,
-  },
-  {
-    id: 18,
-    photo: photo18,
-  },
-  {
-    id: 19,
-    photo: photo19,
-  },
-  {
-    id: 20,
-    photo: photo20,
-  },
-  {
-    id: 21,
-    photo: photo21,
-  },
-  {
-    id: 22,
-    photo: photo22,
-  },
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5,
+  photo6,
+  photo7,
+  photo8,
+  photo9,
+  photo10,
+  photo11,
+  photo12,
+  photo13,
+  photo14,
+  photo15,
+  photo16,
+  photo17,
+  photo18,
+  photo19,
+  photo20,
+  photo21,
+  photo22,
+
 ]
 
 export const Photos = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -141,7 +89,6 @@ export const Photos = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Чистка підписки на подію при виході з компоненту
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -157,7 +104,7 @@ export const Photos = () => {
         <h1 className="page__title">
           Фото
         </h1>
-      </div>
+
 
       <div className="photos__content">
         <div className="photos__button photos__next  swiper-button-next">
@@ -166,7 +113,7 @@ export const Photos = () => {
         </div>
         <Swiper
           slidesPerView={windowWidth >= 768 ? 3 : 2}
-          // spaceBetween={}
+          spaceBetween={2}
           // freeMode={true}
           loop={true}
           navigation={{
@@ -184,13 +131,17 @@ export const Photos = () => {
         >
 
           {
-            photos.map(photo => (
+            photos.map((photo, index) => (
               <SwiperSlide>
                 <img
                   className='photos__item'
-                  id={photo.id}
-                  src={photo.photo}
+                  id={index}
+                  src={photo}
                   alt="teacher"
+                  onClick={() => {
+                    setIsViewerOpen(true)
+                    openImageViewer(index)
+                  }}
                 />
               </SwiperSlide>
             ))
@@ -199,7 +150,7 @@ export const Photos = () => {
         <div className="photos__pagination swiper-pagination">
         </div>
       </div>
-
+      </div>
       <div className="photos__video-content">
         <div className="container">
           <h3 className="photos__video-title">
@@ -215,6 +166,18 @@ export const Photos = () => {
 
         </div>
       </div>
+
+      {isViewerOpen && (
+        <ImageViewer
+          src={photos}
+          currentIndex={currentImage}
+          disableScroll={true}
+          closeOnClickOutside={true}
+          onClose={closeImageViewer}
+        // leftArrowComponent={false}
+        // rightArrowComponent={false}
+        />
+      )}
     </section>
   )
 }
