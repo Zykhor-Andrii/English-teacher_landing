@@ -40,6 +40,35 @@ export const Slider = () => {
   const [selectedImage, setSelectedImage] = useState(0);
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const [initialX, setInitialX] = useState(null);
+
+  const startTouch = (e) => {
+    setInitialX(e.touches[0].clientX);
+  }
+
+  const moveTouch = (e) => {
+    if (initialX === null) {
+      return;
+    }
+
+    let currentX = e.touches[0].clientX;
+    let diffX = initialX - currentX;
+
+    if (diffX > 0) {
+      if (currentImage >= images.length - 1) {
+        setCurrentImage(0)
+      }
+      setCurrentImage(currentImage + 1)
+    } else {
+
+      if (currentImage <= 0) {
+        setCurrentImage(images.length - 1)
+      }
+      setCurrentImage(currentImage - 1)
+    }
+
+    setInitialX(null);
+  }
 
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
@@ -109,7 +138,12 @@ export const Slider = () => {
           Сертифікати та досягнення
         </h2>
         <div className="slider__wrapper">
-          <ul className="slider__content">
+          <ul
+            className="slider__content"
+            onTouchStart={startTouch}
+            onTouchMove={moveTouch}
+            onTouchEnd={() => setInitialX(null)}
+          >
             {images.map((image, index) => (
               <li
                 className={classNames('slider__item',
@@ -155,7 +189,7 @@ export const Slider = () => {
 
         <ul className="slider__point">
           <li
-            id='6'
+            
             onClick={() => setSelectedImage(10)}
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 10 })}
 
@@ -163,7 +197,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='7'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 11 })}
             onClick={() => setSelectedImage(11)}
 
@@ -171,7 +205,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='1'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 0 })}
             onClick={() => setSelectedImage(0)}
 
@@ -179,14 +213,14 @@ export const Slider = () => {
 
           </li>
           <li
-            id='2'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 1 })}
             onClick={() => setSelectedImage(1)}
           >
 
           </li>
           <li
-            id='3'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 2 })}
             onClick={() => setSelectedImage(2)}
 
@@ -194,14 +228,14 @@ export const Slider = () => {
 
           </li>
           <li
-            id='4'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 3 })}
             onClick={() => setSelectedImage(3)}
           >
 
           </li>
           <li
-            id='5'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 4 })}
             onClick={(event) => setSelectedImage(4)}
 
@@ -209,7 +243,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='6'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 5 })}
             onClick={(event) => setSelectedImage(5)}
 
@@ -217,7 +251,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='7'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 6 })}
             onClick={(event) => setSelectedImage(6)}
 
@@ -225,7 +259,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='8'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 7 })}
             onClick={(event) => setSelectedImage(7)}
 
@@ -233,7 +267,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='9'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 8 })}
             onClick={(event) => setSelectedImage(8)}
 
@@ -241,7 +275,7 @@ export const Slider = () => {
 
           </li>
           <li
-            id='10'
+            
             className={classNames("slider__point-item", { 'slider__point-item--selected': selectedImage === 9 })}
             onClick={(event) => setSelectedImage(9)}
           >

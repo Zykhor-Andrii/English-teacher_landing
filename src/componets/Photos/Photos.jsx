@@ -114,7 +114,6 @@ export const Photos = () => {
         <Swiper
           slidesPerView={windowWidth >= 768 ? 3 : 2}
           spaceBetween={2}
-          // freeMode={true}
           loop={true}
           navigation={{
             nextEl: '.swiper-button-next',
