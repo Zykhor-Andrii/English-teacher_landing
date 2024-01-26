@@ -6,7 +6,7 @@ import './SocialMedia.scss'
 export const SocialMedia = () => (
   <div
     className="socialMedia">
-    <a href="tg://resolve?domain=Mary Kikina" className="socialMedia__link">
+    <a target={'_blank'} href="https://t.me/Kykyna37" className="socialMedia__link">
       <img className='socialMedia__icon' src={telegram} alt="telegtam" />
     </a>
     <a href="https://www.instagram.com/mariiakikina/

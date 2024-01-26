@@ -142,15 +142,12 @@ export const Slider = () => {
           Сертифікати та досягнення
         </h2>
         <div className="slider__wrapper"
-          onTouchStart={startTouch}
-          onTouchMove={moveTouch}
-          onTouchEnd={() => setInitialX(null)}
-          style={{ overflowX: 'hidden' }}
-
         >
           <ul
             className="slider__content"
-
+            onTouchStart={startTouch}
+            onTouchMove={moveTouch}
+            onTouchEnd={() => setInitialX(null)}
           >
             {images.map((image, index) => (
               <li
