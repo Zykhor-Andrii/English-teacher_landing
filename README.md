@@ -19,4 +19,4 @@ This project is a responsive landing page created for an English teacher using R
 4. Start the development server: `npm start`
 5. Open the project in your browser at `http://localhost:3000`
 
-[LINK](https://english-teacher-landing.vercel.app/)
+[DEMO LINK](https://english-teacher-landing.vercel.app/)
