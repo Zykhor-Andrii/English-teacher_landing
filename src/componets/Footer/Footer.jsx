@@ -40,27 +40,27 @@ export const Footer = () => {
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#materials">
+                <a className="footer__nav-item-link" href="#materials">
                   Матеріали для вивчення
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#usefulLinks">
+                <a className="footer__nav-item-link" href="#usefulLinks">
                   Корисні посилання
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#photos">
+                <a className="footer__nav-item-link" href="#photos">
                   Фото
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#reviews">
+                <a className="footer__nav-item-link" href="#reviews">
                   Відгуки
                 </a>
               </li>
               <li className="footer__nav-item">
-                <a class="footer__nav-item-link" href="#contacts">
+                <a className="footer__nav-item-link" href="#contacts">
                   Контакти
                 </a>
               </li>

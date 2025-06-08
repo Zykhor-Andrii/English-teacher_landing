@@ -125,7 +125,7 @@ export const UsefulLinks = () => {
           <div className="links__content-wrapper">
             {
               usefulLinks.map(item => (
-                <div className="links__item">
+                <div key={item.id} className="links__item">
                   <a href={item.link}>
                     <img
                       src={item.image}

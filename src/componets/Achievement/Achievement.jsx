@@ -131,7 +131,6 @@ export const Slider = () => {
       return
     }
     setSelectedImage(selectedImage + 1)
-    console.log(selectedImage)
   }
 
 
@@ -296,8 +295,6 @@ export const Slider = () => {
           disableScroll={true}
           closeOnClickOutside={true}
           onClose={closeImageViewer}
-        // leftArrowComponent={false}
-        // rightArrowComponent={false}
         />
       )}
     </section>

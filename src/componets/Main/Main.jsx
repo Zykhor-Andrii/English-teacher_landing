@@ -5,7 +5,7 @@ import { UsefulLinks } from "../UsefulLinks/UsefulLinks"
 import { Contacts } from "../Contacts/Contacts"
 import { Photos } from "../Photos/Photos"
 import { Reviews } from "../Reviews/Reviews"
-// import { Test } from "../Test/Test"
+import {TestEnglish} from "../TestEnglish/TestEnglish"
 
 export const Main = () => (
   <main>
@@ -14,6 +14,7 @@ export const Main = () => (
     {/* <Test/> */}
     <StudyMaterials />
     <UsefulLinks />
+    <TestEnglish />
     <Photos/>
     <Reviews/>
     <Contacts/>

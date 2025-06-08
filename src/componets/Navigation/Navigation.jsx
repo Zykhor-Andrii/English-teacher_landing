@@ -24,7 +24,7 @@ export const Navigation = ({ closeMenu }) => (
       </li>
       <li className="nav__item">
         <a
-         class="nav__item-link"
+         className="nav__item-link"
           href="#materials"
           onClick={closeMenu}
           >
@@ -33,7 +33,7 @@ export const Navigation = ({ closeMenu }) => (
       </li>
       <li className="nav__item">
         <a 
-        class="nav__item-link"
+        className="nav__item-link"
          href="#usefulLinks"
          onClick={closeMenu}
          >
@@ -42,7 +42,7 @@ export const Navigation = ({ closeMenu }) => (
       </li>
       <li className="nav__item">
         <a 
-        class="nav__item-link"
+        className="nav__item-link"
          href="#photos"
          onClick={closeMenu}
          >
@@ -51,7 +51,7 @@ export const Navigation = ({ closeMenu }) => (
       </li>
       <li className="nav__item">
         <a 
-        class="nav__item-link"
+        className="nav__item-link"
          href="#reviews"
          onClick={closeMenu}
          >
@@ -60,7 +60,7 @@ export const Navigation = ({ closeMenu }) => (
       </li>
       <li className="nav__item">
         <a
-         class="nav__item-link"
+         className="nav__item-link"
           href="#contacts"
           onClick={closeMenu}
           >

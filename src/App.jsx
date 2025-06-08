@@ -6,6 +6,8 @@ import {Footer} from './componets/Footer/Footer'
 
 function App() {
 
+
+
   return (
     <div className="App page">
       <Header/>

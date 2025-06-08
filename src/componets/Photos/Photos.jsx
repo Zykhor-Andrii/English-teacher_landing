@@ -94,16 +94,15 @@ export const Photos = () => {
     };
   }, []);
 
-  console.log(windowWidth);
   return (
     <section id="photos" className="page__section photos">
       <div className="container">
 
 
 
-        <h1 className="page__title">
+        <h2 className="page__title">
           Фото
-        </h1>
+        </h2>
 
 
       <div className="photos__content">
@@ -131,7 +130,7 @@ export const Photos = () => {
 
           {
             photos.map((photo, index) => (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <img
                   className='photos__item'
                   id={index}
@@ -173,8 +172,6 @@ export const Photos = () => {
           disableScroll={true}
           closeOnClickOutside={true}
           onClose={closeImageViewer}
-        // leftArrowComponent={false}
-        // rightArrowComponent={false}
         />
       )}
     </section>

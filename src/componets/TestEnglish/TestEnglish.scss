@@ -1,0 +1,163 @@
+@import "../../style/utils/mixins";
+
+.testing {
+  display: flex;
+  flex-direction: column;
+
+  &__subject {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    @include onTablet() {
+      font-size: 28px;
+      padding: 15px 20px;
+      gap: 30px;
+    }
+
+    @include onDesktop() {
+      font-size: 32px;
+      gap: 40px;
+    }
+
+    &-item {
+      font-size: 20px;
+      border-left: 1px solid rgb(39, 120, 127);
+      border-right: 1px solid rgb(39, 120, 127);
+      padding: 10px 15px;
+      border-radius: 5px;
+
+      @include onTablet() {
+        font-size: 28px;
+        padding: 15px 20px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &--active {
+        background-color: #fde1ba;
+      }
+    }
+  }
+
+  &__chooseLevel {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    &-label {
+      font-size: 12px;
+      padding-bottom: 5px;
+    }
+  }
+
+  &__container {
+    padding-top: 40px;
+  }
+
+  &__question {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+
+    @include onTablet() {
+      font-size: 24px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      height: 50px;
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+
+      &--active {
+        background-color: #fde1ba;
+      }
+
+      @include onTablet() {
+        font-size: 20px;
+        height: 70px;
+      }
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  &__choose {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+
+    @include onTablet() {
+      font-size: 18px;
+      width: 220px;
+      height: 60px;
+    }
+
+    &:disabled {
+      background-color: #d3d3d3;
+      color: #888;
+      cursor: not-allowed;
+      opacity: 0.7;
+    }
+  }
+
+  &__history {
+    &-subject {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+
+      &-item {
+        text-align: center;
+        border-left: 1px solid rgb(39, 120, 127);
+        border-right: 1px solid rgb(39, 120, 127);
+        border-radius: 5px;
+        padding: 8px 10px;
+
+        @include onTablet() {
+          font-size: 18px;
+          padding: 10px 15px;
+        }
+
+        &--active {
+          background-color: #fde1ba;
+          border: none;
+        }
+      }
+    }
+  }
+}
