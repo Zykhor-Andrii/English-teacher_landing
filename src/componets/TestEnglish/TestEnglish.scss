@@ -147,6 +147,7 @@
         border-right: 1px solid rgb(39, 120, 127);
         border-radius: 5px;
         padding: 8px 10px;
+        cursor: pointer;
 
         @include onTablet() {
           font-size: 18px;
@@ -155,7 +156,6 @@
 
         &--active {
           background-color: #fde1ba;
-          border: none;
         }
       }
     }

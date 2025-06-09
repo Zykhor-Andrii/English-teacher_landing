@@ -2,37 +2,73 @@ import { useEffect, useState } from "react";
 import "./TestEnglish.scss";
 import classNames from "classnames";
 
+const useLocalStorage = (key, initialValue) => {
+  const [value, setValue] = useState(() => {
+    const saved = localStorage.getItem(key);
+    return saved ? JSON.parse(saved) : initialValue;
+  });
+
+  useEffect(() => {
+    localStorage.setItem(key, JSON.stringify(value));
+  }, [key, value]);
+
+  return [value, setValue];
+};
+
 export const TestEnglish = () => {
   const [questions, setQuestions] = useState({});
-  const [levelEnglish, setLevelEnglish] = useState("beginner");
+  const [levelSubject, setLevelSubject] = useState("beginner");
   const [arrTesting, setArrTesting] = useState([]);
   const [chooseOption, setChooseOption] = useState("");
-  const [testingEnglish, setTestingEnglish] = useState(true);
+  const [subjectName, setSubjectName] = useState("english");
+  const [subjectHistory, setSubjectHistory] = useState("english");
+  const [testResults, setTestResults] = useLocalStorage("testResults", {
+    englishTest: [],
+    historyTest: [],
+  });
+  console.log(testResults);
 
+  function getApiUrl(subject, level) {
+    return `/Api/${subject}_tests_${level}.json`;
+  }
+
+  const addResult = (subject, result) => {
+    setTestResults((prev) => ({
+      ...prev,
+      [subject]: [...(prev[subject] || []), result],
+    }));
+  };
+
+  if (arrTesting.length === 10) {
+    addResult("englishTest", [...arrTesting]);
+    setArrTesting([]);
+  }
 
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
+
   function getQuestions() {
-    fetch("/Api/english_tests_beginner.json")
+    fetch(getApiUrl(subjectName, levelSubject))
       .then((response) => response.json())
       .then((data) => {
         setQuestions(data[getRandomInt(data.length)]);
       });
   }
 
-  const toogleTesting = (bool) => {
-    setTestingEnglish(bool);
+  const toogleTesting = (name) => {
+    setSubjectName(name);
   };
 
   const sendAnswer = () => {
     if (chooseOption) {
       const newTest = { ...questions };
       newTest.answer = chooseOption;
+      newTest.level = levelSubject;
 
       setArrTesting((prev) => [...prev, newTest]);
       setChooseOption("");
-      handleQustion()
+      handleQustion();
     }
   };
 
@@ -45,7 +81,7 @@ export const TestEnglish = () => {
   }, []);
 
   const handleChangeLevel = (event) => {
-    setLevelEnglish(event.target.value);
+    setLevelSubject(event.target.value);
   };
 
   const getChoose = (option) => {
@@ -62,17 +98,17 @@ export const TestEnglish = () => {
           <div className="testing__subject">
             <h4
               className={classNames("testing__subject-item", {
-                "testing__subject-item--active": testingEnglish,
+                "testing__subject-item--active": subjectName === "english",
               })}
-              onClick={() => toogleTesting(true)}
+              onClick={() => toogleTesting("english")}
             >
               English testing
             </h4>
             <h4
               className={classNames("testing__subject-item", {
-                "testing__subject-item--active": !testingEnglish,
+                "testing__subject-item--active": subjectName === "history",
               })}
-              onClick={() => toogleTesting(false)}
+              onClick={() => toogleTesting("history")}
             >
               History testing
             </h4>
@@ -125,10 +161,22 @@ export const TestEnglish = () => {
             <div className="hesting__history-opener">
               ▼ Close історію тестування
               <div className="testing__history-subject">
-                <h5 className="testing__history-subject-item testing__history-subject-item--active">
+                <h5
+                  className={classNames("testing__history-subject-item", {
+                    "testing__history-subject-item--active":
+                      subjectHistory === "english",
+                  })}
+                  onClick={() => setSubjectHistory("english")}
+                >
                   English testing
                 </h5>
-                <h5 className="testing__history-subject-item">
+                <h5
+                  className={classNames("testing__history-subject-item", {
+                    "testing__history-subject-item--active":
+                      subjectHistory === "history",
+                  })}
+                  onClick={() => setSubjectHistory("history")}
+                >
                   History testing
                 </h5>
               </div>
