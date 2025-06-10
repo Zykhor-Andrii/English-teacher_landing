@@ -23,10 +23,11 @@ export const TestEnglish = () => {
   const [subjectName, setSubjectName] = useState("english");
   const [subjectHistory, setSubjectHistory] = useState("english");
   const [testResults, setTestResults] = useLocalStorage("testResults", {
-    englishTest: [],
-    historyTest: [],
+    english: [],
+    history: [],
   });
   console.log(testResults);
+  console.log(subjectName);
 
   function getApiUrl(subject, level) {
     return `/Api/${subject}_tests_${level}.json`;
@@ -40,7 +41,7 @@ export const TestEnglish = () => {
   };
 
   if (arrTesting.length === 10) {
-    addResult("englishTest", [...arrTesting]);
+    addResult(subjectName, [...arrTesting]);
     setArrTesting([]);
   }
 
@@ -48,12 +49,19 @@ export const TestEnglish = () => {
     return Math.floor(Math.random() * max);
   }
 
-  function getQuestions() {
-    fetch(getApiUrl(subjectName, levelSubject))
-      .then((response) => response.json())
-      .then((data) => {
-        setQuestions(data[getRandomInt(data.length)]);
-      });
+  async function getQuestions() {
+    try {
+      const response = await fetch(getApiUrl(subjectName, levelSubject));
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      const data = await response.json();
+      const randomIndex = getRandomInt(data.length);
+      setQuestions(data[randomIndex]);
+    } catch (error) {
+      console.error("Failed to fetch questions:", error);
+    }
   }
 
   const toogleTesting = (name) => {
@@ -78,7 +86,7 @@ export const TestEnglish = () => {
 
   useEffect(() => {
     getQuestions();
-  }, []);
+  }, [subjectName, levelSubject]);
 
   const handleChangeLevel = (event) => {
     setLevelSubject(event.target.value);
@@ -148,7 +156,7 @@ export const TestEnglish = () => {
               <div className="testing__button">
                 <button
                   disabled={!chooseOption}
-                  onClick={sendAnswer}
+                  onClick={() => sendAnswer(subjectName)}
                   className="testing__choose"
                 >
                   Вибрати відповідь
@@ -160,6 +168,7 @@ export const TestEnglish = () => {
           <div className="testing__history">
             <div className="hesting__history-opener">
               ▼ Close історію тестування
+            </div>
               <div className="testing__history-subject">
                 <h5
                   className={classNames("testing__history-subject-item", {
@@ -180,6 +189,10 @@ export const TestEnglish = () => {
                   History testing
                 </h5>
               </div>
+            <div className="testing__test-history">
+              <ol className="testing__test-list">
+                <li></li>
+              </ol>
             </div>
           </div>
         </div>
