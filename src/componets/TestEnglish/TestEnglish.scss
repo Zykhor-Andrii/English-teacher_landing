@@ -61,6 +61,11 @@
     }
   }
 
+  &__progress {
+    padding: 20px;
+    font-weight: bold;
+  }
+
   &__container {
     padding-top: 40px;
   }
@@ -109,6 +114,7 @@
     justify-content: center;
     margin-bottom: 20px;
   }
+
   &__choose {
     width: 200px;
     height: 50px;
@@ -158,6 +164,57 @@
           background-color: #fde1ba;
         }
       }
+    }
+  }
+
+  &__history-item {
+    text-align: center;
+    list-style: decimal;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border-top: 1px solid #ccc;
+    padding: 15px;
+  }
+
+  &__history-open-item {
+    padding-left: 10px;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: auto;
+  }
+
+  &__showResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-item {
+      margin-bottom: 20px;
+      border-bottom: #ccc solid 2px;
+      text-align: center;
+    }
+
+    &-list {
+
+      margin-top: 20px;
+    }
+
+    &-question {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    &-button {
+      width: 200px;
+      height: 50px;
+          border-radius: 10px;
+    margin: 20px 0;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+      
     }
   }
 }

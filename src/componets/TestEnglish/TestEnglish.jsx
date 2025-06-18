@@ -15,6 +15,17 @@ const useLocalStorage = (key, initialValue) => {
   return [value, setValue];
 };
 
+const getCorrectAnswersCount = (arrTest) => {
+  let correctCount = 0;
+  arrTest.forEach((item) => {
+    if (item.answer === item.correctAnswer) {
+      correctCount++;
+    }
+  });
+
+  return correctCount;
+};
+
 export const TestEnglish = () => {
   const [questions, setQuestions] = useState({});
   const [levelSubject, setLevelSubject] = useState("beginner");
@@ -26,10 +37,41 @@ export const TestEnglish = () => {
     english: [],
     history: [],
   });
-  console.log(testResults);
-  console.log(subjectName);
+  const [openHistory, setOpenHistory] = useState(false);
+  const [showResultTest, setShowResultTest] = useState(false);
 
-  function getApiUrl(subject, level) {
+  const [idTestDetails, setIdTestDetails] = useState(null);
+
+  const getIdHistoryDetails = (id) => {
+    if (idTestDetails === id) {
+      setIdTestDetails(null);
+    } else {
+      setIdTestDetails(id);
+    }
+  };
+
+  console.log(testResults[subjectName]);
+
+  const getHistorySummaryLine = (itemArr, index) => {
+    const subject = subjectHistory === "history" ? "Історія" : "Англійська";
+    const summary = (
+      <>
+        {`${subject} | Рівень: ${
+          itemArr[index].level || "beginner"
+        } | Правильні: ${getCorrectAnswersCount(itemArr)}/10 `}
+        <span
+          className="testing__history-open-item"
+          onClick={() => getIdHistoryDetails(index)}
+        >
+          {idTestDetails === index ? "🔽" : "▶"}
+        </span>
+      </>
+    );
+
+    return summary;
+  };
+
+  function getApiUrl(subject, level = "beginner") {
     return `/Api/${subject}_tests_${level}.json`;
   }
 
@@ -40,10 +82,21 @@ export const TestEnglish = () => {
     }));
   };
 
-  if (arrTesting.length === 10) {
-    addResult(subjectName, [...arrTesting]);
+  useEffect(() => {
+    if (arrTesting.length === 10) {
+      addResult(subjectName, [...arrTesting]);
+      setShowResultTest(true);
+    }
+  }, [arrTesting]);
+
+  const getTestingAgain = () => {
     setArrTesting([]);
-  }
+    setShowResultTest(false);
+  };
+
+  useEffect(() => {
+    setArrTesting([]);
+  }, [subjectName, levelSubject]);
 
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
@@ -121,79 +174,141 @@ export const TestEnglish = () => {
               History testing
             </h4>
           </div>
-          <div className="testing__wrapper">
-            <div className="testing__chooseLevel-wrapper">
-              <p className="testing__chooseLevel-label">Вибери рівень</p>
-              <select
-                className="testing__chooseLevel"
-                name="level"
-                id=""
-                onChange={handleChangeLevel}
+          {showResultTest ? (
+            <div className="testing__showResult">
+              <ul className="testing__showResult-list">
+                {arrTesting.map((resultTest, testIndex) => (
+                  <li className="testing__showResult-item" key={testIndex}>
+                    <p className="testing__showResult-question">{resultTest.question}</p>
+                    <p>
+                      Твоя відповідь: {resultTest.answer}{" "}
+                      {resultTest.answer === resultTest.correctAnswer ? (
+                        <>✅{resultTest.correctAnswer}</>
+                      ) : (
+                        <>❌ (Правильна: {resultTest.correctAnswer})</>
+                      )}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+              <button
+                onClick={getTestingAgain}
+                className="testing__showResult-button"
               >
-                <option value="beginner">Beginner</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="advanced">Advanced</option>
-              </select>
+                Пройти ще раз
+              </button>
             </div>
-            <div className="testing__container">
-              <div className="testing__question">{questions.question}</div>
-              <div className="testing__option">
-                <ul className="testing__list">
-                  {questions.options &&
-                    questions.options.map((item, index) => (
-                      <li
-                        onClick={() => getChoose(item)}
-                        className={classNames("testing__list-item", {
-                          "testing__list-item--active": chooseOption === item,
-                        })}
-                        key={index}
-                      >
-                        {item}
-                      </li>
-                    ))}
-                </ul>
-              </div>
-              <div className="testing__button">
-                <button
-                  disabled={!chooseOption}
-                  onClick={() => sendAnswer(subjectName)}
-                  className="testing__choose"
+          ) : (
+            <div className="testing__wrapper">
+              <div className="testing__chooseLevel-wrapper">
+                <p className="testing__chooseLevel-label">Вибери рівень</p>
+                <select
+                  className="testing__chooseLevel"
+                  name="level"
+                  id=""
+                  value={levelSubject || "beginner"}
+                  onChange={handleChangeLevel}
                 >
-                  Вибрати відповідь
-                </button>
+                  <option value="beginner">Beginner</option>
+                  <option value="intermediate">Intermediate</option>
+                  <option value="advanced">Advanced</option>
+                </select>
+                <p className="testing__progress">{arrTesting.length}/10</p>
               </div>
+              <div className="testing__container">
+                <div className="testing__question">{questions.question}</div>
+                <div className="testing__option">
+                  <ul className="testing__list">
+                    {questions.options &&
+                      questions.options.map((item, index) => (
+                        <li
+                          onClick={() => getChoose(item)}
+                          className={classNames("testing__list-item", {
+                            "testing__list-item--active": chooseOption === item,
+                          })}
+                          key={index}
+                        >
+                          {item}
+                        </li>
+                      ))}
+                  </ul>
+                </div>
+                <div className="testing__button">
+                  <button
+                    disabled={!chooseOption}
+                    onClick={() => sendAnswer(subjectName)}
+                    className="testing__choose"
+                  >
+                    Вибрати відповідь
+                  </button>
+                </div>
+              </div>
+              <hr />
             </div>
-            <hr />
-          </div>
+          )}
           <div className="testing__history">
             <div className="hesting__history-opener">
-              ▼ Close історію тестування
+                  <span
+          className="testing__history-open-item"
+          onClick={() => setOpenHistory(!openHistory)}
+        >
+          {openHistory ? "🔽 Закрити" : "▶ Відкрити"}
+        </span> історію тестів
             </div>
-              <div className="testing__history-subject">
-                <h5
-                  className={classNames("testing__history-subject-item", {
-                    "testing__history-subject-item--active":
-                      subjectHistory === "english",
-                  })}
-                  onClick={() => setSubjectHistory("english")}
-                >
-                  English testing
-                </h5>
-                <h5
-                  className={classNames("testing__history-subject-item", {
-                    "testing__history-subject-item--active":
-                      subjectHistory === "history",
-                  })}
-                  onClick={() => setSubjectHistory("history")}
-                >
-                  History testing
-                </h5>
-              </div>
+            {openHistory && (
+          <>
+            <div className="testing__history-subject">
+              <h5
+                className={classNames("testing__history-subject-item", {
+                  "testing__history-subject-item--active":
+                    subjectHistory === "english",
+                })}
+                onClick={() => setSubjectHistory("english")}
+              >
+                English testing
+              </h5>
+              <h5
+                className={classNames("testing__history-subject-item", {
+                  "testing__history-subject-item--active":
+                    subjectHistory === "history",
+                })}
+                onClick={() => setSubjectHistory("history")}
+              >
+                History testing
+              </h5>
+            </div>
             <div className="testing__test-history">
               <ol className="testing__test-list">
-                <li></li>
+                {testResults[subjectHistory].map((item, index) => (
+                  <li className="testing__history-item" key={index}>
+                    {getHistorySummaryLine(item, index)}
+                    {idTestDetails === index && (
+                      <ul>
+                        {item.map((resultTest, testIndex) => (
+                          <li
+                            className="testing__showResult-item"
+                            key={testIndex}
+                          >
+                            <p>{resultTest.question}</p>
+                            <p>
+                              Твоя відповідь: {resultTest.answer}{" "}
+                              {resultTest.answer ===
+                              resultTest.correctAnswer ? (
+                                "✅"
+                              ) : (
+                                <>❌ (Правильна: {resultTest.correctAnswer})</>
+                              )}
+                            </p>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
               </ol>
             </div>
+            </>
+            )}
           </div>
         </div>
       </div>
