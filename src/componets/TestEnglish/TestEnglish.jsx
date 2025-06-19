@@ -138,6 +138,7 @@ export const TestEnglish = () => {
   };
 
   useEffect(() => {
+          setShowResultTest(false);
     getQuestions();
   }, [subjectName, levelSubject]);
 
@@ -176,11 +177,14 @@ export const TestEnglish = () => {
           </div>
           {showResultTest ? (
             <div className="testing__showResult">
+              <h5 className="testing__showResult-title">
+                Твої результати тестування з {subjectName}:
+              </h5>
               <ul className="testing__showResult-list">
                 {arrTesting.map((resultTest, testIndex) => (
                   <li className="testing__showResult-item" key={testIndex}>
                     <p className="testing__showResult-question">{resultTest.question}</p>
-                    <p>
+                    <p  className="testing__showResult-answer">
                       Твоя відповідь: {resultTest.answer}{" "}
                       {resultTest.answer === resultTest.correctAnswer ? (
                         <>✅{resultTest.correctAnswer}</>
@@ -289,8 +293,8 @@ export const TestEnglish = () => {
                             className="testing__showResult-item"
                             key={testIndex}
                           >
-                            <p>{resultTest.question}</p>
-                            <p>
+                            <p className="testing__showResult-question" >{resultTest.question}</p>
+                            <p className="testing__showResult-answer">
                               Твоя відповідь: {resultTest.answer}{" "}
                               {resultTest.answer ===
                               resultTest.correctAnswer ? (
