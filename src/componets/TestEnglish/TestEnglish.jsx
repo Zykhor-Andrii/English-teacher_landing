@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import "./TestEnglish.scss";
-import classNames from "classnames";
+import { TestingHeader } from "../TestingHeader/TestingHeader";
+import { TestingResult } from "../TestingResult/TestingResult";
+import { TestingQuestion } from "../TestingQuestion/TestingQuestion";
+import { TestingHistory } from "../TestingHistory/TestingHistory";
 
 const useLocalStorage = (key, initialValue) => {
   const [value, setValue] = useState(() => {
@@ -137,9 +140,12 @@ export const TestEnglish = () => {
     getQuestions();
   };
 
+  console.log(chooseOption)
+
   useEffect(() => {
     setShowResultTest(false);
     getQuestions();
+    setChooseOption("");
   }, [subjectName, levelSubject]);
 
   const handleChangeLevel = (event) => {
@@ -150,184 +156,46 @@ export const TestEnglish = () => {
     setChooseOption(option);
   };
 
-  console.log(arrTesting);
 
   return (
     <section className="page_section testing">
       <div className="container">
         <div className="testing__content">
-          <h2 className="page__title">Тестування</h2>
-          <div className="testing__subject">
-            <h4
-              className={classNames("testing__subject-item", {
-                "testing__subject-item--active": subjectName === "english",
-              })}
-              onClick={() => toogleTesting("english")}
-            >
-              English testing
-            </h4>
-            <h4
-              className={classNames("testing__subject-item", {
-                "testing__subject-item--active": subjectName === "history",
-              })}
-              onClick={() => toogleTesting("history")}
-            >
-              History testing
-            </h4>
-          </div>
+          <TestingHeader
+            toogleTesting={toogleTesting}
+            subjectName={subjectName}
+          />
           {showResultTest ? (
-            <div className="testing__showResult">
-              <h5 className="testing__showResult-title">
-                Твої результати тестування з {subjectName}: 
-                <br></br>
-                {getCorrectAnswersCount(arrTesting)}/10 
-              </h5>
-              <ul className="testing__showResult-list">
-                {arrTesting.map((resultTest, testIndex) => (
-                  <li className="testing__showResult-item" key={testIndex}>
-                    <p className="testing__showResult-question">
-                      {resultTest.question}
-                    </p>
-                    <p className="testing__showResult-answer">
-                      Твоя відповідь: {resultTest.answer}{" "}
-                      {resultTest.answer === resultTest.correctAnswer ? (
-                        <>✅{resultTest.correctAnswer}</>
-                      ) : (
-                        <>❌ (Правильна: {resultTest.correctAnswer})</>
-                      )}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-              <button
-                onClick={getTestingAgain}
-                className="testing__showResult-button"
-              >
-                Пройти ще раз
-              </button>
-            </div>
+            <TestingResult
+              subjectName={subjectName}
+              getCorrectAnswersCount={getCorrectAnswersCount}
+              arrTesting={arrTesting}
+              getTestingAgain={getTestingAgain}
+            />
           ) : (
-            <div className="testing__wrapper">
-              <div className="testing__chooseLevel-wrapper">
-                <p className="testing__chooseLevel-label">Вибери рівень</p>
-                <select
-                  className="testing__chooseLevel"
-                  name="level"
-                  id=""
-                  value={levelSubject || "beginner"}
-                  onChange={handleChangeLevel}
-                >
-                  <option value="beginner">Beginner</option>
-                  <option value="intermediate">Intermediate</option>
-                  <option value="advanced">Advanced</option>
-                </select>
-                <p className="testing__progress">{arrTesting.length}/10</p>
-              </div>
-              <div className="testing__container">
-                <div className="testing__question">{questions.question}</div>
-                <div className="testing__option">
-                  <ul className="testing__list">
-                    {questions.options &&
-                      questions.options.map((item, index) => (
-                        <li
-                          onClick={() => getChoose(item)}
-                          className={classNames("testing__list-item", {
-                            "testing__list-item--active": chooseOption === item,
-                          })}
-                          key={index}
-                        >
-                          {item}
-                        </li>
-                      ))}
-                  </ul>
-                </div>
-                <div className="testing__button">
-                  <button
-                    disabled={!chooseOption}
-                    onClick={() => sendAnswer(subjectName)}
-                    className="testing__choose"
-                  >
-                    Вибрати відповідь
-                  </button>
-                </div>
-              </div>
-              <hr />
-            </div>
+            <>
+            <TestingQuestion
+              levelSubject={levelSubject}
+              handleChangeLevel={handleChangeLevel}
+              arrTesting={arrTesting}
+              sendAnswer={sendAnswer}
+              questions={questions}
+              getChoose={getChoose}
+              subjectName={subjectName}
+              chooseOption={chooseOption}
+            />
+            </>
           )}
-          <div className="testing__history">
-            <div className="hesting__history-opener">
-              <span
-                className="testing__history-open-item"
-                onClick={() => setOpenHistory(!openHistory)}
-              >
-                {openHistory ? "🔽 Закрити" : "▶ Відкрити"}
-              </span>{" "}
-              історію тестів
-            </div>
-            {openHistory && (
-              <>
-                <div className="testing__history-subject">
-                  <h5
-                    className={classNames("testing__history-subject-item", {
-                      "testing__history-subject-item--active":
-                        subjectHistory === "english",
-                    })}
-                    onClick={() => setSubjectHistory("english")}
-                  >
-                    English testing
-                  </h5>
-                  <h5
-                    className={classNames("testing__history-subject-item", {
-                      "testing__history-subject-item--active":
-                        subjectHistory === "history",
-                    })}
-                    onClick={() => setSubjectHistory("history")}
-                  >
-                    History testing
-                  </h5>
-                </div>
-                <div className="testing__test-history">
-                  {!testResults[subjectHistory].length ? (
-                    <p className="testing__noHistory">Нема історії тестів.</p>
-                  ) : (
-                    <ol className="testing__test-list">
-                      {testResults[subjectHistory].map((item, index) => (
-                        <li className="testing__history-item" key={index}>
-                          {getHistorySummaryLine(item, index)}
-                          {idTestDetails === index && (
-                            <ul>
-                              {item.map((resultTest, testIndex) => (
-                                <li
-                                  className="testing__showResult-item"
-                                  key={testIndex}
-                                >
-                                  <p className="testing__showResult-question">
-                                    {resultTest.question}
-                                  </p>
-                                  <p className="testing__showResult-answer">
-                                    Твоя відповідь: {resultTest.answer}{" "}
-                                    {resultTest.answer ===
-                                    resultTest.correctAnswer ? (
-                                      "✅"
-                                    ) : (
-                                      <>
-                                        ❌ (Правильна:{" "}
-                                        {resultTest.correctAnswer})
-                                      </>
-                                    )}
-                                  </p>
-                                </li>
-                              ))}
-                            </ul>
-                          )}
-                        </li>
-                      ))}
-                    </ol>
-                  )}
-                </div>
-              </>
-            )}
-          </div>
+          <TestingHistory
+            subjectHistory={subjectHistory}
+            setSubjectHistory={setSubjectHistory}
+            testResults={testResults}
+            openHistory={openHistory}
+            setOpenHistory={setOpenHistory}
+            getIdHistoryDetails={getIdHistoryDetails}
+            idTestDetails={idTestDetails}
+            getHistorySummaryLine={getHistorySummaryLine}
+            />
         </div>
       </div>
     </section>

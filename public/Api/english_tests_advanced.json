@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "type": "translate",
+    "question": "Переклади: 'амбівалентність'",
+    "options": ["ambivalence", "ambition", "ambassador", "ambient"],
+    "correctAnswer": "ambivalence"
+  },
+  {
+    "id": 2,
+    "type": "fill_in_the_blank",
+    "question": "Had she ___ the instructions carefully, she would not have made that mistake.",
+    "options": ["read", "reads", "reading", "have read"],
+    "correctAnswer": "read"
+  },
+  {
+    "id": 3,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["entrepreneurship", "entreprenurship", "enterpreneurship", "entreprenuership"],
+    "correctAnswer": "entrepreneurship"
+  },
+  {
+    "id": 4,
+    "type": "true_false",
+    "question": "The subjunctive mood is commonly used in formal English writing.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 5,
+    "type": "who_is",
+    "question": "Who is a philologist?",
+    "options": ["Someone who studies language in historical texts", "Someone who studies philosophy", "Someone who cooks", "Someone who designs buildings"],
+    "correctAnswer": "Someone who studies language in historical texts"
+  },
+  {
+    "id": 6,
+    "type": "cause_effect",
+    "question": "Why do governments impose tariffs on imported goods?",
+    "options": ["To protect domestic industries", "To encourage imports", "To reduce taxes", "To increase free trade"],
+    "correctAnswer": "To protect domestic industries"
+  },
+  {
+    "id": 7,
+    "type": "translate",
+    "question": "Переклади: 'конгломерат'",
+    "options": ["conglomerate", "conglomeration", "congress", "congruent"],
+    "correctAnswer": "conglomerate"
+  },
+  {
+    "id": 8,
+    "type": "fill_in_the_blank",
+    "question": "No sooner ___ she arrived than the meeting started.",
+    "options": ["had", "has", "did", "was"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 9,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["acquiescence", "acquiescense", "aquiescence", "aquiescense"],
+    "correctAnswer": "acquiescence"
+  },
+  {
+    "id": 10,
+    "type": "true_false",
+    "question": "The passive voice is often preferred in academic writing to emphasize the action rather than the actor.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 11,
+    "type": "who_is",
+    "question": "Who is a cartographer?",
+    "options": ["Someone who makes maps", "Someone who studies cars", "Someone who cooks", "Someone who performs surgeries"],
+    "correctAnswer": "Someone who makes maps"
+  },
+  {
+    "id": 12,
+    "type": "cause_effect",
+    "question": "Why do companies diversify their investments?",
+    "options": ["To reduce financial risk", "To increase risk", "To simplify management", "To avoid regulations"],
+    "correctAnswer": "To reduce financial risk"
+  },
+  {
+    "id": 13,
+    "type": "translate",
+    "question": "Переклади: 'інфраструктура'",
+    "options": ["infrastructure", "instructor", "instrument", "inauguration"],
+    "correctAnswer": "infrastructure"
+  },
+  {
+    "id": 14,
+    "type": "fill_in_the_blank",
+    "question": "Seldom ___ such a brilliant idea been proposed.",
+    "options": ["has", "have", "had", "having"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 15,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["miscellaneous", "miscellanous", "mischellaneous", "miscellaneus"],
+    "correctAnswer": "miscellaneous"
+  },
+  {
+    "id": 16,
+    "type": "true_false",
+    "question": "Oxymoron is a figure of speech that combines contradictory terms.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 17,
+    "type": "who_is",
+    "question": "Who is an actuary?",
+    "options": ["Someone who assesses financial risks using mathematics", "Someone who cooks", "Someone who sings", "Someone who drives"],
+    "correctAnswer": "Someone who assesses financial risks using mathematics"
+  },
+  {
+    "id": 18,
+    "type": "cause_effect",
+    "question": "Why do ecosystems maintain biodiversity?",
+    "options": ["To increase resilience and stability", "To reduce species", "To increase pollution", "To simplify food chains"],
+    "correctAnswer": "To increase resilience and stability"
+  },
+  {
+    "id": 19,
+    "type": "translate",
+    "question": "Переклади: 'парадигма'",
+    "options": ["paradigm", "parameter", "paradox", "paragraph"],
+    "correctAnswer": "paradigm"
+  },
+  {
+    "id": 20,
+    "type": "fill_in_the_blank",
+    "question": "Only after the meeting ___ we realize the problem.",
+    "options": ["did", "had", "has", "have"],
+    "correctAnswer": "did"
+  },
+  {
+    "id": 21,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["belligerent", "beligerent", "belligerant", "beligerant"],
+    "correctAnswer": "belligerent"
+  },
+  {
+    "id": 22,
+    "type": "true_false",
+    "question": "A metaphor directly compares two unrelated things without using 'like' or 'as'.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 23,
+    "type": "who_is",
+    "question": "Who is a sommelier?",
+    "options": ["Someone who is a wine expert", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who is a wine expert"
+  },
+  {
+    "id": 24,
+    "type": "cause_effect",
+    "question": "Why do investors diversify their portfolios?",
+    "options": ["To minimize potential losses", "To maximize risk", "To avoid paying taxes", "To concentrate investments"],
+    "correctAnswer": "To minimize potential losses"
+  },
+  {
+    "id": 25,
+    "type": "translate",
+    "question": "Переклади: 'експоненційний'",
+    "options": ["exponential", "experimental", "expeditious", "expository"],
+    "correctAnswer": "exponential"
+  },
+  {
+    "id": 26,
+    "type": "fill_in_the_blank",
+    "question": "Had they ___ earlier, the project would have succeeded.",
+    "options": ["started", "start", "starting", "have started"],
+    "correctAnswer": "started"
+  },
+  {
+    "id": 27,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["conscientious", "concientious", "consciencious", "conscientous"],
+    "correctAnswer": "conscientious"
+  },
+  {
+    "id": 28,
+    "type": "true_false",
+    "question": "Iron is heavier than aluminum.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 29,
+    "type": "who_is",
+    "question": "Who is a cartographer?",
+    "options": ["Someone who creates maps", "Someone who studies stars", "Someone who cooks", "Someone who writes novels"],
+    "correctAnswer": "Someone who creates maps"
+  },
+  {
+    "id": 30,
+    "type": "cause_effect",
+    "question": "Why do humans need sleep?",
+    "options": ["To restore energy and cognitive functions", "To avoid working", "To eat more", "To gain weight"],
+    "correctAnswer": "To restore energy and cognitive functions"
+  },
+  {
+    "id": 31,
+    "type": "translate",
+    "question": "Переклади: 'прецедент'",
+    "options": ["precedent", "president", "preceding", "precept"],
+    "correctAnswer": "precedent"
+  },
+  {
+    "id": 32,
+    "type": "fill_in_the_blank",
+    "question": "Rarely ___ he seen such dedication.",
+    "options": ["has", "have", "had", "was"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 33,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["pharaoh", "pharoah", "pharoh", "pharao"],
+    "correctAnswer": "pharaoh"
+  },
+  {
+    "id": 34,
+    "type": "true_false",
+    "question": "The ozone layer protects the Earth from harmful ultraviolet radiation.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 35,
+    "type": "who_is",
+    "question": "Who is a paleontologist?",
+    "options": ["Someone who studies fossils", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who studies fossils"
+  },
+  {
+    "id": 36,
+    "type": "cause_effect",
+    "question": "Why do plants perform photosynthesis?",
+    "options": ["To convert sunlight into energy", "To absorb water", "To attract animals", "To produce oxygen only"],
+    "correctAnswer": "To convert sunlight into energy"
+  },
+  {
+    "id": 37,
+    "type": "translate",
+    "question": "Переклади: 'інтерпретація'",
+    "options": ["interpretation", "interaction", "integration", "intervention"],
+    "correctAnswer": "interpretation"
+  },
+  {
+    "id": 38,
+    "type": "fill_in_the_blank",
+    "question": "Not only ___ she brilliant but also hardworking.",
+    "options": ["is", "was", "has", "does"],
+    "correctAnswer": "is"
+  },
+  {
+    "id": 39,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["phenomenon", "phenominon", "phenomenom", "phenomon"],
+    "correctAnswer": "phenomenon"
+  },
+  {
+    "id": 40,
+    "type": "true_false",
+    "question": "Entropy is a measure of disorder in a system.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+  "id": 41,
+  "type": "translate",
+  "question": "Переклади: 'діалектика'",
+  "options": ["dialectics", "dialogue", "dilemma", "dynamics"],
+  "correctAnswer": "dialectics"
+},
+{
+  "id": 42,
+  "type": "fill_in_the_blank",
+  "question": "Had he ___ the memo, he would have understood the situation.",
+  "options": ["read", "reads", "reading", "have read"],
+  "correctAnswer": "read"
+},
+{
+  "id": 43,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["philanthropy", "philanthropy", "filanthropy", "philantrhopy"],
+  "correctAnswer": "philanthropy"
+},
+{
+  "id": 44,
+  "type": "true_false",
+  "question": "An oxymoron is a combination of contradictory terms.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 45,
+  "type": "who_is",
+  "question": "Who is a linguist?",
+  "options": ["Someone who studies languages", "Someone who cooks", "Someone who drives", "Someone who sings"],
+  "correctAnswer": "Someone who studies languages"
+},
+{
+  "id": 46,
+  "type": "cause_effect",
+  "question": "Why do companies invest in research and development?",
+  "options": ["To innovate and stay competitive", "To decrease productivity", "To reduce profits", "To avoid innovation"],
+  "correctAnswer": "To innovate and stay competitive"
+},
+{
+  "id": 47,
+  "type": "translate",
+  "question": "Переклади: 'експериментальний'",
+  "options": ["experimental", "exponential", "expressional", "explicit"],
+  "correctAnswer": "experimental"
+},
+{
+  "id": 48,
+  "type": "fill_in_the_blank",
+  "question": "No sooner ___ they arrived than the conference began.",
+  "options": ["had", "has", "did", "was"],
+  "correctAnswer": "had"
+},
+{
+  "id": 49,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["bureaucracy", "bureacracy", "burocracy", "buraucracy"],
+  "correctAnswer": "bureaucracy"
+},
+{
+  "id": 50,
+  "type": "true_false",
+  "question": "The subjunctive mood is used to express wishes and hypothetical situations.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 51,
+  "type": "who_is",
+  "question": "Who is an epidemiologist?",
+  "options": ["Someone who studies disease patterns", "Someone who cooks", "Someone who drives", "Someone who sings"],
+  "correctAnswer": "Someone who studies disease patterns"
+},
+{
+  "id": 52,
+  "type": "cause_effect",
+  "question": "Why do countries impose sanctions?",
+  "options": ["To pressure governments to change policies", "To increase trade", "To promote peace", "To reduce taxes"],
+  "correctAnswer": "To pressure governments to change policies"
+},
+{
+  "id": 53,
+  "type": "translate",
+  "question": "Переклади: 'корпоративний'",
+  "options": ["corporate", "corporation", "corporal", "corporality"],
+  "correctAnswer": "corporate"
+},
+{
+  "id": 54,
+  "type": "fill_in_the_blank",
+  "question": "Little ___ he know that the plan would fail.",
+  "options": ["did", "does", "had", "has"],
+  "correctAnswer": "did"
+},
+{
+  "id": 55,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["dichotomy", "dicotomy", "dichotomoy", "dichotamy"],
+  "correctAnswer": "dichotomy"
+},
+{
+  "id": 56,
+  "type": "true_false",
+  "question": "All mammals lay eggs.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 57,
+  "type": "who_is",
+  "question": "Who is a geologist?",
+  "options": ["Someone who studies the Earth's structure", "Someone who cooks", "Someone who drives", "Someone who sings"],
+  "correctAnswer": "Someone who studies the Earth's structure"
+},
+{
+  "id": 58,
+  "type": "cause_effect",
+  "question": "Why do ecosystems depend on keystone species?",
+  "options": ["Because they maintain the balance of the ecosystem", "Because they consume all resources", "Because they cause pollution", "Because they live the longest"],
+  "correctAnswer": "Because they maintain the balance of the ecosystem"
+},
+{
+  "id": 59,
+  "type": "translate",
+  "question": "Переклади: 'протистояння'",
+  "options": ["confrontation", "conflagration", "configuration", "confirmation"],
+  "correctAnswer": "confrontation"
+},
+{
+  "id": 60,
+  "type": "fill_in_the_blank",
+  "question": "Not until the report ___ published did the controversy arise.",
+  "options": ["was", "were", "is", "has"],
+  "correctAnswer": "was"
+},
+{
+  "id": 61,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["idiosyncrasy", "idiosyncracy", "idiosyncracy", "idiosyncrasie"],
+  "correctAnswer": "idiosyncrasy"
+},
+{
+  "id": 62,
+  "type": "true_false",
+  "question": "Photosynthesis converts carbon dioxide into oxygen.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 63,
+  "type": "who_is",
+  "question": "Who is a neurologist?",
+  "options": ["Someone who studies the nervous system", "Someone who cooks", "Someone who drives", "Someone who paints"],
+  "correctAnswer": "Someone who studies the nervous system"
+},
+{
+  "id": 64,
+  "type": "cause_effect",
+  "question": "Why do plants need chlorophyll?",
+  "options": ["To capture sunlight for photosynthesis", "To absorb water", "To attract insects", "To produce seeds"],
+  "correctAnswer": "To capture sunlight for photosynthesis"
+},
+{
+  "id": 65,
+  "type": "translate",
+  "question": "Переклади: 'експлуатація'",
+  "options": ["exploitation", "explanation", "exploration", "expiration"],
+  "correctAnswer": "exploitation"
+},
+{
+  "id": 66,
+  "type": "fill_in_the_blank",
+  "question": "Hardly ___ they started when the alarm went off.",
+  "options": ["had", "have", "has", "did"],
+  "correctAnswer": "had"
+},
+{
+  "id": 67,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["miscellaneous", "miscellanous", "mischellaneous", "miscellaneus"],
+  "correctAnswer": "miscellaneous"
+},
+{
+  "id": 68,
+  "type": "true_false",
+  "question": "Venus is the hottest planet in our solar system.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 69,
+  "type": "who_is",
+  "question": "Who is a seismologist?",
+  "options": ["Someone who studies earthquakes", "Someone who cooks", "Someone who drives", "Someone who sings"],
+  "correctAnswer": "Someone who studies earthquakes"
+},
+{
+  "id": 70,
+  "type": "cause_effect",
+  "question": "Why do people conserve water?",
+  "options": ["To protect natural resources", "To waste energy", "To pollute", "To increase consumption"],
+  "correctAnswer": "To protect natural resources"
+},
+{
+  "id": 71,
+  "type": "translate",
+  "question": "Переклади: 'перспектива'",
+  "options": ["perspective", "prospective", "perception", "performance"],
+  "correctAnswer": "perspective"
+},
+{
+  "id": 72,
+  "type": "fill_in_the_blank",
+  "question": "Scarcely ___ he finished the lecture when questions began.",
+  "options": ["had", "has", "have", "did"],
+  "correctAnswer": "had"
+},
+{
+  "id": 73,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["connoisseur", "connoiseur", "conosieur", "connoiser"],
+  "correctAnswer": "connoisseur"
+},
+{
+  "id": 74,
+  "type": "true_false",
+  "question": "The speed of light is faster than the speed of sound.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 75,
+  "type": "who_is",
+  "question": "Who is an anthropologist?",
+  "options": ["Someone who studies human societies and cultures", "Someone who cooks", "Someone who drives", "Someone who paints"],
+  "correctAnswer": "Someone who studies human societies and cultures"
+},
+{
+  "id": 76,
+  "type": "cause_effect",
+  "question": "Why do people practice meditation?",
+  "options": ["To reduce stress and improve mental health", "To cause stress", "To increase anxiety", "To avoid work"],
+  "correctAnswer": "To reduce stress and improve mental health"
+},
+{
+  "id": 77,
+  "type": "translate",
+  "question": "Переклади: 'гіпотеза'",
+  "options": ["hypothesis", "hyperbole", "hypertension", "hydrolysis"],
+  "correctAnswer": "hypothesis"
+},
+{
+  "id": 78,
+  "type": "fill_in_the_blank",
+  "question": "Rarely ___ I encountered such generosity.",
+  "options": ["have", "has", "had", "was"],
+  "correctAnswer": "have"
+},
+{
+  "id": 79,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["entrepreneur", "enterpreneur", "entreprenuer", "entreprener"],
+  "correctAnswer": "entrepreneur"
+},
+{
+  "id": 80,
+  "type": "true_false",
+  "question": "The human brain consists of about 86 billion neurons.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 81,
+  "type": "translate",
+  "question": "Переклади: 'анотація'",
+  "options": ["annotation", "application", "association", "adaptation"],
+  "correctAnswer": "annotation"
+},
+{
+  "id": 82,
+  "type": "fill_in_the_blank",
+  "question": "Under no circumstances ___ you leave the door unlocked.",
+  "options": ["should", "shall", "would", "must"],
+  "correctAnswer": "should"
+},
+{
+  "id": 83,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["silhouette", "sillouette", "silhouete", "siluette"],
+  "correctAnswer": "silhouette"
+},
+{
+  "id": 84,
+  "type": "true_false",
+  "question": "The term 'macroeconomics' refers to the study of individual consumer behavior.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 85,
+  "type": "who_is",
+  "question": "Who is a dramaturge?",
+  "options": ["Someone who studies dramatic composition", "Someone who drives trains", "Someone who builds houses", "Someone who performs surgeries"],
+  "correctAnswer": "Someone who studies dramatic composition"
+},
+{
+  "id": 86,
+  "type": "cause_effect",
+  "question": "Why does deforestation lead to biodiversity loss?",
+  "options": ["Because natural habitats are destroyed", "Because it increases oxygen levels", "Because it reduces farming", "Because it helps climate stability"],
+  "correctAnswer": "Because natural habitats are destroyed"
+},
+{
+  "id": 87,
+  "type": "translate",
+  "question": "Переклади: 'емпірика'",
+  "options": ["empiricism", "empirical", "empire", "empowerment"],
+  "correctAnswer": "empiricism"
+},
+{
+  "id": 88,
+  "type": "fill_in_the_blank",
+  "question": "So intense ___ the pressure that she nearly fainted.",
+  "options": ["was", "were", "is", "are"],
+  "correctAnswer": "was"
+},
+{
+  "id": 89,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["camouflage", "camoflage", "camouphlage", "camaflage"],
+  "correctAnswer": "camouflage"
+},
+{
+  "id": 90,
+  "type": "true_false",
+  "question": "Quantum mechanics deals with the behavior of particles at atomic and subatomic levels.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 91,
+  "type": "who_is",
+  "question": "Who is a demographer?",
+  "options": ["Someone who studies populations", "Someone who paints landscapes", "Someone who translates books", "Someone who trains animals"],
+  "correctAnswer": "Someone who studies populations"
+},
+{
+  "id": 92,
+  "type": "cause_effect",
+  "question": "Why do coral reefs bleach?",
+  "options": ["Due to rising sea temperatures", "Due to plastic pollution", "Due to fishing", "Due to migration"],
+  "correctAnswer": "Due to rising sea temperatures"
+},
+{
+  "id": 93,
+  "type": "translate",
+  "question": "Переклади: 'дисертація'",
+  "options": ["dissertation", "discussion", "disruption", "disposition"],
+  "correctAnswer": "dissertation"
+},
+{
+  "id": 94,
+  "type": "fill_in_the_blank",
+  "question": "Rarely ___ such a stunning view seen from the valley.",
+  "options": ["is", "was", "has", "had"],
+  "correctAnswer": "is"
+},
+{
+  "id": 95,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["exhilarating", "exhilirating", "exillerating", "exhilerating"],
+  "correctAnswer": "exhilarating"
+},
+{
+  "id": 96,
+  "type": "true_false",
+  "question": "The Renaissance period preceded the Middle Ages.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 97,
+  "type": "who_is",
+  "question": "Who is a pathologist?",
+  "options": ["A doctor who examines tissue for disease", "A doctor who treats children", "A psychologist", "A nutritionist"],
+  "correctAnswer": "A doctor who examines tissue for disease"
+},
+{
+  "id": 98,
+  "type": "cause_effect",
+  "question": "Why does ocean acidification threaten marine life?",
+  "options": ["It reduces calcium carbonate needed for shells", "It increases oxygen", "It reduces salt levels", "It creates hurricanes"],
+  "correctAnswer": "It reduces calcium carbonate needed for shells"
+},
+{
+  "id": 99,
+  "type": "translate",
+  "question": "Переклади: 'відновлюваний'",
+  "options": ["renewable", "reliable", "relevant", "reversible"],
+  "correctAnswer": "renewable"
+},
+{
+  "id": 100,
+  "type": "fill_in_the_blank",
+  "question": "Little ___ the manager know about the upcoming audit.",
+  "options": ["did", "does", "has", "was"],
+  "correctAnswer": "did"
+},
+{
+  "id": 101,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["hierarchy", "hiearchy", "hierarcy", "heirarchy"],
+  "correctAnswer": "hierarchy"
+},
+{
+  "id": 102,
+  "type": "true_false",
+  "question": "In English, 'might' expresses a stronger possibility than 'must'.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 103,
+  "type": "who_is",
+  "question": "Who is an archivist?",
+  "options": ["Someone who manages historical records", "Someone who cooks", "Someone who translates texts", "Someone who directs movies"],
+  "correctAnswer": "Someone who manages historical records"
+},
+{
+  "id": 104,
+  "type": "cause_effect",
+  "question": "Why is methane considered a greenhouse gas?",
+  "options": ["Because it traps heat in the atmosphere", "Because it causes rain", "Because it smells bad", "Because it creates ozone"],
+  "correctAnswer": "Because it traps heat in the atmosphere"
+},
+{
+  "id": 105,
+  "type": "translate",
+  "question": "Переклади: 'обгрунтування'",
+  "options": ["justification", "judgement", "junction", "jurisdiction"],
+  "correctAnswer": "justification"
+},
+{
+  "id": 106,
+  "type": "fill_in_the_blank",
+  "question": "Only after the experiment ___ the theory validated.",
+  "options": ["was", "has", "have", "had"],
+  "correctAnswer": "was"
+},
+{
+  "id": 107,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["reminiscent", "reminisint", "reminicent", "reminiscentt"],
+  "correctAnswer": "reminiscent"
+},
+{
+  "id": 108,
+  "type": "true_false",
+  "question": "The word 'pervasive' means limited in scope.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 109,
+  "type": "who_is",
+  "question": "Who is an ecologist?",
+  "options": ["Someone who studies ecosystems", "Someone who designs software", "Someone who teaches languages", "Someone who plays instruments"],
+  "correctAnswer": "Someone who studies ecosystems"
+},
+{
+  "id": 110,
+  "type": "cause_effect",
+  "question": "Why do some species become endangered?",
+  "options": ["Due to habitat loss and poaching", "Because they evolve too quickly", "Because they eat too much", "Because they sleep during the day"],
+  "correctAnswer": "Due to habitat loss and poaching"
+},
+{
+  "id": 111,
+  "type": "translate",
+  "question": "Переклади: 'інновація'",
+  "options": ["innovation", "invocation", "installation", "integration"],
+  "correctAnswer": "innovation"
+},
+{
+  "id": 112,
+  "type": "fill_in_the_blank",
+  "question": "Not only ___ he lead the project, but he also managed the finances.",
+  "options": ["did", "has", "had", "was"],
+  "correctAnswer": "did"
+},
+{
+  "id": 113,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["surveillance", "surveilance", "survalience", "surveylance"],
+  "correctAnswer": "surveillance"
+},
+{
+  "id": 114,
+  "type": "true_false",
+  "question": "All nouns in English can be pluralized with '-s'.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 115,
+  "type": "who_is",
+  "question": "Who is a curator?",
+  "options": ["Someone who manages a museum's collection", "Someone who writes scripts", "Someone who builds roads", "Someone who bakes"],
+  "correctAnswer": "Someone who manages a museum's collection"
+},
+{
+  "id": 116,
+  "type": "cause_effect",
+  "question": "Why do ice caps melt?",
+  "options": ["Due to global warming", "Due to earthquakes", "Due to wind", "Due to volcanoes"],
+  "correctAnswer": "Due to global warming"
+},
+{
+  "id": 117,
+  "type": "translate",
+  "question": "Переклади: 'регуляція'",
+  "options": ["regulation", "registration", "relegation", "reflection"],
+  "correctAnswer": "regulation"
+},
+{
+  "id": 118,
+  "type": "fill_in_the_blank",
+  "question": "Never before ___ such a detailed study conducted.",
+  "options": ["was", "has", "have", "had"],
+  "correctAnswer": "has"
+},
+{
+  "id": 119,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["consensus", "concensus", "consencus", "consencious"],
+  "correctAnswer": "consensus"
+},
+{
+  "id": 120,
+  "type": "true_false",
+  "question": "The word 'anomaly' refers to something typical and expected.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 121,
+  "type": "translate",
+  "question": "Переклади: 'гнучкість'",
+  "options": ["flexibility", "fragility", "fluency", "fertility"],
+  "correctAnswer": "flexibility"
+},
+{
+  "id": 122,
+  "type": "fill_in_the_blank",
+  "question": "No sooner ___ the fire alarm rung than the evacuation began.",
+  "options": ["had", "has", "have", "was"],
+  "correctAnswer": "had"
+},
+{
+  "id": 123,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["conscientious", "consciencious", "consciencous", "conshentious"],
+  "correctAnswer": "conscientious"
+},
+{
+  "id": 124,
+  "type": "true_false",
+  "question": "Entropy in physics represents order and structure.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 125,
+  "type": "who_is",
+  "question": "Who is a statistician?",
+  "options": ["Someone who analyzes data using mathematical techniques", "Someone who grows plants", "Someone who teaches music", "Someone who fixes machines"],
+  "correctAnswer": "Someone who analyzes data using mathematical techniques"
+},
+{
+  "id": 126,
+  "type": "cause_effect",
+  "question": "Why does overfishing harm marine ecosystems?",
+  "options": ["It disrupts the food chain", "It increases biodiversity", "It reduces ocean temperature", "It cleans water"],
+  "correctAnswer": "It disrupts the food chain"
+},
+{
+  "id": 127,
+  "type": "translate",
+  "question": "Переклади: 'суперечливий'",
+  "options": ["controversial", "conflicted", "contentious", "confusing"],
+  "correctAnswer": "controversial"
+},
+{
+  "id": 128,
+  "type": "fill_in_the_blank",
+  "question": "Not until the storm ___ did they feel safe.",
+  "options": ["subsided", "subside", "subsides", "has subsided"],
+  "correctAnswer": "subsided"
+},
+{
+  "id": 129,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["acquiesce", "aquiesce", "ackweisce", "aquisce"],
+  "correctAnswer": "acquiesce"
+},
+{
+  "id": 130,
+  "type": "true_false",
+  "question": "In formal English, 'whom' is used as the object of a verb or preposition.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 131,
+  "type": "who_is",
+  "question": "Who is a climatologist?",
+  "options": ["Someone who studies climate and weather patterns", "Someone who creates clothing", "Someone who studies rocks", "Someone who manages hotels"],
+  "correctAnswer": "Someone who studies climate and weather patterns"
+},
+{
+  "id": 132,
+  "type": "cause_effect",
+  "question": "Why does industrialization increase carbon emissions?",
+  "options": ["Because factories burn fossil fuels", "Because it increases trees", "Because it stops farming", "Because it filters air"],
+  "correctAnswer": "Because factories burn fossil fuels"
+},
+{
+  "id": 133,
+  "type": "translate",
+  "question": "Переклади: 'узагальнення'",
+  "options": ["generalization", "generation", "gesture", "guideline"],
+  "correctAnswer": "generalization"
+},
+{
+  "id": 134,
+  "type": "fill_in_the_blank",
+  "question": "Rarely ___ the scientists encountered such complexity.",
+  "options": ["had", "have", "has", "was"],
+  "correctAnswer": "have"
+},
+{
+  "id": 135,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["irrevocable", "irrevokeable", "irrevokeble", "irevocabel"],
+  "correctAnswer": "irrevocable"
+},
+{
+  "id": 136,
+  "type": "true_false",
+  "question": "In passive voice, the subject performs the action.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 137,
+  "type": "who_is",
+  "question": "Who is a geneticist?",
+  "options": ["Someone who studies genes and heredity", "Someone who writes novels", "Someone who translates texts", "Someone who builds websites"],
+  "correctAnswer": "Someone who studies genes and heredity"
+},
+{
+  "id": 138,
+  "type": "cause_effect",
+  "question": "Why does climate change cause rising sea levels?",
+  "options": ["Because polar ice melts", "Because of reduced rainfall", "Because of volcanic activity", "Because fish migrate"],
+  "correctAnswer": "Because polar ice melts"
+},
+{
+  "id": 139,
+  "type": "translate",
+  "question": "Переклади: 'самоусвідомлення'",
+  "options": ["self-awareness", "self-esteem", "self-defense", "self-control"],
+  "correctAnswer": "self-awareness"
+},
+{
+  "id": 140,
+  "type": "fill_in_the_blank",
+  "question": "Only after they ___ the truth did they apologize.",
+  "options": ["learned", "learn", "have learned", "had learn"],
+  "correctAnswer": "learned"
+},
+{
+  "id": 141,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["indispensable", "indespensable", "indispendable", "indispensible"],
+  "correctAnswer": "indispensable"
+},
+{
+  "id": 142,
+  "type": "true_false",
+  "question": "Photosynthesis converts carbon dioxide into glucose and oxygen.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 143,
+  "type": "who_is",
+  "question": "Who is an archaeologist?",
+  "options": ["Someone who studies ancient human history through artifacts", "Someone who paints", "Someone who cuts hair", "Someone who does accounting"],
+  "correctAnswer": "Someone who studies ancient human history through artifacts"
+},
+{
+  "id": 144,
+  "type": "cause_effect",
+  "question": "Why is exercise beneficial to the brain?",
+  "options": ["It improves blood flow and memory", "It causes stress", "It burns neurons", "It limits oxygen"],
+  "correctAnswer": "It improves blood flow and memory"
+},
+{
+  "id": 145,
+  "type": "translate",
+  "question": "Переклади: 'переоцінка'",
+  "options": ["reassessment", "recession", "reaffirmation", "redistribution"],
+  "correctAnswer": "reassessment"
+},
+{
+  "id": 146,
+  "type": "fill_in_the_blank",
+  "question": "Not until midnight ___ she go home.",
+  "options": ["did", "has", "had", "was"],
+  "correctAnswer": "did"
+},
+{
+  "id": 147,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["resilience", "resiliance", "resillience", "resilense"],
+  "correctAnswer": "resilience"
+},
+{
+  "id": 148,
+  "type": "true_false",
+  "question": "The moon produces its own light.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 149,
+  "type": "who_is",
+  "question": "Who is a lexicographer?",
+  "options": ["Someone who compiles dictionaries", "Someone who studies laws", "Someone who drives taxis", "Someone who makes glass"],
+  "correctAnswer": "Someone who compiles dictionaries"
+},
+{
+  "id": 150,
+  "type": "cause_effect",
+  "question": "Why does burning fossil fuels affect the atmosphere?",
+  "options": ["It releases greenhouse gases", "It cools the Earth", "It attracts birds", "It creates clouds"],
+  "correctAnswer": "It releases greenhouse gases"
+},
+{
+  "id": 151,
+  "type": "translate",
+  "question": "Переклади: 'світогляд'",
+  "options": ["worldview", "insight", "belief", "consciousness"],
+  "correctAnswer": "worldview"
+},
+{
+  "id": 152,
+  "type": "fill_in_the_blank",
+  "question": "So loudly ___ the bell ring that everyone stopped talking.",
+  "options": ["did", "was", "had", "does"],
+  "correctAnswer": "did"
+},
+{
+  "id": 153,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["ubiquitous", "ubiquitious", "ubiqutous", "ubiquetos"],
+  "correctAnswer": "ubiquitous"
+},
+{
+  "id": 154,
+  "type": "true_false",
+  "question": "A simile is a comparison using 'like' or 'as'.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 155,
+  "type": "who_is",
+  "question": "Who is a sociologist?",
+  "options": ["Someone who studies human society and social behavior", "Someone who sculpts", "Someone who builds furniture", "Someone who directs films"],
+  "correctAnswer": "Someone who studies human society and social behavior"
+},
+{
+  "id": 156,
+  "type": "cause_effect",
+  "question": "Why do urban areas experience higher temperatures?",
+  "options": ["Due to heat absorption by buildings and roads", "Due to sea breeze", "Due to high rainfall", "Due to fog"],
+  "correctAnswer": "Due to heat absorption by buildings and roads"
+},
+{
+  "id": 157,
+  "type": "translate",
+  "question": "Переклади: 'відповідність'",
+  "options": ["compliance", "complaint", "completion", "complicity"],
+  "correctAnswer": "compliance"
+},
+{
+  "id": 158,
+  "type": "fill_in_the_blank",
+  "question": "Under no circumstances ___ they cancel the mission.",
+  "options": ["should", "must", "would", "will"],
+  "correctAnswer": "should"
+},
+{
+  "id": 159,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["accommodation", "acommodation", "accomodation", "acomodation"],
+  "correctAnswer": "accommodation"
+},
+{
+  "id": 160,
+  "type": "true_false",
+  "question": "A paradox is a statement that appears self-contradictory but may reveal a truth.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 161,
+  "type": "translate",
+  "question": "Переклади: 'співвідношення'",
+  "options": ["ratio", "range", "rate", "rank"],
+  "correctAnswer": "ratio"
+},
+{
+  "id": 162,
+  "type": "fill_in_the_blank",
+  "question": "Never before ___ we faced such challenges.",
+  "options": ["have", "had", "did", "was"],
+  "correctAnswer": "have"
+},
+{
+  "id": 163,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["rendezvous", "randevous", "rendavous", "rendzevous"],
+  "correctAnswer": "rendezvous"
+},
+{
+  "id": 164,
+  "type": "true_false",
+  "question": "The ozone layer protects the Earth from harmful UV radiation.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 165,
+  "type": "who_is",
+  "question": "Who is a mediator?",
+  "options": ["Someone who resolves disputes between parties", "Someone who cooks", "Someone who builds ships", "Someone who designs games"],
+  "correctAnswer": "Someone who resolves disputes between parties"
+},
+{
+  "id": 166,
+  "type": "cause_effect",
+  "question": "Why do pandemics spread quickly in urban areas?",
+  "options": ["Because of high population density", "Because of clean air", "Because of low birth rates", "Because of traffic"],
+  "correctAnswer": "Because of high population density"
+},
+{
+  "id": 167,
+  "type": "translate",
+  "question": "Переклади: 'підґрунтя'",
+  "options": ["foundation", "basement", "platform", "structure"],
+  "correctAnswer": "foundation"
+},
+{
+  "id": 168,
+  "type": "fill_in_the_blank",
+  "question": "Scarcely ___ the lecture ended when questions arose.",
+  "options": ["had", "has", "have", "did"],
+  "correctAnswer": "had"
+},
+{
+  "id": 169,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["rhythm", "rythm", "rythem", "rithm"],
+  "correctAnswer": "rhythm"
+},
+{
+  "id": 170,
+  "type": "true_false",
+  "question": "Democracy means rule by one individual.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 171,
+  "type": "who_is",
+  "question": "Who is a logician?",
+  "options": ["Someone who studies principles of reasoning", "Someone who drives trains", "Someone who cooks meat", "Someone who sings jazz"],
+  "correctAnswer": "Someone who studies principles of reasoning"
+},
+{
+  "id": 172,
+  "type": "cause_effect",
+  "question": "Why does air pollution affect human health?",
+  "options": ["Because it damages lungs and heart", "Because it makes people run", "Because it causes laughter", "Because it increases rainfall"],
+  "correctAnswer": "Because it damages lungs and heart"
+},
+{
+  "id": 173,
+  "type": "translate",
+  "question": "Переклади: 'передбачення'",
+  "options": ["prediction", "prevention", "production", "prescription"],
+  "correctAnswer": "prediction"
+},
+{
+  "id": 174,
+  "type": "fill_in_the_blank",
+  "question": "Little ___ she realize the impact of her actions.",
+  "options": ["did", "has", "have", "had"],
+  "correctAnswer": "did"
+},
+{
+  "id": 175,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["embarrassment", "embarassment", "embarrasement", "embarrasemant"],
+  "correctAnswer": "embarrassment"
+},
+{
+  "id": 176,
+  "type": "true_false",
+  "question": "A thesis is a detailed summary of someone else's research.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 177,
+  "type": "who_is",
+  "question": "Who is a linguist?",
+  "options": ["Someone who studies language", "Someone who creates recipes", "Someone who draws portraits", "Someone who grows flowers"],
+  "correctAnswer": "Someone who studies language"
+},
+{
+  "id": 178,
+  "type": "cause_effect",
+  "question": "Why do governments regulate monopolies?",
+  "options": ["To protect consumers from unfair pricing", "To boost profits", "To create chaos", "To reduce innovation"],
+  "correctAnswer": "To protect consumers from unfair pricing"
+},
+{
+  "id": 179,
+  "type": "translate",
+  "question": "Переклади: 'доцільність'",
+  "options": ["feasibility", "facility", "fragility", "flexibility"],
+  "correctAnswer": "feasibility"
+},
+{
+  "id": 180,
+  "type": "fill_in_the_blank",
+  "question": "Only when he apologized ___ she forgive him.",
+  "options": ["did", "has", "was", "had"],
+  "correctAnswer": "did"
+},
+{
+  "id": 181,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["parliament", "parlament", "parliement", "parlyament"],
+  "correctAnswer": "parliament"
+},
+{
+  "id": 182,
+  "type": "true_false",
+  "question": "Photosynthesis uses sunlight to create energy in plants.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+},
+{
+  "id": 183,
+  "type": "who_is",
+  "question": "Who is a dramaturg?",
+  "options": ["Someone who develops dramatic texts for theater", "Someone who reads books aloud", "Someone who translates ancient texts", "Someone who paints theater stages"],
+  "correctAnswer": "Someone who develops dramatic texts for theater"
+},
+{
+  "id": 184,
+  "type": "cause_effect",
+  "question": "Why do economic recessions increase unemployment?",
+  "options": ["Because businesses reduce costs", "Because wages rise", "Because demand grows", "Because imports increase"],
+  "correctAnswer": "Because businesses reduce costs"
+},
+{
+  "id": 185,
+  "type": "translate",
+  "question": "Переклади: 'застереження'",
+  "options": ["caution", "permission", "promotion", "commission"],
+  "correctAnswer": "caution"
+},
+{
+  "id": 186,
+  "type": "fill_in_the_blank",
+  "question": "Under no circumstances ___ you enter the lab without safety gear.",
+  "options": ["should", "must", "could", "has"],
+  "correctAnswer": "should"
+},
+{
+  "id": 187,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["maintenance", "maintainance", "mantainance", "maintanance"],
+  "correctAnswer": "maintenance"
+},
+{
+  "id": 188,
+  "type": "true_false",
+  "question": "A hypothesis is a proven scientific law.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 189,
+  "type": "who_is",
+  "question": "Who is an ethicist?",
+  "options": ["Someone who studies moral philosophy", "Someone who trains athletes", "Someone who paints ethically", "Someone who organizes events"],
+  "correctAnswer": "Someone who studies moral philosophy"
+},
+{
+  "id": 190,
+  "type": "cause_effect",
+  "question": "Why do companies conduct market research?",
+  "options": ["To understand customer needs", "To create taxes", "To limit profits", "To lose clients"],
+  "correctAnswer": "To understand customer needs"
+},
+{
+  "id": 191,
+  "type": "translate",
+  "question": "Переклади: 'відхилення'",
+  "options": ["deviation", "division", "deduction", "decision"],
+  "correctAnswer": "deviation"
+},
+{
+  "id": 192,
+  "type": "fill_in_the_blank",
+  "question": "Hardly ___ they spoken when the music started.",
+  "options": ["had", "has", "have", "was"],
+  "correctAnswer": "had"
+},
+{
+  "id": 193,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["deteriorate", "deteriate", "detoriorate", "deteriorrate"],
+  "correctAnswer": "deteriorate"
+},
+{
+  "id": 194,
+  "type": "true_false",
+  "question": "Mars is closer to the sun than Earth.",
+  "options": ["True", "False"],
+  "correctAnswer": "False"
+},
+{
+  "id": 195,
+  "type": "who_is",
+  "question": "Who is a historian?",
+  "options": ["Someone who studies and interprets the past", "Someone who manages hotels", "Someone who paints animals", "Someone who teaches sports"],
+  "correctAnswer": "Someone who studies and interprets the past"
+},
+{
+  "id": 196,
+  "type": "cause_effect",
+  "question": "Why do people recycle?",
+  "options": ["To reduce waste and save resources", "To pollute", "To grow trees", "To increase plastic"],
+  "correctAnswer": "To reduce waste and save resources"
+},
+{
+  "id": 197,
+  "type": "translate",
+  "question": "Переклади: 'міркування'",
+  "options": ["reasoning", "thinking", "solution", "doubt"],
+  "correctAnswer": "reasoning"
+},
+{
+  "id": 198,
+  "type": "fill_in_the_blank",
+  "question": "Not until sunrise ___ they began moving.",
+  "options": ["did", "have", "was", "has"],
+  "correctAnswer": "did"
+},
+{
+  "id": 199,
+  "type": "spelling",
+  "question": "Choose the correct spelling:",
+  "options": ["questionnaire", "questionare", "questioneer", "questionaire"],
+  "correctAnswer": "questionnaire"
+},
+{
+  "id": 200,
+  "type": "true_false",
+  "question": "Oxygen is essential for human respiration.",
+  "options": ["True", "False"],
+  "correctAnswer": "True"
+}
+]

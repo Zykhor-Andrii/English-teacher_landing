@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "type": "translate",
+    "question": "Переклади: 'економіка'",
+    "options": ["economy", "ecology", "education", "energy"],
+    "correctAnswer": "economy"
+  },
+  {
+    "id": 2,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ known about the meeting, I would have attended.",
+    "options": ["had", "have", "has", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 3,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["accommodation", "acommodation", "accomodation", "accomadation"],
+    "correctAnswer": "accommodation"
+  },
+  {
+    "id": 4,
+    "type": "true_false",
+    "question": "The capital of Australia is Sydney.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 5,
+    "type": "who_is",
+    "question": "Who is a diplomat?",
+    "options": ["Someone who manages conflicts between countries", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who manages conflicts between countries"
+  },
+  {
+    "id": 6,
+    "type": "cause_effect",
+    "question": "Why do factories produce pollution?",
+    "options": ["Because they burn fossil fuels", "Because they plant trees", "Because they clean rivers", "Because they recycle waste"],
+    "correctAnswer": "Because they burn fossil fuels"
+  },
+  {
+    "id": 7,
+    "type": "translate",
+    "question": "Переклади: 'законодавство'",
+    "options": ["legislation", "literature", "labor", "language"],
+    "correctAnswer": "legislation"
+  },
+  {
+    "id": 8,
+    "type": "fill_in_the_blank",
+    "question": "She ___ been working here for five years.",
+    "options": ["has", "have", "had", "was"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 9,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["bureaucracy", "bureacracy", "buraucracy", "burocracy"],
+    "correctAnswer": "bureaucracy"
+  },
+  {
+    "id": 10,
+    "type": "true_false",
+    "question": "Water boils at 100 degrees Celsius.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 11,
+    "type": "who_is",
+    "question": "Who is an economist?",
+    "options": ["Someone who studies the economy", "Someone who paints", "Someone who writes music", "Someone who cooks"],
+    "correctAnswer": "Someone who studies the economy"
+  },
+  {
+    "id": 12,
+    "type": "cause_effect",
+    "question": "Why do people recycle?",
+    "options": ["To reduce waste", "To increase pollution", "To waste resources", "To destroy nature"],
+    "correctAnswer": "To reduce waste"
+  },
+  {
+    "id": 13,
+    "type": "translate",
+    "question": "Переклади: 'наука'",
+    "options": ["science", "society", "sentence", "scene"],
+    "correctAnswer": "science"
+  },
+  {
+    "id": 14,
+    "type": "fill_in_the_blank",
+    "question": "If it ___ rain tomorrow, we will go hiking.",
+    "options": ["does", "did", "do", "done"],
+    "correctAnswer": "does"
+  },
+  {
+    "id": 15,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["environment", "enviroment", "envirement", "environmnet"],
+    "correctAnswer": "environment"
+  },
+  {
+    "id": 16,
+    "type": "true_false",
+    "question": "The Great Wall of China is visible from space.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 17,
+    "type": "who_is",
+    "question": "Who is an architect?",
+    "options": ["Someone who designs buildings", "Someone who drives", "Someone who teaches", "Someone who sings"],
+    "correctAnswer": "Someone who designs buildings"
+  },
+  {
+    "id": 18,
+    "type": "cause_effect",
+    "question": "Why do people use solar energy?",
+    "options": ["Because it is renewable and clean", "Because it is expensive", "Because it pollutes the air", "Because it is non-renewable"],
+    "correctAnswer": "Because it is renewable and clean"
+  },
+  {
+    "id": 19,
+    "type": "translate",
+    "question": "Переклади: 'екологія'",
+    "options": ["ecology", "economy", "education", "economics"],
+    "correctAnswer": "ecology"
+  },
+  {
+    "id": 20,
+    "type": "fill_in_the_blank",
+    "question": "They ___ already finished the project.",
+    "options": ["have", "has", "had", "having"],
+    "correctAnswer": "have"
+  },
+  {
+    "id": 21,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["government", "goverment", "govornment", "governemnt"],
+    "correctAnswer": "government"
+  },
+  {
+    "id": 22,
+    "type": "true_false",
+    "question": "Lightning never strikes the same place twice.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 23,
+    "type": "who_is",
+    "question": "Who is a journalist?",
+    "options": ["Someone who reports news", "Someone who cooks", "Someone who drives", "Someone who dances"],
+    "correctAnswer": "Someone who reports news"
+  },
+  {
+    "id": 24,
+    "type": "cause_effect",
+    "question": "Why do people plant trees?",
+    "options": ["To improve air quality", "To pollute the environment", "To cut forests", "To increase waste"],
+    "correctAnswer": "To improve air quality"
+  },
+  {
+    "id": 25,
+    "type": "translate",
+    "question": "Переклади: 'технологія'",
+    "options": ["technology", "television", "telephone", "teaching"],
+    "correctAnswer": "technology"
+  },
+  {
+    "id": 26,
+    "type": "fill_in_the_blank",
+    "question": "I ___ seen that movie before.",
+    "options": ["have", "has", "had", "having"],
+    "correctAnswer": "have"
+  },
+  {
+    "id": 27,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["achievement", "acheivement", "achievment", "achievemnt"],
+    "correctAnswer": "achievement"
+  },
+  {
+    "id": 28,
+    "type": "true_false",
+    "question": "Venus is the hottest planet in our solar system.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 29,
+    "type": "who_is",
+    "question": "Who is a psychologist?",
+    "options": ["Someone who studies the mind", "Someone who repairs cars", "Someone who cooks", "Someone who writes books"],
+    "correctAnswer": "Someone who studies the mind"
+  },
+  {
+    "id": 30,
+    "type": "cause_effect",
+    "question": "Why do people use public transport?",
+    "options": ["To reduce traffic and pollution", "To increase pollution", "To drive faster", "To stay indoors"],
+    "correctAnswer": "To reduce traffic and pollution"
+  },
+  {
+    "id": 31,
+    "type": "translate",
+    "question": "Переклади: 'міжнародний'",
+    "options": ["international", "internal", "internet", "interesting"],
+    "correctAnswer": "international"
+  },
+  {
+    "id": 32,
+    "type": "fill_in_the_blank",
+    "question": "We ___ going to the conference next week.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
+  },
+  {
+    "id": 33,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["recommendation", "recomendation", "reccommendation", "recomandation"],
+    "correctAnswer": "recommendation"
+  },
+  {
+    "id": 34,
+    "type": "true_false",
+    "question": "Sharks are mammals.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 35,
+    "type": "who_is",
+    "question": "Who is an engineer?",
+    "options": ["Someone who designs and builds machines", "Someone who paints", "Someone who sings", "Someone who teaches"],
+    "correctAnswer": "Someone who designs and builds machines"
+  },
+  {
+    "id": 36,
+    "type": "cause_effect",
+    "question": "Why do people save money?",
+    "options": ["To prepare for the future", "To waste it", "To spend it quickly", "To lose it"],
+    "correctAnswer": "To prepare for the future"
+  },
+  {
+    "id": 37,
+    "type": "translate",
+    "question": "Переклади: 'енергія'",
+    "options": ["energy", "engine", "entry", "envelope"],
+    "correctAnswer": "energy"
+  },
+  {
+    "id": 38,
+    "type": "fill_in_the_blank",
+    "question": "He ___ been to Paris twice.",
+    "options": ["has", "have", "had", "was"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 39,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["maintenance", "maintainance", "maintenence", "maintnance"],
+    "correctAnswer": "maintenance"
+  },
+  {
+    "id": 40,
+    "type": "true_false",
+    "question": "Lightning is a form of electricity.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+   {
+    "id": 41,
+    "type": "translate",
+    "question": "Переклади: 'інвестиції'",
+    "options": ["investment", "interest", "insurance", "innovation"],
+    "correctAnswer": "investment"
+  },
+  {
+    "id": 42,
+    "type": "fill_in_the_blank",
+    "question": "He would have gone if he ___ more time.",
+    "options": ["had", "has", "have", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 43,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["maintenance", "maintainance", "maintanence", "maintnance"],
+    "correctAnswer": "maintenance"
+  },
+  {
+    "id": 44,
+    "type": "true_false",
+    "question": "The Amazon is the longest river in the world.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 45,
+    "type": "who_is",
+    "question": "Who is a biologist?",
+    "options": ["Someone who studies living things", "Someone who fixes cars", "Someone who cooks food", "Someone who sings"],
+    "correctAnswer": "Someone who studies living things"
+  },
+  {
+    "id": 46,
+    "type": "cause_effect",
+    "question": "Why do people use antibiotics?",
+    "options": ["To fight infections", "To cause diseases", "To clean wounds", "To get stronger"],
+    "correctAnswer": "To fight infections"
+  },
+  {
+    "id": 47,
+    "type": "translate",
+    "question": "Переклади: 'зміни'",
+    "options": ["changes", "charges", "choices", "chances"],
+    "correctAnswer": "changes"
+  },
+  {
+    "id": 48,
+    "type": "fill_in_the_blank",
+    "question": "She would travel more if she ___ money.",
+    "options": ["had", "has", "have", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 49,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["achievement", "acheivement", "achievment", "achievemnt"],
+    "correctAnswer": "achievement"
+  },
+  {
+    "id": 50,
+    "type": "true_false",
+    "question": "Venus is closer to the sun than Mercury.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 51,
+    "type": "who_is",
+    "question": "Who is an astronomer?",
+    "options": ["Someone who studies stars and planets", "Someone who fixes computers", "Someone who cooks", "Someone who drives"],
+    "correctAnswer": "Someone who studies stars and planets"
+  },
+  {
+    "id": 52,
+    "type": "cause_effect",
+    "question": "Why do plants need sunlight?",
+    "options": ["To make food", "To grow roots", "To absorb water", "To attract insects"],
+    "correctAnswer": "To make food"
+  },
+  {
+    "id": 53,
+    "type": "translate",
+    "question": "Переклади: 'прогрес'",
+    "options": ["progress", "process", "project", "product"],
+    "correctAnswer": "progress"
+  },
+  {
+    "id": 54,
+    "type": "fill_in_the_blank",
+    "question": "If she ___ earlier, she wouldn't have missed the train.",
+    "options": ["had left", "has left", "have left", "left"],
+    "correctAnswer": "had left"
+  },
+  {
+    "id": 55,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["environment", "enviroment", "envirement", "environmnet"],
+    "correctAnswer": "environment"
+  },
+  {
+    "id": 56,
+    "type": "true_false",
+    "question": "The human body has four lungs.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 57,
+    "type": "who_is",
+    "question": "Who is a mechanic?",
+    "options": ["Someone who repairs machines", "Someone who teaches", "Someone who cooks", "Someone who writes books"],
+    "correctAnswer": "Someone who repairs machines"
+  },
+  {
+    "id": 58,
+    "type": "cause_effect",
+    "question": "Why do people exercise?",
+    "options": ["To stay healthy", "To get sick", "To sleep more", "To eat less"],
+    "correctAnswer": "To stay healthy"
+  },
+  {
+    "id": 59,
+    "type": "translate",
+    "question": "Переклади: 'експеримент'",
+    "options": ["experiment", "experience", "explanation", "examination"],
+    "correctAnswer": "experiment"
+  },
+  {
+    "id": 60,
+    "type": "fill_in_the_blank",
+    "question": "He wishes he ___ more time to study.",
+    "options": ["had", "has", "have", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 61,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["philosophy", "filosophy", "philosofy", "filosofy"],
+    "correctAnswer": "philosophy"
+  },
+  {
+    "id": 62,
+    "type": "true_false",
+    "question": "Gold is a metal.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 63,
+    "type": "who_is",
+    "question": "Who is a geologist?",
+    "options": ["Someone who studies rocks", "Someone who studies animals", "Someone who studies stars", "Someone who cooks"],
+    "correctAnswer": "Someone who studies rocks"
+  },
+  {
+    "id": 64,
+    "type": "cause_effect",
+    "question": "Why do we recycle plastic?",
+    "options": ["To reduce pollution", "To create more waste", "To waste resources", "To pollute the environment"],
+    "correctAnswer": "To reduce pollution"
+  },
+  {
+    "id": 65,
+    "type": "translate",
+    "question": "Переклади: 'винахід'",
+    "options": ["invention", "investment", "inspection", "instruction"],
+    "correctAnswer": "invention"
+  },
+  {
+    "id": 66,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ you, I would accept the offer.",
+    "options": ["were", "was", "am", "is"],
+    "correctAnswer": "were"
+  },
+  {
+    "id": 67,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["necessary", "neccessary", "nessessary", "necessery"],
+    "correctAnswer": "necessary"
+  },
+  {
+    "id": 68,
+    "type": "true_false",
+    "question": "The Earth revolves around the Sun.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 69,
+    "type": "who_is",
+    "question": "Who is a linguist?",
+    "options": ["Someone who studies languages", "Someone who cooks", "Someone who drives", "Someone who paints"],
+    "correctAnswer": "Someone who studies languages"
+  },
+  {
+    "id": 70,
+    "type": "cause_effect",
+    "question": "Why do people sleep?",
+    "options": ["To rest and recover", "To stay awake", "To eat", "To exercise"],
+    "correctAnswer": "To rest and recover"
+  },
+  {
+    "id": 71,
+    "type": "translate",
+    "question": "Переклади: 'філософія'",
+    "options": ["philosophy", "psychology", "biology", "geography"],
+    "correctAnswer": "philosophy"
+  },
+  {
+    "id": 72,
+    "type": "fill_in_the_blank",
+    "question": "We ___ never seen such a beautiful place before.",
+    "options": ["have", "has", "had", "having"],
+    "correctAnswer": "have"
+  },
+  {
+    "id": 73,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["psychology", "psycology", "psycholgy", "psychlogy"],
+    "correctAnswer": "psychology"
+  },
+  {
+    "id": 74,
+    "type": "true_false",
+    "question": "Sound travels faster in air than in water.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 75,
+    "type": "who_is",
+    "question": "Who is a historian?",
+    "options": ["Someone who studies history", "Someone who cooks", "Someone who sings", "Someone who drives"],
+    "correctAnswer": "Someone who studies history"
+  },
+  {
+    "id": 76,
+    "type": "cause_effect",
+    "question": "Why do people vote in elections?",
+    "options": ["To choose their leaders", "To ignore politics", "To create confusion", "To stay silent"],
+    "correctAnswer": "To choose their leaders"
+  },
+  {
+    "id": 77,
+    "type": "translate",
+    "question": "Переклади: 'політика'",
+    "options": ["politics", "policy", "pollution", "population"],
+    "correctAnswer": "politics"
+  },
+  {
+    "id": 78,
+    "type": "fill_in_the_blank",
+    "question": "He would travel more if he ___ the money.",
+    "options": ["had", "has", "have", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 79,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["government", "goverment", "govornment", "governemnt"],
+    "correctAnswer": "government"
+  },
+  {
+    "id": 80,
+    "type": "true_false",
+    "question": "The human brain controls the body.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+   {
+    "id": 81,
+    "type": "translate",
+    "question": "Переклади: 'економічний'",
+    "options": ["economic", "ecological", "educational", "electric"],
+    "correctAnswer": "economic"
+  },
+  {
+    "id": 82,
+    "type": "fill_in_the_blank",
+    "question": "She said she ___ finish the report by tomorrow.",
+    "options": ["would", "will", "can", "may"],
+    "correctAnswer": "would"
+  },
+  {
+    "id": 83,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["convenient", "conviniant", "convinient", "convinant"],
+    "correctAnswer": "convenient"
+  },
+  {
+    "id": 84,
+    "type": "true_false",
+    "question": "The Earth is the third planet from the Sun.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 85,
+    "type": "who_is",
+    "question": "Who is a mathematician?",
+    "options": ["Someone who studies numbers and equations", "Someone who cooks food", "Someone who drives cars", "Someone who sings"],
+    "correctAnswer": "Someone who studies numbers and equations"
+  },
+  {
+    "id": 86,
+    "type": "cause_effect",
+    "question": "Why do people wear seat belts?",
+    "options": ["To protect themselves in accidents", "To look fashionable", "To make noise", "To distract the driver"],
+    "correctAnswer": "To protect themselves in accidents"
+  },
+  {
+    "id": 87,
+    "type": "translate",
+    "question": "Переклади: 'технологічний'",
+    "options": ["technological", "telegraphic", "telepathic", "television"],
+    "correctAnswer": "technological"
+  },
+  {
+    "id": 88,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ known about the party, I would have come.",
+    "options": ["had", "have", "has", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 89,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["restaurant", "restaraunt", "restorant", "restourant"],
+    "correctAnswer": "restaurant"
+  },
+  {
+    "id": 90,
+    "type": "true_false",
+    "question": "Humans have five senses.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 91,
+    "type": "who_is",
+    "question": "Who is a photographer?",
+    "options": ["Someone who takes pictures", "Someone who paints", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who takes pictures"
+  },
+  {
+    "id": 92,
+    "type": "cause_effect",
+    "question": "Why do plants need water?",
+    "options": ["To survive and grow", "To move", "To make noise", "To attract animals"],
+    "correctAnswer": "To survive and grow"
+  },
+  {
+    "id": 93,
+    "type": "translate",
+    "question": "Переклади: 'природа'",
+    "options": ["nature", "nation", "native", "neutral"],
+    "correctAnswer": "nature"
+  },
+  {
+    "id": 94,
+    "type": "fill_in_the_blank",
+    "question": "He ___ go to the gym every morning.",
+    "options": ["used to", "use to", "uses to", "using to"],
+    "correctAnswer": "used to"
+  },
+  {
+    "id": 95,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["acquire", "aquire", "acqure", "acquaire"],
+    "correctAnswer": "acquire"
+  },
+  {
+    "id": 96,
+    "type": "true_false",
+    "question": "The moon produces its own light.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 97,
+    "type": "who_is",
+    "question": "Who is a librarian?",
+    "options": ["Someone who manages books in a library", "Someone who drives a bus", "Someone who cooks", "Someone who sings"],
+    "correctAnswer": "Someone who manages books in a library"
+  },
+  {
+    "id": 98,
+    "type": "cause_effect",
+    "question": "Why do people need sleep?",
+    "options": ["To restore energy and health", "To stay awake", "To watch TV", "To eat more"],
+    "correctAnswer": "To restore energy and health"
+  },
+  {
+    "id": 99,
+    "type": "translate",
+    "question": "Переклади: 'енергія'",
+    "options": ["energy", "engine", "entry", "envelope"],
+    "correctAnswer": "energy"
+  },
+  {
+    "id": 100,
+    "type": "fill_in_the_blank",
+    "question": "They ___ never seen such a beautiful view before.",
+    "options": ["have", "has", "had", "having"],
+    "correctAnswer": "have"
+  },
+  {
+    "id": 101,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["necessary", "neccessary", "nessessary", "necessery"],
+    "correctAnswer": "necessary"
+  },
+  {
+    "id": 102,
+    "type": "true_false",
+    "question": "Bats are birds.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 103,
+    "type": "who_is",
+    "question": "Who is a chef?",
+    "options": ["Someone who cooks food", "Someone who sings", "Someone who writes books", "Someone who drives"],
+    "correctAnswer": "Someone who cooks food"
+  },
+  {
+    "id": 104,
+    "type": "cause_effect",
+    "question": "Why do people plant trees?",
+    "options": ["To produce oxygen", "To pollute the environment", "To cut down forests", "To increase waste"],
+    "correctAnswer": "To produce oxygen"
+  },
+  {
+    "id": 105,
+    "type": "translate",
+    "question": "Переклади: 'комунікація'",
+    "options": ["communication", "commutation", "combination", "competition"],
+    "correctAnswer": "communication"
+  },
+  {
+    "id": 106,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ you, I would apologize.",
+    "options": ["were", "was", "am", "is"],
+    "correctAnswer": "were"
+  },
+  {
+    "id": 107,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["maintenance", "maintainance", "maintanence", "maintnance"],
+    "correctAnswer": "maintenance"
+  },
+  {
+    "id": 108,
+    "type": "true_false",
+    "question": "Water freezes at 0 degrees Celsius.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 109,
+    "type": "who_is",
+    "question": "Who is a dentist?",
+    "options": ["Someone who treats teeth", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who treats teeth"
+  },
+  {
+    "id": 110,
+    "type": "cause_effect",
+    "question": "Why do people read books?",
+    "options": ["To gain knowledge", "To lose time", "To sleep", "To eat"],
+    "correctAnswer": "To gain knowledge"
+  },
+  {
+    "id": 111,
+    "type": "translate",
+    "question": "Переклади: 'програма'",
+    "options": ["program", "progress", "process", "product"],
+    "correctAnswer": "program"
+  },
+  {
+    "id": 112,
+    "type": "fill_in_the_blank",
+    "question": "We ___ going to the museum tomorrow.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
+  },
+  {
+    "id": 113,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["psychology", "psycology", "psycholgy", "psychlogy"],
+    "correctAnswer": "psychology"
+  },
+  {
+    "id": 114,
+    "type": "true_false",
+    "question": "The sun rises in the west.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 115,
+    "type": "who_is",
+    "question": "Who is a pilot?",
+    "options": ["Someone who flies airplanes", "Someone who cooks", "Someone who drives cars", "Someone who sings"],
+    "correctAnswer": "Someone who flies airplanes"
+  },
+  {
+    "id": 116,
+    "type": "cause_effect",
+    "question": "Why do people use computers?",
+    "options": ["To perform tasks faster", "To waste time", "To avoid work", "To sleep"],
+    "correctAnswer": "To perform tasks faster"
+  },
+  {
+    "id": 117,
+    "type": "translate",
+    "question": "Переклади: 'експертиза'",
+    "options": ["expertise", "experiment", "explanation", "examination"],
+    "correctAnswer": "expertise"
+  },
+  {
+    "id": 118,
+    "type": "fill_in_the_blank",
+    "question": "He ___ never traveled abroad before.",
+    "options": ["has", "have", "had", "was"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 119,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["necessary", "neccessary", "nessessary", "necessery"],
+    "correctAnswer": "necessary"
+  },
+  {
+    "id": 120,
+    "type": "true_false",
+    "question": "Lightning is hotter than the surface of the sun.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 121,
+    "type": "translate",
+    "question": "Переклади: 'проект'",
+    "options": ["project", "product", "process", "program"],
+    "correctAnswer": "project"
+  },
+  {
+    "id": 122,
+    "type": "fill_in_the_blank",
+    "question": "If she ___ earlier, she would have caught the bus.",
+    "options": ["had left", "has left", "have left", "left"],
+    "correctAnswer": "had left"
+  },
+  {
+    "id": 123,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["occasionally", "ocasionally", "ocassionally", "occassionally"],
+    "correctAnswer": "occasionally"
+  },
+  {
+    "id": 124,
+    "type": "true_false",
+    "question": "Jupiter is the largest planet in our solar system.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 125,
+    "type": "who_is",
+    "question": "Who is a translator?",
+    "options": ["Someone who converts text from one language to another", "Someone who cooks food", "Someone who drives", "Someone who paints"],
+    "correctAnswer": "Someone who converts text from one language to another"
+  },
+  {
+    "id": 126,
+    "type": "cause_effect",
+    "question": "Why do people use renewable energy?",
+    "options": ["To protect the environment", "To increase pollution", "To waste resources", "To pollute the air"],
+    "correctAnswer": "To protect the environment"
+  },
+  {
+    "id": 127,
+    "type": "translate",
+    "question": "Переклади: 'відповідальність'",
+    "options": ["responsibility", "response", "resistance", "resolution"],
+    "correctAnswer": "responsibility"
+  },
+  {
+    "id": 128,
+    "type": "fill_in_the_blank",
+    "question": "They ___ been waiting for an hour.",
+    "options": ["have", "has", "had", "was"],
+    "correctAnswer": "have"
+  },
+  {
+    "id": 129,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["recommendation", "recomendation", "reccommendation", "recomandation"],
+    "correctAnswer": "recommendation"
+  },
+  {
+    "id": 130,
+    "type": "true_false",
+    "question": "The Pacific Ocean is the largest ocean on Earth.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 131,
+    "type": "who_is",
+    "question": "Who is an architect?",
+    "options": ["Someone who designs buildings", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who designs buildings"
+  },
+  {
+    "id": 132,
+    "type": "cause_effect",
+    "question": "Why do people recycle paper?",
+    "options": ["To save trees", "To pollute", "To waste resources", "To increase garbage"],
+    "correctAnswer": "To save trees"
+  },
+  {
+    "id": 133,
+    "type": "translate",
+    "question": "Переклади: 'інновація'",
+    "options": ["innovation", "information", "inspection", "interaction"],
+    "correctAnswer": "innovation"
+  },
+  {
+    "id": 134,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ you, I would accept the offer.",
+    "options": ["were", "was", "am", "is"],
+    "correctAnswer": "were"
+  },
+  {
+    "id": 135,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["environment", "enviroment", "envirement", "environmnet"],
+    "correctAnswer": "environment"
+  },
+  {
+    "id": 136,
+    "type": "true_false",
+    "question": "Diamonds are made of carbon.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 137,
+    "type": "who_is",
+    "question": "Who is a psychologist?",
+    "options": ["Someone who studies the mind", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who studies the mind"
+  },
+  {
+    "id": 138,
+    "type": "cause_effect",
+    "question": "Why do people eat vegetables?",
+    "options": ["To stay healthy", "To get sick", "To sleep more", "To gain weight"],
+    "correctAnswer": "To stay healthy"
+  },
+  {
+    "id": 139,
+    "type": "translate",
+    "question": "Переклади: 'розвиток'",
+    "options": ["development", "decision", "description", "design"],
+    "correctAnswer": "development"
+  },
+  {
+    "id": 140,
+    "type": "fill_in_the_blank",
+    "question": "She ___ already finished her homework.",
+    "options": ["has", "have", "had", "having"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 141,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["achievement", "acheivement", "achievment", "achievemnt"],
+    "correctAnswer": "achievement"
+  },
+  {
+    "id": 142,
+    "type": "true_false",
+    "question": "The human heart has four chambers.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 143,
+    "type": "who_is",
+    "question": "Who is a lawyer?",
+    "options": ["Someone who practices law", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who practices law"
+  },
+  {
+    "id": 144,
+    "type": "cause_effect",
+    "question": "Why do people read newspapers?",
+    "options": ["To stay informed", "To get bored", "To waste time", "To sleep"],
+    "correctAnswer": "To stay informed"
+  },
+  {
+    "id": 145,
+    "type": "translate",
+    "question": "Переклади: 'ресурс'",
+    "options": ["resource", "reason", "result", "response"],
+    "correctAnswer": "resource"
+  },
+  {
+    "id": 146,
+    "type": "fill_in_the_blank",
+    "question": "If they ___ earlier, they would have arrived on time.",
+    "options": ["had left", "has left", "have left", "left"],
+    "correctAnswer": "had left"
+  },
+  {
+    "id": 147,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["necessary", "neccessary", "nessessary", "necessery"],
+    "correctAnswer": "necessary"
+  },
+  {
+    "id": 148,
+    "type": "true_false",
+    "question": "The Eiffel Tower is located in Berlin.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 149,
+    "type": "who_is",
+    "question": "Who is a pharmacist?",
+    "options": ["Someone who prepares and dispenses medicines", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who prepares and dispenses medicines"
+  },
+  {
+    "id": 150,
+    "type": "cause_effect",
+    "question": "Why do people exercise regularly?",
+    "options": ["To improve fitness and health", "To get tired", "To avoid work", "To sleep more"],
+    "correctAnswer": "To improve fitness and health"
+  },
+  {
+    "id": 151,
+    "type": "translate",
+    "question": "Переклади: 'технологія'",
+    "options": ["technology", "television", "telephone", "telepathy"],
+    "correctAnswer": "technology"
+  },
+  {
+    "id": 152,
+    "type": "fill_in_the_blank",
+    "question": "We ___ planning a trip next month.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
+  },
+  {
+    "id": 153,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["psychology", "psycology", "psycholgy", "psychlogy"],
+    "correctAnswer": "psychology"
+  },
+  {
+    "id": 154,
+    "type": "true_false",
+    "question": "Cats are mammals.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 155,
+    "type": "who_is",
+    "question": "Who is a firefighter?",
+    "options": ["Someone who puts out fires", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who puts out fires"
+  },
+  {
+    "id": 156,
+    "type": "cause_effect",
+    "question": "Why do people wear masks during a pandemic?",
+    "options": ["To prevent the spread of disease", "To look fashionable", "To hide their face", "To breathe less"],
+    "correctAnswer": "To prevent the spread of disease"
+  },
+  {
+    "id": 157,
+    "type": "translate",
+    "question": "Переклади: 'інформація'",
+    "options": ["information", "innovation", "inspection", "instruction"],
+    "correctAnswer": "information"
+  },
+  {
+    "id": 158,
+    "type": "fill_in_the_blank",
+    "question": "He ___ never seen snow before.",
+    "options": ["has", "have", "had", "was"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 159,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["achievement", "acheivement", "achievment", "achievemnt"],
+    "correctAnswer": "achievement"
+  },
+  {
+    "id": 160,
+    "type": "true_false",
+    "question": "Water boils at 100 degrees Celsius.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 161,
+    "type": "translate",
+    "question": "Переклади: 'організація'",
+    "options": ["organization", "organization", "orientation", "operation"],
+    "correctAnswer": "organization"
+  },
+  {
+    "id": 162,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ the answer, I would tell you.",
+    "options": ["knew", "know", "knows", "known"],
+    "correctAnswer": "knew"
+  },
+  {
+    "id": 163,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["accommodation", "acommodation", "accomodation", "accommadation"],
+    "correctAnswer": "accommodation"
+  },
+  {
+    "id": 164,
+    "type": "true_false",
+    "question": "The Great Wall of China is visible from space.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 165,
+    "type": "who_is",
+    "question": "Who is a novelist?",
+    "options": ["Someone who writes novels", "Someone who paints", "Someone who drives", "Someone who cooks"],
+    "correctAnswer": "Someone who writes novels"
+  },
+  {
+    "id": 166,
+    "type": "cause_effect",
+    "question": "Why do people use sunscreen?",
+    "options": ["To protect their skin from the sun", "To make their skin darker", "To smell good", "To cool down"],
+    "correctAnswer": "To protect their skin from the sun"
+  },
+  {
+    "id": 167,
+    "type": "translate",
+    "question": "Переклади: 'стратегія'",
+    "options": ["strategy", "structure", "strategy", "statistics"],
+    "correctAnswer": "strategy"
+  },
+  {
+    "id": 168,
+    "type": "fill_in_the_blank",
+    "question": "They ___ already finished the project.",
+    "options": ["have", "has", "had", "was"],
+    "correctAnswer": "have"
+  },
+  {
+    "id": 169,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["rhythm", "rythm", "rithm", "rithym"],
+    "correctAnswer": "rhythm"
+  },
+  {
+    "id": 170,
+    "type": "true_false",
+    "question": "Sharks are mammals.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 171,
+    "type": "who_is",
+    "question": "Who is an engineer?",
+    "options": ["Someone who designs and builds things", "Someone who cooks", "Someone who sings", "Someone who drives"],
+    "correctAnswer": "Someone who designs and builds things"
+  },
+  {
+    "id": 172,
+    "type": "cause_effect",
+    "question": "Why do people drink water?",
+    "options": ["To stay hydrated", "To get tired", "To sleep", "To lose weight"],
+    "correctAnswer": "To stay hydrated"
+  },
+  {
+    "id": 173,
+    "type": "translate",
+    "question": "Переклади: 'навчання'",
+    "options": ["education", "edition", "edition", "execution"],
+    "correctAnswer": "education"
+  },
+  {
+    "id": 174,
+    "type": "fill_in_the_blank",
+    "question": "He ___ to the gym every day last year.",
+    "options": ["went", "goes", "going", "gone"],
+    "correctAnswer": "went"
+  },
+  {
+    "id": 175,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["independent", "independant", "indepentent", "independant"],
+    "correctAnswer": "independent"
+  },
+  {
+    "id": 176,
+    "type": "true_false",
+    "question": "The Sahara Desert is the largest desert in the world.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 177,
+    "type": "who_is",
+    "question": "Who is a biochemist?",
+    "options": ["Someone who studies chemical processes in living things", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who studies chemical processes in living things"
+  },
+  {
+    "id": 178,
+    "type": "cause_effect",
+    "question": "Why do people use public transportation?",
+    "options": ["To reduce traffic and pollution", "To increase pollution", "To waste time", "To get lost"],
+    "correctAnswer": "To reduce traffic and pollution"
+  },
+  {
+    "id": 179,
+    "type": "translate",
+    "question": "Переклади: 'розвага'",
+    "options": ["entertainment", "entitlement", "enterprise", "entrance"],
+    "correctAnswer": "entertainment"
+  },
+  {
+    "id": 180,
+    "type": "fill_in_the_blank",
+    "question": "If I ___ more money, I would buy a car.",
+    "options": ["had", "have", "has", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 181,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["guarantee", "guarentee", "guarantie", "guaranty"],
+    "correctAnswer": "guarantee"
+  },
+  {
+    "id": 182,
+    "type": "true_false",
+    "question": "The Pacific Ocean is smaller than the Atlantic Ocean.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 183,
+    "type": "who_is",
+    "question": "Who is a psychologist?",
+    "options": ["Someone who studies the mind", "Someone who cooks", "Someone who drives", "Someone who paints"],
+    "correctAnswer": "Someone who studies the mind"
+  },
+  {
+    "id": 184,
+    "type": "cause_effect",
+    "question": "Why do people recycle glass?",
+    "options": ["To save resources and reduce waste", "To pollute the environment", "To waste resources", "To create garbage"],
+    "correctAnswer": "To save resources and reduce waste"
+  },
+  {
+    "id": 185,
+    "type": "translate",
+    "question": "Переклади: 'транспорт'",
+    "options": ["transport", "transaction", "translation", "transition"],
+    "correctAnswer": "transport"
+  },
+  {
+    "id": 186,
+    "type": "fill_in_the_blank",
+    "question": "They ___ working on the project since last week.",
+    "options": ["have been", "has been", "had been", "was"],
+    "correctAnswer": "have been"
+  },
+  {
+    "id": 187,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["maintenance", "maintainance", "maintanence", "maintnance"],
+    "correctAnswer": "maintenance"
+  },
+  {
+    "id": 188,
+    "type": "true_false",
+    "question": "Humans can breathe underwater without equipment.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 189,
+    "type": "who_is",
+    "question": "Who is an economist?",
+    "options": ["Someone who studies economics and markets", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who studies economics and markets"
+  },
+  {
+    "id": 190,
+    "type": "cause_effect",
+    "question": "Why do people plant trees in cities?",
+    "options": ["To improve air quality and provide shade", "To increase pollution", "To waste space", "To build more roads"],
+    "correctAnswer": "To improve air quality and provide shade"
+  },
+  {
+    "id": 191,
+    "type": "translate",
+    "question": "Переклади: 'екологія'",
+    "options": ["ecology", "economy", "ecstasy", "education"],
+    "correctAnswer": "ecology"
+  },
+  {
+    "id": 192,
+    "type": "fill_in_the_blank",
+    "question": "If he ___ studied harder, he would have passed the exam.",
+    "options": ["had", "has", "have", "will"],
+    "correctAnswer": "had"
+  },
+  {
+    "id": 193,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["conscience", "consciense", "consience", "consciens"],
+    "correctAnswer": "conscience"
+  },
+  {
+    "id": 194,
+    "type": "true_false",
+    "question": "Lightning never strikes the same place twice.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 195,
+    "type": "who_is",
+    "question": "Who is a botanist?",
+    "options": ["Someone who studies plants", "Someone who cooks", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who studies plants"
+  },
+  {
+    "id": 196,
+    "type": "cause_effect",
+    "question": "Why do people eat healthy food?",
+    "options": ["To stay fit and healthy", "To get sick", "To gain weight", "To sleep more"],
+    "correctAnswer": "To stay fit and healthy"
+  },
+  {
+    "id": 197,
+    "type": "translate",
+    "question": "Переклади: 'комунікація'",
+    "options": ["communication", "combination", "competition", "connection"],
+    "correctAnswer": "communication"
+  },
+  {
+    "id": 198,
+    "type": "fill_in_the_blank",
+    "question": "She ___ never seen such a beautiful sunset.",
+    "options": ["has", "have", "had", "was"],
+    "correctAnswer": "has"
+  },
+  {
+    "id": 199,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["recognition", "recoginition", "recogniation", "recoginition"],
+    "correctAnswer": "recognition"
+  },
+  {
+    "id": 200,
+    "type": "true_false",
+    "question": "The human skeleton is made of bones.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  } 
+]

@@ -1,3602 +1,1234 @@
 [
   {
     "id": 1,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "phone",
-      "cat",
-      "milk",
-      "bird"
-    ],
-    "correctAnswer": "phone"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["definately", "definitely", "definitly", "definete"],
+    "correctAnswer": "definitely"
   },
   {
     "id": 2,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "is",
-      "am",
-      "was",
-      "are"
-    ],
-    "correctAnswer": "am"
+    "type": "fill_in_the_blank",
+    "question": "She ___ a teacher.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
   },
   {
     "id": 3,
-    "type": "vocabulary",
-    "question": "Translate 'вогонь' into English",
-    "options": [
-      "dog",
-      "fire",
-      "chair",
-      "house"
-    ],
-    "correctAnswer": "fire"
+    "type": "translate",
+    "question": "Переклади: 'кіт'",
+    "options": ["dog", "cat", "rat", "cow"],
+    "correctAnswer": "cat"
   },
   {
     "id": 4,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "moon",
-      "chair",
-      "bird",
-      "phone"
-    ],
-    "correctAnswer": "chair"
+    "type": "who_is",
+    "question": "Who is a doctor?",
+    "options": ["Someone who cooks", "Someone who teaches", "Someone who drives", "Someone who helps sick people"],
+    "correctAnswer": "Someone who helps sick people"
   },
   {
     "id": 5,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "are",
-      "am",
-      "was",
-      "is"
-    ],
-    "correctAnswer": "am"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["restaurent", "restaurant", "restorant", "restaurnt"],
+    "correctAnswer": "restaurant"
   },
   {
     "id": 6,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarrass",
-      "embarass",
-      "embarrasing",
-      "embarras"
-    ],
-    "correctAnswer": "embarrass"
+    "type": "fill_in_the_blank",
+    "question": "They ___ playing football.",
+    "options": ["am", "is", "are", "be"],
+    "correctAnswer": "are"
   },
   {
     "id": 7,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "ocurred",
-      "occured",
-      "occurred",
-      "occurred"
-    ],
-    "correctAnswer": "occurred"
+    "type": "translate",
+    "question": "Переклади: 'сонце'",
+    "options": ["sun", "moon", "star", "cloud"],
+    "correctAnswer": "sun"
   },
   {
     "id": 8,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "phone",
-      "apple",
-      "fish",
-      "moon"
-    ],
-    "correctAnswer": "phone"
+    "type": "true_false",
+    "question": "The word 'red' is a color.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 9,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "was",
-      "am",
-      "is",
-      "are"
-    ],
-    "correctAnswer": "am"
+    "type": "cause_effect",
+    "question": "Why do people use umbrellas?",
+    "options": ["To stay dry", "To see better", "To sleep", "To eat"],
+    "correctAnswer": "To stay dry"
   },
   {
     "id": 10,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "He",
-      "They",
-      "It",
-      "She"
-    ],
-    "correctAnswer": "She"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["becos", "because", "becouse", "becasue"],
+    "correctAnswer": "because"
   },
   {
     "id": 11,
-    "type": "vocabulary",
-    "question": "Translate 'двері' into English",
-    "options": [
-      "sky",
-      "door",
-      "milk",
-      "tree"
-    ],
-    "correctAnswer": "door"
+    "type": "fill_in_the_blank",
+    "question": "I ___ a book every day.",
+    "options": ["reads", "read", "reading", "reader"],
+    "correctAnswer": "read"
   },
   {
     "id": 12,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "chair",
-      "phone",
-      "door",
-      "cat"
-    ],
-    "correctAnswer": "chair"
+    "type": "translate",
+    "question": "Переклади: 'мама'",
+    "options": ["mother", "father", "sister", "brother"],
+    "correctAnswer": "mother"
   },
   {
     "id": 13,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occurred",
-      "ocurred",
-      "occured",
-      "occurred"
-    ],
-    "correctAnswer": "occurred"
+    "type": "true_false",
+    "question": "The moon is hot.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 14,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definetely",
-      "definately",
-      "definitely",
-      "defanitely"
-    ],
-    "correctAnswer": "definitely"
+    "type": "who_is",
+    "question": "Who is a teacher?",
+    "options": ["Someone who cooks", "Someone who teaches", "Someone who builds", "Someone who sings"],
+    "correctAnswer": "Someone who teaches"
   },
   {
     "id": 15,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarrass",
-      "embarras",
-      "embarrasing",
-      "embarass"
-    ],
-    "correctAnswer": "embarrass"
+    "type": "cause_effect",
+    "question": "Why do we wear jackets in winter?",
+    "options": ["To look good", "To stay warm", "To be strong", "To be fast"],
+    "correctAnswer": "To stay warm"
   },
   {
     "id": 16,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "tree",
-      "phone",
-      "sky",
-      "sun"
-    ],
-    "correctAnswer": "sun"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["beleive", "belive", "believe", "beleeve"],
+    "correctAnswer": "believe"
   },
   {
     "id": 17,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "environment",
-      "envirenment",
-      "enviroment",
-      "environent"
-    ],
-    "correctAnswer": "environment"
+    "type": "fill_in_the_blank",
+    "question": "We ___ to school by bus.",
+    "options": ["go", "goes", "going", "gone"],
+    "correctAnswer": "go"
   },
   {
     "id": 18,
-    "type": "vocabulary",
-    "question": "Translate 'собака' into English",
-    "options": [
-      "window",
-      "fire",
-      "dog",
-      "chair"
-    ],
-    "correctAnswer": "dog"
-  },
-  {
-    "id": 19,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "does",
-      "do",
-      "are",
-      "did"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 20,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "is",
-      "are",
-      "was",
-      "am"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 21,
-    "type": "vocabulary",
-    "question": "Translate 'машина' into English",
-    "options": [
-      "window",
-      "fish",
-      "door",
-      "car"
-    ],
+    "type": "translate",
+    "question": "Переклади: 'машина'",
+    "options": ["train", "plane", "car", "bike"],
     "correctAnswer": "car"
   },
   {
+    "id": 19,
+    "type": "true_false",
+    "question": "Water is wet.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 20,
+    "type": "who_is",
+    "question": "Who is a singer?",
+    "options": ["Someone who paints", "Someone who sings", "Someone who runs", "Someone who cooks"],
+    "correctAnswer": "Someone who sings"
+  },
+  {
+    "id": 21,
+    "type": "cause_effect",
+    "question": "Why do we brush our teeth?",
+    "options": ["To eat food", "To talk better", "To stay clean", "To sleep well"],
+    "correctAnswer": "To stay clean"
+  },
+  {
     "id": 22,
-    "type": "vocabulary",
-    "question": "Translate 'риба' into English",
-    "options": [
-      "milk",
-      "fire",
-      "dog",
-      "fish"
-    ],
-    "correctAnswer": "fish"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["freind", "friend", "frend", "fren"],
+    "correctAnswer": "friend"
   },
   {
     "id": 23,
-    "type": "vocabulary",
-    "question": "Translate 'вікно' into English",
-    "options": [
-      "window",
-      "fish",
-      "chair",
-      "fire"
-    ],
-    "correctAnswer": "window"
+    "type": "fill_in_the_blank",
+    "question": "___ name is Anna.",
+    "options": ["Her", "She", "Hers", "Him"],
+    "correctAnswer": "Her"
   },
   {
     "id": 24,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "seperate",
-      "sepparate",
-      "seperete",
-      "separate"
-    ],
-    "correctAnswer": "separate"
+    "type": "translate",
+    "question": "Переклади: 'червоний'",
+    "options": ["blue", "green", "yellow", "red"],
+    "correctAnswer": "red"
   },
   {
     "id": 25,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accommodate",
-      "accomodate",
-      "accomadate",
-      "acommodate"
-    ],
-    "correctAnswer": "accommodate"
+    "type": "true_false",
+    "question": "Cats can fly.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 26,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occurred",
-      "ocurred",
-      "occurred",
-      "occured"
-    ],
-    "correctAnswer": "occurred"
+    "type": "cause_effect",
+    "question": "Why do people sleep?",
+    "options": ["To eat", "To rest", "To jump", "To drive"],
+    "correctAnswer": "To rest"
   },
   {
     "id": 27,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarrasing",
-      "embarass",
-      "embarras",
-      "embarrass"
-    ],
-    "correctAnswer": "embarrass"
+    "type": "who_is",
+    "question": "Who is a pilot?",
+    "options": ["Someone who flies a plane", "Someone who sails a boat", "Someone who cooks", "Someone who teaches"],
+    "correctAnswer": "Someone who flies a plane"
   },
   {
     "id": 28,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "She",
-      "It",
-      "They",
-      "He"
-    ],
-    "correctAnswer": "She"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["enviroment", "environment", "envirnment", "enviroenment"],
+    "correctAnswer": "environment"
   },
   {
     "id": 29,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listened",
-      "listens",
-      "listen",
-      "listening"
-    ],
-    "correctAnswer": "listens"
+    "type": "fill_in_the_blank",
+    "question": "He ___ not like coffee.",
+    "options": ["do", "is", "does", "did"],
+    "correctAnswer": "does"
   },
   {
     "id": 30,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "phone",
-      "cat",
-      "door",
-      "tree"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 31,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "moon",
-      "dog",
-      "tree",
-      "phone"
-    ],
-    "correctAnswer": "phone"
-  },
-  {
-    "id": 32,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "begining",
-      "beginning",
-      "beggining",
-      "beggining"
-    ],
-    "correctAnswer": "beginning"
-  },
-  {
-    "id": 33,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "table",
-      "milk",
-      "dog",
-      "apple"
-    ],
-    "correctAnswer": "apple"
-  },
-  {
-    "id": 34,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listen",
-      "listened",
-      "listens",
-      "listening"
-    ],
-    "correctAnswer": "listens"
-  },
-  {
-    "id": 35,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "nessesary",
-      "neccessary",
-      "necessary",
-      "necessery"
-    ],
-    "correctAnswer": "necessary"
-  },
-  {
-    "id": 36,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "was"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 37,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "chair",
-      "fire",
-      "phone",
-      "car"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 38,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "phone",
-      "apple",
-      "sun",
-      "earth"
-    ],
-    "correctAnswer": "sun"
-  },
-  {
-    "id": 39,
-    "type": "vocabulary",
-    "question": "Translate 'риба' into English",
-    "options": [
-      "fish",
-      "cat",
-      "chair",
-      "dog"
-    ],
-    "correctAnswer": "fish"
-  },
-  {
-    "id": 40,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "beggining",
-      "beggining",
-      "beginning",
-      "begining"
-    ],
-    "correctAnswer": "beginning"
-  },
-  {
-    "id": 41,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "environment",
-      "envirenment",
-      "environent",
-      "enviroment"
-    ],
-    "correctAnswer": "environment"
-  },
-  {
-    "id": 42,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "am",
-      "was",
-      "is",
-      "are"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 43,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "He",
-      "It",
-      "They",
-      "She"
-    ],
-    "correctAnswer": "She"
-  },
-  {
-    "id": 44,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receive",
-      "recieve",
-      "receve",
-      "receeve"
-    ],
-    "correctAnswer": "receive"
-  },
-  {
-    "id": 45,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "sun",
-      "chair",
-      "cat",
-      "dog"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 46,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listening",
-      "listen",
-      "listened",
-      "listens"
-    ],
-    "correctAnswer": "listens"
-  },
-  {
-    "id": 47,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "did",
-      "are",
-      "does",
-      "do"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 48,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 49,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occured",
-      "ocurred",
-      "occurred",
-      "occurred"
-    ],
-    "correctAnswer": "occurred"
-  },
-  {
-    "id": 50,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "table",
-      "milk",
-      "house",
-      "bird"
-    ],
-    "correctAnswer": "house"
-  },
-  {
-    "id": 51,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "It",
-      "He",
-      "They",
-      "She"
-    ],
-    "correctAnswer": "She"
-  },
-  {
-    "id": 52,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occurred",
-      "occurred",
-      "ocurred",
-      "occured"
-    ],
-    "correctAnswer": "occurred"
-  },
-  {
-    "id": 53,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "sun",
-      "earth",
-      "phone",
-      "milk"
-    ],
-    "correctAnswer": "sun"
-  },
-  {
-    "id": 54,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "house",
-      "moon",
-      "window",
-      "phone"
-    ],
-    "correctAnswer": "house"
-  },
-  {
-    "id": 55,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "cat",
-      "tree",
-      "dog",
-      "earth"
-    ],
-    "correctAnswer": "tree"
-  },
-  {
-    "id": 56,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "envirenment",
-      "enviroment",
-      "environment",
-      "environent"
-    ],
-    "correctAnswer": "environment"
-  },
-  {
-    "id": 57,
-    "type": "vocabulary",
-    "question": "Translate 'небо' into English",
-    "options": [
-      "chair",
-      "phone",
-      "sky",
-      "milk"
-    ],
-    "correctAnswer": "sky"
-  },
-  {
-    "id": 58,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "ocurred",
-      "occurred",
-      "occured",
-      "occurred"
-    ],
-    "correctAnswer": "occurred"
-  },
-  {
-    "id": 59,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "play",
-      "plays",
-      "playing",
-      "played"
-    ],
-    "correctAnswer": "play"
-  },
-  {
-    "id": 60,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarras",
-      "embarrasing",
-      "embarrass",
-      "embarass"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 61,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarras",
-      "embarrass",
-      "embarass",
-      "embarrasing"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 62,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "is",
-      "am",
-      "are",
-      "was"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 63,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "table",
-      "chair",
-      "tree",
-      "cat"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 64,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "are",
-      "does",
-      "did",
-      "do"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 65,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "played",
-      "plays",
-      "playing",
-      "play"
-    ],
-    "correctAnswer": "play"
-  },
-  {
-    "id": 66,
-    "type": "vocabulary",
-    "question": "Translate 'вікно' into English",
-    "options": [
-      "bird",
-      "fish",
-      "apple",
-      "window"
-    ],
+    "type": "translate",
+    "question": "Переклади: 'вікно'",
+    "options": ["window", "door", "roof", "floor"],
     "correctAnswer": "window"
   },
   {
-    "id": 67,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "are",
-      "does",
-      "do",
-      "did"
-    ],
-    "correctAnswer": "do"
+    "id": 31,
+    "type": "translate",
+    "question": "Переклади: 'стілець'",
+    "options": ["table", "chair", "bed", "shelf"],
+    "correctAnswer": "chair"
   },
   {
-    "id": 68,
+    "id": 32,
+    "type": "fill_in_the_blank",
+    "question": "My name ___ John.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
+  },
+  {
+    "id": 33,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definately",
-      "defanitely",
-      "definitely",
-      "definetely"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 69,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "are",
-      "is",
-      "was",
-      "am"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 70,
-    "type": "vocabulary",
-    "question": "Translate 'вода' into English",
-    "options": [
-      "water",
-      "table",
-      "fire",
-      "tree"
-    ],
-    "correctAnswer": "water"
-  },
-  {
-    "id": 71,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "chair",
-      "tree",
-      "house",
-      "bird"
-    ],
-    "correctAnswer": "bird"
-  },
-  {
-    "id": 72,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "neccessary",
-      "necessary",
-      "nessesary",
-      "necessery"
-    ],
+    "question": "Choose the correct spelling:",
+    "options": ["neccessary", "necessary", "nesesary", "necesery"],
     "correctAnswer": "necessary"
   },
   {
-    "id": 73,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "bird",
-      "car",
-      "fire",
-      "earth"
-    ],
-    "correctAnswer": "bird"
+    "id": 34,
+    "type": "true_false",
+    "question": "Dogs can bark.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
-    "id": 74,
+    "id": 35,
+    "type": "who_is",
+    "question": "Who is a firefighter?",
+    "options": ["Someone who puts out fires", "Someone who teaches", "Someone who cooks", "Someone who sings"],
+    "correctAnswer": "Someone who puts out fires"
+  },
+  {
+    "id": 36,
+    "type": "cause_effect",
+    "question": "Why do we eat food?",
+    "options": ["To be happy", "To have energy", "To sleep", "To talk"],
+    "correctAnswer": "To have energy"
+  },
+  {
+    "id": 37,
+    "type": "translate",
+    "question": "Переклади: 'вода'",
+    "options": ["fire", "water", "wind", "earth"],
+    "correctAnswer": "water"
+  },
+  {
+    "id": 38,
+    "type": "fill_in_the_blank",
+    "question": "He ___ very tired.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
+  },
+  {
+    "id": 39,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accommodate",
-      "accomadate",
-      "acommodate",
-      "accomodate"
-    ],
-    "correctAnswer": "accommodate"
+    "question": "Choose the correct spelling:",
+    "options": ["seperated", "separated", "sepereted", "separrated"],
+    "correctAnswer": "separated"
   },
   {
-    "id": 75,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "milk",
-      "water",
-      "sun",
-      "fire"
-    ],
-    "correctAnswer": "sun"
+    "id": 40,
+    "type": "true_false",
+    "question": "Fish can swim.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
-    "id": 76,
+    "id": 41,
+    "type": "who_is",
+    "question": "Who is a nurse?",
+    "options": ["Someone who flies", "Someone who builds", "Someone who helps in a hospital", "Someone who plays music"],
+    "correctAnswer": "Someone who helps in a hospital"
+  },
+  {
+    "id": 42,
+    "type": "cause_effect",
+    "question": "Why do we drink water?",
+    "options": ["To stay hydrated", "To run faster", "To sleep", "To grow hair"],
+    "correctAnswer": "To stay hydrated"
+  },
+  {
+    "id": 43,
+    "type": "translate",
+    "question": "Переклади: 'собака'",
+    "options": ["cat", "wolf", "dog", "horse"],
+    "correctAnswer": "dog"
+  },
+  {
+    "id": 44,
+    "type": "fill_in_the_blank",
+    "question": "It ___ raining.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
+  },
+  {
+    "id": 45,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "beginning",
-      "begining",
-      "beggining",
-      "beggining"
-    ],
+    "question": "Choose the correct spelling:",
+    "options": ["begining", "beginning", "beggining", "begginning"],
     "correctAnswer": "beginning"
   },
   {
+    "id": 46,
+    "type": "true_false",
+    "question": "Books can be read.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 47,
+    "type": "who_is",
+    "question": "Who is a student?",
+    "options": ["Someone who teaches", "Someone who learns", "Someone who drives", "Someone who cooks"],
+    "correctAnswer": "Someone who learns"
+  },
+  {
+    "id": 48,
+    "type": "cause_effect",
+    "question": "Why do people go to school?",
+    "options": ["To eat lunch", "To learn", "To sleep", "To play games"],
+    "correctAnswer": "To learn"
+  },
+  {
+    "id": 49,
+    "type": "translate",
+    "question": "Переклади: 'будинок'",
+    "options": ["home", "house", "hotel", "hut"],
+    "correctAnswer": "house"
+  },
+  {
+    "id": 50,
+    "type": "fill_in_the_blank",
+    "question": "We ___ happy.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
+  },
+  {
+    "id": 51,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["adress", "address", "adrees", "addres"],
+    "correctAnswer": "address"
+  },
+  {
+    "id": 52,
+    "type": "true_false",
+    "question": "The sun is cold.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": 53,
+    "type": "who_is",
+    "question": "Who is a baker?",
+    "options": ["Someone who bakes bread", "Someone who makes clothes", "Someone who teaches", "Someone who paints"],
+    "correctAnswer": "Someone who bakes bread"
+  },
+  {
+    "id": 54,
+    "type": "cause_effect",
+    "question": "Why do we wear sunglasses?",
+    "options": ["To hear better", "To protect eyes", "To run faster", "To see the moon"],
+    "correctAnswer": "To protect eyes"
+  },
+  {
+    "id": 55,
+    "type": "translate",
+    "question": "Переклади: 'книга'",
+    "options": ["pen", "notebook", "book", "paper"],
+    "correctAnswer": "book"
+  },
+  {
+    "id": 56,
+    "type": "fill_in_the_blank",
+    "question": "Anna and Mike ___ friends.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
+  },
+  {
+    "id": 57,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["tomorrow", "tommorow", "tommorrow", "tomorow"],
+    "correctAnswer": "tomorrow"
+  },
+  {
+    "id": 58,
+    "type": "true_false",
+    "question": "Milk is a liquid.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 59,
+    "type": "who_is",
+    "question": "Who is a driver?",
+    "options": ["Someone who runs", "Someone who cooks", "Someone who drives vehicles", "Someone who cleans"],
+    "correctAnswer": "Someone who drives vehicles"
+  },
+  {
+    "id": 60,
+    "type": "cause_effect",
+    "question": "Why do we use phones?",
+    "options": ["To cook", "To talk", "To swim", "To sleep"],
+    "correctAnswer": "To talk"
+  },
+  {
+    "id": 61,
+    "type": "translate",
+    "question": "Переклади: 'яблуко'",
+    "options": ["apple", "pear", "plum", "grape"],
+    "correctAnswer": "apple"
+  },
+  {
+    "id": 62,
+    "type": "fill_in_the_blank",
+    "question": "She ___ not understand.",
+    "options": ["does", "do", "is", "am"],
+    "correctAnswer": "does"
+  },
+  {
+    "id": 63,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["defanition", "definition", "definetion", "definision"],
+    "correctAnswer": "definition"
+  },
+  {
+    "id": 64,
+    "type": "true_false",
+    "question": "Birds have wings.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 65,
+    "type": "who_is",
+    "question": "Who is a painter?",
+    "options": ["Someone who writes", "Someone who paints", "Someone who drives", "Someone who cooks"],
+    "correctAnswer": "Someone who paints"
+  },
+  {
+    "id": 66,
+    "type": "cause_effect",
+    "question": "Why do we sleep?",
+    "options": ["To eat", "To rest", "To walk", "To learn"],
+    "correctAnswer": "To rest"
+  },
+  {
+    "id": 67,
+    "type": "translate",
+    "question": "Переклади: 'ручка'",
+    "options": ["pen", "book", "pencil", "notebook"],
+    "correctAnswer": "pen"
+  },
+  {
+    "id": 68,
+    "type": "fill_in_the_blank",
+    "question": "We ___ English.",
+    "options": ["learn", "learning", "learns", "learned"],
+    "correctAnswer": "learn"
+  },
+  {
+    "id": 69,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["question", "qustion", "queston", "qestion"],
+    "correctAnswer": "question"
+  },
+  {
+    "id": 70,
+    "type": "true_false",
+    "question": "Snow is cold.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": 71,
+    "type": "who_is",
+    "question": "Who is a farmer?",
+    "options": ["Someone who teaches", "Someone who grows food", "Someone who builds", "Someone who flies planes"],
+    "correctAnswer": "Someone who grows food"
+  },
+  {
+    "id": 72,
+    "type": "cause_effect",
+    "question": "Why do people wash hands?",
+    "options": ["To play", "To sleep", "To stay healthy", "To eat faster"],
+    "correctAnswer": "To stay healthy"
+  },
+  {
+    "id": 73,
+    "type": "translate",
+    "question": "Переклади: 'дерево'",
+    "options": ["grass", "flower", "tree", "bush"],
+    "correctAnswer": "tree"
+  },
+  {
+    "id": 74,
+    "type": "fill_in_the_blank",
+    "question": "The sky ___ blue.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
+  },
+  {
+    "id": 75,
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["acheive", "achieve", "acheeve", "achive"],
+    "correctAnswer": "achieve"
+  },
+  {
+    "id": 76,
+    "type": "true_false",
+    "question": "Cars can swim.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
     "id": 77,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "They",
-      "She",
-      "He",
-      "It"
-    ],
-    "correctAnswer": "She"
+    "type": "who_is",
+    "question": "Who is a chef?",
+    "options": ["Someone who builds", "Someone who drives", "Someone who sings", "Someone who cooks"],
+    "correctAnswer": "Someone who cooks"
   },
   {
     "id": 78,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accommodate",
-      "acommodate",
-      "accomodate",
-      "accomadate"
-    ],
-    "correctAnswer": "accommodate"
+    "type": "cause_effect",
+    "question": "Why do people wear shoes?",
+    "options": ["To protect feet", "To sing", "To read", "To see"],
+    "correctAnswer": "To protect feet"
   },
   {
     "id": 79,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occurred",
-      "occured",
-      "ocurred",
-      "occurred"
-    ],
-    "correctAnswer": "occurred"
+    "type": "translate",
+    "question": "Переклади: 'стіна'",
+    "options": ["wall", "roof", "floor", "door"],
+    "correctAnswer": "wall"
   },
   {
     "id": 80,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listening",
-      "listened",
-      "listen",
-      "listens"
-    ],
-    "correctAnswer": "listens"
+    "type": "fill_in_the_blank",
+    "question": "You ___ my best friend.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
   },
   {
     "id": 81,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "recieve",
-      "receve",
-      "receive",
-      "receeve"
-    ],
-    "correctAnswer": "receive"
+    "question": "Choose the correct spelling:",
+    "options": ["tomato", "tommato", "tomatto", "tomattoe"],
+    "correctAnswer": "tomato"
   },
   {
     "id": 82,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "is",
-      "was",
-      "am",
-      "are"
-    ],
-    "correctAnswer": "am"
+    "type": "true_false",
+    "question": "The moon is made of cheese.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 83,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "sun",
-      "sky",
-      "milk",
-      "cat"
-    ],
-    "correctAnswer": "cat"
+    "type": "who_is",
+    "question": "Who is a librarian?",
+    "options": ["Someone who works at a hospital", "Someone who works in a library", "Someone who teaches", "Someone who fixes cars"],
+    "correctAnswer": "Someone who works in a library"
   },
   {
     "id": 84,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "window",
-      "apple",
-      "fish",
-      "chair"
-    ],
-    "correctAnswer": "chair"
+    "type": "cause_effect",
+    "question": "Why do we wear gloves in winter?",
+    "options": ["To look good", "To stay warm", "To run faster", "To write"],
+    "correctAnswer": "To stay warm"
   },
   {
     "id": 85,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "beggining",
-      "begining",
-      "beginning",
-      "beggining"
-    ],
-    "correctAnswer": "beginning"
+    "type": "translate",
+    "question": "Переклади: 'вухо'",
+    "options": ["eye", "mouth", "ear", "nose"],
+    "correctAnswer": "ear"
   },
   {
     "id": 86,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "am",
-      "was",
-      "are",
-      "is"
-    ],
-    "correctAnswer": "am"
+    "type": "fill_in_the_blank",
+    "question": "We ___ happy today.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
   },
   {
     "id": 87,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "house",
-      "milk",
-      "water",
-      "dog"
-    ],
-    "correctAnswer": "house"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["library", "libary", "librery", "liberary"],
+    "correctAnswer": "library"
   },
   {
     "id": 88,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "table",
-      "sun",
-      "car",
-      "cat"
-    ],
-    "correctAnswer": "cat"
+    "type": "true_false",
+    "question": "Water is dry.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 89,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "freind",
-      "friend",
-      "friand",
-      "frend"
-    ],
-    "correctAnswer": "friend"
+    "type": "who_is",
+    "question": "Who is a postman?",
+    "options": ["Someone who delivers mail", "Someone who writes books", "Someone who paints", "Someone who cooks"],
+    "correctAnswer": "Someone who delivers mail"
   },
   {
     "id": 90,
-    "type": "vocabulary",
-    "question": "Translate 'небо' into English",
-    "options": [
-      "car",
-      "tree",
-      "sky",
-      "fire"
-    ],
-    "correctAnswer": "sky"
+    "type": "cause_effect",
+    "question": "Why do people wear hats?",
+    "options": ["To protect head", "To hear better", "To see", "To run faster"],
+    "correctAnswer": "To protect head"
   },
   {
     "id": 91,
-    "type": "vocabulary",
-    "question": "Translate 'стіл' into English",
-    "options": [
-      "table",
-      "sky",
-      "water",
-      "milk"
-    ],
-    "correctAnswer": "table"
+    "type": "translate",
+    "question": "Переклади: 'носити (одяг)'",
+    "options": ["wear", "wash", "write", "walk"],
+    "correctAnswer": "wear"
   },
   {
     "id": 92,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "playing",
-      "plays",
-      "played",
-      "play"
-    ],
-    "correctAnswer": "play"
+    "type": "fill_in_the_blank",
+    "question": "The baby ___ crying.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
   },
   {
     "id": 93,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "It",
-      "They",
-      "He",
-      "She"
-    ],
-    "correctAnswer": "She"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["February", "Febuary", "Febrary", "Februery"],
+    "correctAnswer": "February"
   },
   {
     "id": 94,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "playing",
-      "played",
-      "plays",
-      "play"
-    ],
-    "correctAnswer": "play"
+    "type": "true_false",
+    "question": "You can write with a pen.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 95,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "house",
-      "sun",
-      "fish",
-      "door"
-    ],
-    "correctAnswer": "sun"
+    "type": "who_is",
+    "question": "Who is a musician?",
+    "options": ["Someone who draws", "Someone who sings or plays music", "Someone who bakes", "Someone who teaches"],
+    "correctAnswer": "Someone who sings or plays music"
   },
   {
     "id": 96,
-    "type": "vocabulary",
-    "question": "Translate 'собака' into English",
-    "options": [
-      "earth",
-      "house",
-      "fire",
-      "dog"
-    ],
-    "correctAnswer": "dog"
+    "type": "cause_effect",
+    "question": "Why do we turn off lights?",
+    "options": ["To save energy", "To get warm", "To clean", "To talk"],
+    "correctAnswer": "To save energy"
   },
   {
     "id": 97,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definitely",
-      "defanitely",
-      "definetely",
-      "definately"
-    ],
-    "correctAnswer": "definitely"
+    "type": "translate",
+    "question": "Переклади: 'ходити'",
+    "options": ["sleep", "walk", "run", "sit"],
+    "correctAnswer": "walk"
   },
   {
     "id": 98,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "friend",
-      "freind",
-      "friand",
-      "frend"
-    ],
-    "correctAnswer": "friend"
+    "type": "fill_in_the_blank",
+    "question": "She ___ a good student.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
   },
   {
     "id": 99,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "does",
-      "do",
-      "did",
-      "are"
-    ],
-    "correctAnswer": "do"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["enough", "enouf", "enuff", "enouff"],
+    "correctAnswer": "enough"
   },
   {
     "id": 100,
-    "type": "vocabulary",
-    "question": "Translate 'риба' into English",
-    "options": [
-      "fish",
-      "earth",
-      "dog",
-      "table"
-    ],
-    "correctAnswer": "fish"
+    "type": "true_false",
+    "question": "Apples grow on trees.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 101,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receeve",
-      "receve",
-      "receive",
-      "recieve"
-    ],
-    "correctAnswer": "receive"
+    "type": "translate",
+    "question": "Переклади: 'школа'",
+    "options": ["university", "kindergarten", "school", "office"],
+    "correctAnswer": "school"
   },
   {
     "id": 102,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "house",
-      "earth",
-      "fire",
-      "apple"
-    ],
-    "correctAnswer": "house"
+    "type": "fill_in_the_blank",
+    "question": "He ___ my brother.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
   },
   {
     "id": 103,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "water",
-      "earth",
-      "moon",
-      "milk"
-    ],
-    "correctAnswer": "moon"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["bussiness", "business", "busines", "buisness"],
+    "correctAnswer": "business"
   },
   {
     "id": 104,
-    "type": "vocabulary",
-    "question": "Translate 'вода' into English",
-    "options": [
-      "chair",
-      "water",
-      "cat",
-      "bird"
-    ],
-    "correctAnswer": "water"
+    "type": "true_false",
+    "question": "Ice is hot.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 105,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "enviroment",
-      "environment",
-      "envirenment",
-      "environent"
-    ],
-    "correctAnswer": "environment"
+    "type": "who_is",
+    "question": "Who is a mechanic?",
+    "options": ["Someone who cooks", "Someone who fixes cars", "Someone who teaches", "Someone who cleans"],
+    "correctAnswer": "Someone who fixes cars"
   },
   {
     "id": 106,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "freind",
-      "friand",
-      "frend",
-      "friend"
-    ],
-    "correctAnswer": "friend"
+    "type": "cause_effect",
+    "question": "Why do we close windows?",
+    "options": ["To open the door", "To keep warm", "To drink water", "To make noise"],
+    "correctAnswer": "To keep warm"
   },
   {
     "id": 107,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "does",
-      "did",
-      "do",
-      "are"
-    ],
-    "correctAnswer": "do"
+    "type": "translate",
+    "question": "Переклади: 'вікно'",
+    "options": ["wall", "window", "roof", "door"],
+    "correctAnswer": "window"
   },
   {
     "id": 108,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "car",
-      "moon",
-      "sun",
-      "apple"
-    ],
-    "correctAnswer": "sun"
+    "type": "fill_in_the_blank",
+    "question": "I ___ going to the park.",
+    "options": ["am", "is", "are", "be"],
+    "correctAnswer": "am"
   },
   {
     "id": 109,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receve",
-      "receive",
-      "recieve",
-      "receeve"
-    ],
-    "correctAnswer": "receive"
+    "question": "Choose the correct spelling:",
+    "options": ["answer", "answear", "anser", "ansver"],
+    "correctAnswer": "answer"
   },
   {
     "id": 110,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "house",
-      "apple",
-      "sun",
-      "dog"
-    ],
-    "correctAnswer": "sun"
+    "type": "true_false",
+    "question": "Bananas are yellow.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 111,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "playing",
-      "play",
-      "played",
-      "plays"
-    ],
-    "correctAnswer": "play"
+    "type": "who_is",
+    "question": "Who is a tailor?",
+    "options": ["Someone who sings", "Someone who makes clothes", "Someone who draws", "Someone who reads"],
+    "correctAnswer": "Someone who makes clothes"
   },
   {
     "id": 112,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "am",
-      "are",
-      "was",
-      "is"
-    ],
-    "correctAnswer": "am"
+    "type": "cause_effect",
+    "question": "Why do we read books?",
+    "options": ["To get knowledge", "To cook food", "To sing songs", "To dance"],
+    "correctAnswer": "To get knowledge"
   },
   {
     "id": 113,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "necessary",
-      "neccessary",
-      "nessesary",
-      "necessery"
-    ],
-    "correctAnswer": "necessary"
+    "type": "translate",
+    "question": "Переклади: 'місто'",
+    "options": ["village", "country", "city", "capital"],
+    "correctAnswer": "city"
   },
   {
     "id": 114,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "neccessary",
-      "nessesary",
-      "necessery",
-      "necessary"
-    ],
-    "correctAnswer": "necessary"
+    "type": "fill_in_the_blank",
+    "question": "He ___ football on Sundays.",
+    "options": ["plays", "play", "playing", "played"],
+    "correctAnswer": "plays"
   },
   {
     "id": 115,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receve",
-      "recieve",
-      "receeve",
-      "receive"
-    ],
-    "correctAnswer": "receive"
+    "question": "Choose the correct spelling:",
+    "options": ["different", "diferent", "diferrent", "diffrent"],
+    "correctAnswer": "different"
   },
   {
     "id": 116,
-    "type": "vocabulary",
-    "question": "Translate 'вода' into English",
-    "options": [
-      "water",
-      "fire",
-      "table",
-      "cat"
-    ],
-    "correctAnswer": "water"
+    "type": "true_false",
+    "question": "The Earth is round.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 117,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listens",
-      "listened",
-      "listening",
-      "listen"
-    ],
-    "correctAnswer": "listens"
+    "type": "who_is",
+    "question": "Who is a dancer?",
+    "options": ["Someone who drives", "Someone who dances", "Someone who draws", "Someone who sings"],
+    "correctAnswer": "Someone who dances"
   },
   {
     "id": 118,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "It",
-      "She",
-      "They",
-      "He"
-    ],
-    "correctAnswer": "She"
+    "type": "cause_effect",
+    "question": "Why do people drink tea?",
+    "options": ["To fly", "To warm up", "To run", "To sleep"],
+    "correctAnswer": "To warm up"
   },
   {
     "id": 119,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "window",
-      "tree",
-      "phone",
-      "fish"
-    ],
-    "correctAnswer": "tree"
+    "type": "translate",
+    "question": "Переклади: 'ручка' (для письма)",
+    "options": ["pen", "hand", "handle", "fist"],
+    "correctAnswer": "pen"
   },
   {
     "id": 120,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "neccessary",
-      "necessery",
-      "necessary",
-      "nessesary"
-    ],
-    "correctAnswer": "necessary"
+    "type": "fill_in_the_blank",
+    "question": "We ___ at home now.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
   },
   {
     "id": 121,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "She",
-      "He",
-      "They",
-      "It"
-    ],
-    "correctAnswer": "She"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["beleave", "believe", "beleev", "beleve"],
+    "correctAnswer": "believe"
   },
   {
     "id": 122,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "milk",
-      "tree",
-      "water",
-      "house"
-    ],
-    "correctAnswer": "tree"
+    "type": "true_false",
+    "question": "Dogs are reptiles.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 123,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "bird",
-      "moon",
-      "window",
-      "cat"
-    ],
-    "correctAnswer": "cat"
+    "type": "who_is",
+    "question": "Who is a barber?",
+    "options": ["Someone who cuts hair", "Someone who builds", "Someone who flies", "Someone who cooks"],
+    "correctAnswer": "Someone who cuts hair"
   },
   {
     "id": 124,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "phone",
-      "chair",
-      "moon",
-      "sky"
-    ],
-    "correctAnswer": "moon"
+    "type": "cause_effect",
+    "question": "Why do we wear raincoats?",
+    "options": ["To stay dry", "To dance", "To run", "To sleep"],
+    "correctAnswer": "To stay dry"
   },
   {
     "id": 125,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occured",
-      "occurred",
-      "occurred",
-      "ocurred"
-    ],
-    "correctAnswer": "occurred"
+    "type": "translate",
+    "question": "Переклади: 'море'",
+    "options": ["river", "sea", "lake", "ocean"],
+    "correctAnswer": "sea"
   },
   {
     "id": 126,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receeve",
-      "recieve",
-      "receive",
-      "receve"
-    ],
-    "correctAnswer": "receive"
+    "type": "fill_in_the_blank",
+    "question": "They ___ lunch at noon.",
+    "options": ["have", "has", "having", "had"],
+    "correctAnswer": "have"
   },
   {
     "id": 127,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "does",
-      "did",
-      "are",
-      "do"
-    ],
-    "correctAnswer": "do"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["weather", "wheather", "wether", "weader"],
+    "correctAnswer": "weather"
   },
   {
     "id": 128,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "plays",
-      "play",
-      "playing",
-      "played"
-    ],
-    "correctAnswer": "play"
+    "type": "true_false",
+    "question": "A table has legs.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 129,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "freind",
-      "friand",
-      "friend",
-      "frend"
-    ],
-    "correctAnswer": "friend"
+    "type": "who_is",
+    "question": "Who is a postwoman?",
+    "options": ["Someone who paints", "Someone who delivers mail", "Someone who drives", "Someone who sings"],
+    "correctAnswer": "Someone who delivers mail"
   },
   {
     "id": 130,
-    "type": "vocabulary",
-    "question": "Translate 'земля' into English",
-    "options": [
-      "house",
-      "table",
-      "water",
-      "earth"
-    ],
-    "correctAnswer": "earth"
+    "type": "cause_effect",
+    "question": "Why do people wear sunglasses?",
+    "options": ["To protect eyes", "To swim", "To fly", "To write"],
+    "correctAnswer": "To protect eyes"
   },
   {
     "id": 131,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "It",
-      "He",
-      "She",
-      "They"
-    ],
-    "correctAnswer": "She"
+    "type": "translate",
+    "question": "Переклади: 'літо'",
+    "options": ["spring", "autumn", "summer", "winter"],
+    "correctAnswer": "summer"
   },
   {
     "id": 132,
-    "type": "vocabulary",
-    "question": "Translate 'молоко' into English",
-    "options": [
-      "milk",
-      "phone",
-      "bird",
-      "sky"
-    ],
-    "correctAnswer": "milk"
+    "type": "fill_in_the_blank",
+    "question": "I ___ pizza.",
+    "options": ["like", "likes", "liking", "liked"],
+    "correctAnswer": "like"
   },
   {
     "id": 133,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "cat",
-      "house",
-      "door",
-      "chair"
-    ],
-    "correctAnswer": "house"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["dictionery", "dictionary", "dictionry", "dictonary"],
+    "correctAnswer": "dictionary"
   },
   {
     "id": 134,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "house",
-      "milk",
-      "sun",
-      "phone"
-    ],
-    "correctAnswer": "sun"
+    "type": "true_false",
+    "question": "People can breathe under water without equipment.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 135,
-    "type": "vocabulary",
-    "question": "Translate 'вікно' into English",
-    "options": [
-      "moon",
-      "milk",
-      "cat",
-      "window"
-    ],
-    "correctAnswer": "window"
+    "type": "who_is",
+    "question": "Who is a driver?",
+    "options": ["Someone who sings", "Someone who cooks", "Someone who drives vehicles", "Someone who cuts hair"],
+    "correctAnswer": "Someone who drives vehicles"
   },
   {
     "id": 136,
-    "type": "vocabulary",
-    "question": "Translate 'молоко' into English",
-    "options": [
-      "moon",
-      "tree",
-      "milk",
-      "house"
-    ],
-    "correctAnswer": "milk"
+    "type": "cause_effect",
+    "question": "Why do we wear scarves?",
+    "options": ["To keep neck warm", "To swim", "To run", "To write"],
+    "correctAnswer": "To keep neck warm"
   },
   {
     "id": 137,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "do",
-      "are",
-      "does",
-      "did"
-    ],
-    "correctAnswer": "do"
+    "type": "translate",
+    "question": "Переклади: 'телефон'",
+    "options": ["telephone", "mobile", "phone", "radio"],
+    "correctAnswer": "phone"
   },
   {
     "id": 138,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "They",
-      "It",
-      "She",
-      "He"
-    ],
-    "correctAnswer": "She"
+    "type": "fill_in_the_blank",
+    "question": "She ___ to music.",
+    "options": ["listens", "listen", "listening", "listened"],
+    "correctAnswer": "listens"
   },
   {
     "id": 139,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarrasing",
-      "embarras",
-      "embarass",
-      "embarrass"
-    ],
-    "correctAnswer": "embarrass"
+    "question": "Choose the correct spelling:",
+    "options": ["beautiful", "beatiful", "beautyful", "beutiful"],
+    "correctAnswer": "beautiful"
   },
   {
     "id": 140,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "was",
-      "are",
-      "am",
-      "is"
-    ],
-    "correctAnswer": "am"
+    "type": "true_false",
+    "question": "Fire is cold.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
-  {
+   {
     "id": 141,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "chair",
-      "bird",
-      "tree",
-      "house"
-    ],
-    "correctAnswer": "chair"
+    "type": "translate",
+    "question": "Переклади: 'робота'",
+    "options": ["school", "job", "play", "task"],
+    "correctAnswer": "job"
   },
   {
     "id": 142,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "chair",
-      "tree",
-      "earth",
-      "table"
-    ],
-    "correctAnswer": "tree"
+    "type": "fill_in_the_blank",
+    "question": "He ___ a car.",
+    "options": ["has", "have", "having", "had"],
+    "correctAnswer": "has"
   },
   {
     "id": 143,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "play",
-      "played",
-      "playing",
-      "plays"
-    ],
-    "correctAnswer": "play"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["beginning", "begining", "beggining", "begginning"],
+    "correctAnswer": "beginning"
   },
   {
     "id": 144,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "sepparate",
-      "seperete",
-      "seperate",
-      "separate"
-    ],
-    "correctAnswer": "separate"
+    "type": "true_false",
+    "question": "The sky is green.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 145,
-    "type": "vocabulary",
-    "question": "Translate 'двері' into English",
-    "options": [
-      "sun",
-      "door",
-      "phone",
-      "milk"
-    ],
-    "correctAnswer": "door"
+    "type": "who_is",
+    "question": "Who is a vet?",
+    "options": ["Someone who fixes shoes", "Someone who treats animals", "Someone who flies", "Someone who reads"],
+    "correctAnswer": "Someone who treats animals"
   },
   {
     "id": 146,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definately",
-      "definetely",
-      "definitely",
-      "defanitely"
-    ],
-    "correctAnswer": "definitely"
+    "type": "cause_effect",
+    "question": "Why do people brush their teeth?",
+    "options": ["To clean them", "To sleep", "To eat", "To walk"],
+    "correctAnswer": "To clean them"
   },
   {
     "id": 147,
-    "type": "vocabulary",
-    "question": "Translate 'вікно' into English",
-    "options": [
-      "tree",
-      "house",
-      "dog",
-      "window"
-    ],
-    "correctAnswer": "window"
+    "type": "translate",
+    "question": "Переклади: 'автобус'",
+    "options": ["bus", "car", "train", "bike"],
+    "correctAnswer": "bus"
   },
   {
     "id": 148,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listen",
-      "listening",
-      "listened",
-      "listens"
-    ],
-    "correctAnswer": "listens"
+    "type": "fill_in_the_blank",
+    "question": "It ___ cold today.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
   },
   {
     "id": 149,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listened",
-      "listens",
-      "listening",
-      "listen"
-    ],
-    "correctAnswer": "listens"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["friend", "freind", "frend", "friand"],
+    "correctAnswer": "friend"
   },
   {
     "id": 150,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "phone",
-      "car",
-      "chair",
-      "sky"
-    ],
-    "correctAnswer": "chair"
+    "type": "true_false",
+    "question": "The moon is visible at night.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 151,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "She",
-      "They",
-      "He",
-      "It"
-    ],
-    "correctAnswer": "She"
+    "type": "who_is",
+    "question": "Who is a cook?",
+    "options": ["Someone who sings", "Someone who cooks food", "Someone who paints", "Someone who cleans"],
+    "correctAnswer": "Someone who cooks food"
   },
   {
     "id": 152,
-    "type": "vocabulary",
-    "question": "Translate 'вода' into English",
-    "options": [
-      "water",
-      "chair",
-      "earth",
-      "fish"
-    ],
-    "correctAnswer": "water"
+    "type": "cause_effect",
+    "question": "Why do we eat breakfast?",
+    "options": ["To start the day with energy", "To play", "To sleep", "To watch TV"],
+    "correctAnswer": "To start the day with energy"
   },
   {
     "id": 153,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "was",
-      "are",
-      "is",
-      "am"
-    ],
-    "correctAnswer": "am"
+    "type": "translate",
+    "question": "Переклади: 'ліжко'",
+    "options": ["table", "sofa", "bed", "pillow"],
+    "correctAnswer": "bed"
   },
   {
     "id": 154,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "He",
-      "She",
-      "They",
-      "It"
-    ],
-    "correctAnswer": "She"
+    "type": "fill_in_the_blank",
+    "question": "I ___ coffee every morning.",
+    "options": ["drink", "drinks", "drinking", "drank"],
+    "correctAnswer": "drink"
   },
   {
     "id": 155,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "ocurred",
-      "occurred",
-      "occurred",
-      "occured"
-    ],
-    "correctAnswer": "occurred"
+    "question": "Choose the correct spelling:",
+    "options": ["language", "langage", "languege", "langwage"],
+    "correctAnswer": "language"
   },
   {
     "id": 156,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "She",
-      "It",
-      "He",
-      "They"
-    ],
-    "correctAnswer": "She"
+    "type": "true_false",
+    "question": "Books can be eaten.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 157,
-    "type": "vocabulary",
-    "question": "Translate 'собака' into English",
-    "options": [
-      "dog",
-      "tree",
-      "fire",
-      "house"
-    ],
-    "correctAnswer": "dog"
+    "type": "who_is",
+    "question": "Who is a police officer?",
+    "options": ["Someone who teaches", "Someone who enforces the law", "Someone who draws", "Someone who dances"],
+    "correctAnswer": "Someone who enforces the law"
   },
   {
     "id": 158,
-    "type": "vocabulary",
-    "question": "Translate 'вогонь' into English",
-    "options": [
-      "house",
-      "phone",
-      "fire",
-      "bird"
-    ],
-    "correctAnswer": "fire"
+    "type": "cause_effect",
+    "question": "Why do we wear coats in winter?",
+    "options": ["To keep warm", "To swim", "To write", "To cook"],
+    "correctAnswer": "To keep warm"
   },
   {
     "id": 159,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "tree",
-      "chair",
-      "bird",
-      "door"
-    ],
-    "correctAnswer": "bird"
+    "type": "translate",
+    "question": "Переклади: 'годинник'",
+    "options": ["clock", "pen", "lamp", "phone"],
+    "correctAnswer": "clock"
   },
   {
     "id": 160,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "sepparate",
-      "seperate",
-      "seperete",
-      "separate"
-    ],
-    "correctAnswer": "separate"
+    "type": "fill_in_the_blank",
+    "question": "They ___ going to the zoo.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
   },
   {
     "id": 161,
-    "type": "vocabulary",
-    "question": "Translate 'собака' into English",
-    "options": [
-      "milk",
-      "fish",
-      "window",
-      "dog"
-    ],
-    "correctAnswer": "dog"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["because", "becouse", "becuz", "becose"],
+    "correctAnswer": "because"
   },
   {
     "id": 162,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "cat",
-      "car",
-      "table",
-      "moon"
-    ],
-    "correctAnswer": "moon"
+    "type": "true_false",
+    "question": "Fish can fly.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 163,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "moon",
-      "dog",
-      "door",
-      "phone"
-    ],
-    "correctAnswer": "phone"
+    "type": "who_is",
+    "question": "Who is a pilot?",
+    "options": ["Someone who drives cars", "Someone who flies planes", "Someone who paints", "Someone who writes books"],
+    "correctAnswer": "Someone who flies planes"
   },
   {
     "id": 164,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "neccessary",
-      "necessery",
-      "nessesary",
-      "necessary"
-    ],
-    "correctAnswer": "necessary"
+    "type": "cause_effect",
+    "question": "Why do we turn on the lights?",
+    "options": ["To see", "To sleep", "To run", "To eat"],
+    "correctAnswer": "To see"
   },
   {
     "id": 165,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "earth",
-      "sky",
-      "milk",
-      "phone"
-    ],
-    "correctAnswer": "phone"
+    "type": "translate",
+    "question": "Переклади: 'дощ'",
+    "options": ["rain", "snow", "fog", "sun"],
+    "correctAnswer": "rain"
   },
   {
     "id": 166,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "playing",
-      "played",
-      "play",
-      "plays"
-    ],
-    "correctAnswer": "play"
+    "type": "fill_in_the_blank",
+    "question": "You ___ very kind.",
+    "options": ["are", "is", "am", "be"],
+    "correctAnswer": "are"
   },
   {
     "id": 167,
     "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accomadate",
-      "accommodate",
-      "acommodate",
-      "accomodate"
-    ],
-    "correctAnswer": "accommodate"
+    "question": "Choose the correct spelling:",
+    "options": ["mountain", "mountin", "moutain", "mountan"],
+    "correctAnswer": "mountain"
   },
   {
     "id": 168,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "acommodate",
-      "accommodate",
-      "accomodate",
-      "accomadate"
-    ],
-    "correctAnswer": "accommodate"
+    "type": "true_false",
+    "question": "Birds can fly.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
   },
   {
     "id": 169,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "fish",
-      "apple",
-      "bird",
-      "table"
-    ],
-    "correctAnswer": "apple"
+    "type": "who_is",
+    "question": "Who is a cleaner?",
+    "options": ["Someone who paints", "Someone who cleans", "Someone who sings", "Someone who writes"],
+    "correctAnswer": "Someone who cleans"
   },
   {
     "id": 170,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "beggining",
-      "beggining",
-      "begining",
-      "beginning"
-    ],
-    "correctAnswer": "beginning"
+    "type": "cause_effect",
+    "question": "Why do we use a toothbrush?",
+    "options": ["To clean teeth", "To draw", "To play", "To eat"],
+    "correctAnswer": "To clean teeth"
   },
   {
     "id": 171,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "sun",
-      "sky",
-      "moon",
-      "tree"
-    ],
-    "correctAnswer": "moon"
+    "type": "translate",
+    "question": "Переклади: 'олівець'",
+    "options": ["pen", "brush", "pencil", "ruler"],
+    "correctAnswer": "pencil"
   },
   {
     "id": 172,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accomadate",
-      "accommodate",
-      "accomodate",
-      "acommodate"
-    ],
-    "correctAnswer": "accommodate"
+    "type": "fill_in_the_blank",
+    "question": "She ___ a good singer.",
+    "options": ["is", "are", "am", "be"],
+    "correctAnswer": "is"
   },
   {
     "id": 173,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "apple",
-      "house",
-      "sun",
-      "window"
-    ],
-    "correctAnswer": "apple"
+    "type": "spelling",
+    "question": "Choose the correct spelling:",
+    "options": ["umbrella", "umberella", "umbrala", "umbrellah"],
+    "correctAnswer": "umbrella"
   },
   {
     "id": 174,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "plays",
-      "play",
-      "played",
-      "playing"
-    ],
-    "correctAnswer": "play"
+    "type": "true_false",
+    "question": "Milk is a solid.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
   },
   {
     "id": 175,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "are",
-      "did",
-      "do",
-      "does"
-    ],
-    "correctAnswer": "do"
+    "type": "who_is",
+    "question": "Who is a teacher?",
+    "options": ["Someone who learns", "Someone who teaches", "Someone who builds", "Someone who sings"],
+    "correctAnswer": "Someone who teaches"
   },
   {
     "id": 176,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "play",
-      "played",
-      "plays",
-      "playing"
-    ],
-    "correctAnswer": "play"
-  },
-  {
-    "id": 177,
-    "type": "vocabulary",
-    "question": "Translate 'вікно' into English",
-    "options": [
-      "moon",
-      "milk",
-      "bird",
-      "window"
-    ],
-    "correctAnswer": "window"
-  },
-  {
-    "id": 178,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accomodate",
-      "acommodate",
-      "accomadate",
-      "accommodate"
-    ],
-    "correctAnswer": "accommodate"
-  },
-  {
-    "id": 179,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "frend",
-      "freind",
-      "friend",
-      "friand"
-    ],
-    "correctAnswer": "friend"
-  },
-  {
-    "id": 180,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "table",
-      "window",
-      "bird",
-      "fish"
-    ],
-    "correctAnswer": "bird"
-  },
-  {
-    "id": 181,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "door",
-      "table",
-      "sun",
-      "chair"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 182,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarass",
-      "embarrass",
-      "embarras",
-      "embarrasing"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 183,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "are",
-      "do",
-      "does",
-      "did"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 184,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarrass",
-      "embarras",
-      "embarass",
-      "embarrasing"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 185,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "moon",
-      "dog",
-      "sky",
-      "house"
-    ],
-    "correctAnswer": "house"
-  },
-  {
-    "id": 186,
-    "type": "vocabulary",
-    "question": "Translate 'стіл' into English",
-    "options": [
-      "sun",
-      "table",
-      "cat",
-      "house"
-    ],
-    "correctAnswer": "table"
-  },
-  {
-    "id": 187,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "occurred",
-      "occurred",
-      "occured",
-      "ocurred"
-    ],
-    "correctAnswer": "occurred"
-  },
-  {
-    "id": 188,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "am",
-      "is",
-      "are",
-      "was"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 189,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "did",
-      "does",
-      "are",
-      "do"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 190,
-    "type": "vocabulary",
-    "question": "Translate 'стіл' into English",
-    "options": [
-      "table",
-      "car",
-      "water",
-      "moon"
-    ],
-    "correctAnswer": "table"
-  },
-  {
-    "id": 191,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accomadate",
-      "accomodate",
-      "accommodate",
-      "acommodate"
-    ],
-    "correctAnswer": "accommodate"
-  },
-  {
-    "id": 192,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarass",
-      "embarrass",
-      "embarrasing",
-      "embarras"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 193,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "frend",
-      "friand",
-      "friend",
-      "freind"
-    ],
-    "correctAnswer": "friend"
-  },
-  {
-    "id": 194,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "do",
-      "are",
-      "did",
-      "does"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 195,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "am",
-      "are",
-      "is",
-      "was"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 196,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "bird",
-      "sky",
-      "fish",
-      "door"
-    ],
-    "correctAnswer": "bird"
-  },
-  {
-    "id": 197,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "house",
-      "door",
-      "chair",
-      "milk"
-    ],
-    "correctAnswer": "house"
-  },
-  {
-    "id": 198,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "sky",
-      "fish",
-      "sun",
-      "fire"
-    ],
-    "correctAnswer": "sun"
-  },
-  {
-    "id": 199,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "do",
-      "did",
-      "are",
-      "does"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 200,
-    "type": "vocabulary",
-    "question": "Translate 'машина' into English",
-    "options": [
-      "earth",
-      "sky",
-      "car",
-      "door"
-    ],
-    "correctAnswer": "car"
-  },
-  {
-    "id": 201,
-    "type": "vocabulary",
-    "question": "Translate 'двері' into English",
-    "options": [
-      "apple",
-      "house",
-      "door",
-      "car"
-    ],
-    "correctAnswer": "door"
-  },
-  {
-    "id": 202,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "are",
-      "did",
-      "does",
-      "do"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 203,
-    "type": "vocabulary",
-    "question": "Translate 'вода' into English",
-    "options": [
-      "water",
-      "earth",
-      "fire",
-      "window"
-    ],
-    "correctAnswer": "water"
-  },
-  {
-    "id": 204,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "moon",
-      "cat",
-      "door",
-      "apple"
-    ],
-    "correctAnswer": "apple"
-  },
-  {
-    "id": 205,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "fire",
-      "fish",
-      "dog",
-      "chair"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 206,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "sky",
-      "bird",
-      "dog",
-      "table"
-    ],
-    "correctAnswer": "bird"
-  },
-  {
-    "id": 207,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "seperate",
-      "seperete",
-      "sepparate",
-      "separate"
-    ],
-    "correctAnswer": "separate"
-  },
-  {
-    "id": 208,
-    "type": "vocabulary",
-    "question": "Translate 'небо' into English",
-    "options": [
-      "apple",
-      "tree",
-      "milk",
-      "sky"
-    ],
-    "correctAnswer": "sky"
-  },
-  {
-    "id": 209,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "apple",
-      "bird",
-      "phone",
-      "milk"
-    ],
-    "correctAnswer": "phone"
-  },
-  {
-    "id": 210,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "cat",
-      "bird",
-      "phone",
-      "fire"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 211,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "beggining",
-      "beginning",
-      "beggining",
-      "begining"
-    ],
-    "correctAnswer": "beginning"
-  },
-  {
-    "id": 212,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "playing",
-      "play",
-      "plays",
-      "played"
-    ],
-    "correctAnswer": "play"
-  },
-  {
-    "id": 213,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accommodate",
-      "accomadate",
-      "accomodate",
-      "acommodate"
-    ],
-    "correctAnswer": "accommodate"
-  },
-  {
-    "id": 214,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "environment",
-      "enviroment",
-      "environent",
-      "envirenment"
-    ],
-    "correctAnswer": "environment"
-  },
-  {
-    "id": 215,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "seperete",
-      "separate",
-      "sepparate",
-      "seperate"
-    ],
-    "correctAnswer": "separate"
-  },
-  {
-    "id": 216,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "are",
-      "do",
-      "did",
-      "does"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 217,
-    "type": "vocabulary",
-    "question": "Translate 'машина' into English",
-    "options": [
-      "fish",
-      "car",
-      "bird",
-      "house"
-    ],
-    "correctAnswer": "car"
-  },
-  {
-    "id": 218,
-    "type": "vocabulary",
-    "question": "Translate 'собака' into English",
-    "options": [
-      "cat",
-      "door",
-      "dog",
-      "moon"
-    ],
-    "correctAnswer": "dog"
-  },
-  {
-    "id": 219,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "does",
-      "are",
-      "do",
-      "did"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 220,
-    "type": "vocabulary",
-    "question": "Translate 'машина' into English",
-    "options": [
-      "car",
-      "sky",
-      "fire",
-      "bird"
-    ],
-    "correctAnswer": "car"
-  },
-  {
-    "id": 221,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarras",
-      "embarass",
-      "embarrass",
-      "embarrasing"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 222,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarras",
-      "embarrasing",
-      "embarass",
-      "embarrass"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 223,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "necessery",
-      "nessesary",
-      "neccessary",
-      "necessary"
-    ],
-    "correctAnswer": "necessary"
-  },
-  {
-    "id": 224,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "environent",
-      "environment",
-      "enviroment",
-      "envirenment"
-    ],
-    "correctAnswer": "environment"
-  },
-  {
-    "id": 225,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listens",
-      "listening",
-      "listen",
-      "listened"
-    ],
-    "correctAnswer": "listens"
-  },
-  {
-    "id": 226,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "plays",
-      "played",
-      "play",
-      "playing"
-    ],
-    "correctAnswer": "play"
-  },
-  {
-    "id": 227,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "cat",
-      "phone",
-      "fire",
-      "moon"
-    ],
-    "correctAnswer": "moon"
-  },
-  {
-    "id": 228,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "door",
-      "dog",
-      "house",
-      "water"
-    ],
-    "correctAnswer": "house"
-  },
-  {
-    "id": 229,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "sky",
-      "chair",
-      "phone",
-      "earth"
-    ],
-    "correctAnswer": "phone"
-  },
-  {
-    "id": 230,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "car",
-      "apple",
-      "dog",
-      "table"
-    ],
-    "correctAnswer": "apple"
-  },
-  {
-    "id": 231,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "fire",
-      "cat",
-      "phone",
-      "car"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 232,
-    "type": "vocabulary",
-    "question": "Translate 'вогонь' into English",
-    "options": [
-      "fire",
-      "water",
-      "chair",
-      "dog"
-    ],
-    "correctAnswer": "fire"
-  },
-  {
-    "id": 233,
-    "type": "vocabulary",
-    "question": "Translate 'земля' into English",
-    "options": [
-      "earth",
-      "car",
-      "sky",
-      "water"
-    ],
-    "correctAnswer": "earth"
-  },
-  {
-    "id": 234,
-    "type": "sentence",
-    "question": "Where _____ you live?",
-    "options": [
-      "did",
-      "does",
-      "do",
-      "are"
-    ],
-    "correctAnswer": "do"
-  },
-  {
-    "id": 235,
-    "type": "sentence",
-    "question": "They _____ football on Sundays.",
-    "options": [
-      "played",
-      "play",
-      "playing",
-      "plays"
-    ],
-    "correctAnswer": "play"
-  },
-  {
-    "id": 236,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "He",
-      "They",
-      "She",
-      "It"
-    ],
-    "correctAnswer": "She"
-  },
-  {
-    "id": 237,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "phone",
-      "water",
-      "chair",
-      "milk"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 238,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "sky",
-      "house",
-      "earth",
-      "apple"
-    ],
-    "correctAnswer": "apple"
-  },
-  {
-    "id": 239,
-    "type": "sentence",
-    "question": "_____ is reading a book.",
-    "options": [
-      "It",
-      "She",
-      "He",
-      "They"
-    ],
-    "correctAnswer": "She"
-  },
-  {
-    "id": 240,
-    "type": "vocabulary",
-    "question": "Translate 'риба' into English",
-    "options": [
-      "fish",
-      "earth",
-      "bird",
-      "door"
-    ],
-    "correctAnswer": "fish"
-  },
-  {
-    "id": 241,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "fire",
-      "water",
-      "chair",
-      "fish"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 242,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "cat",
-      "house",
-      "fire",
-      "moon"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 243,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "cat",
-      "phone",
-      "dog",
-      "fire"
-    ],
-    "correctAnswer": "phone"
-  },
-  {
-    "id": 244,
-    "type": "vocabulary",
-    "question": "Translate 'собака' into English",
-    "options": [
-      "dog",
-      "moon",
-      "apple",
-      "fire"
-    ],
-    "correctAnswer": "dog"
-  },
-  {
-    "id": 245,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "nessesary",
-      "necessary",
-      "necessery",
-      "neccessary"
-    ],
-    "correctAnswer": "necessary"
-  },
-  {
-    "id": 246,
-    "type": "vocabulary",
-    "question": "Translate 'риба' into English",
-    "options": [
-      "cat",
-      "fish",
-      "earth",
-      "phone"
-    ],
-    "correctAnswer": "fish"
-  },
-  {
-    "id": 247,
-    "type": "vocabulary",
-    "question": "Translate 'земля' into English",
-    "options": [
-      "earth",
-      "phone",
-      "window",
-      "tree"
-    ],
-    "correctAnswer": "earth"
-  },
-  {
-    "id": 248,
-    "type": "vocabulary",
-    "question": "Translate 'молоко' into English",
-    "options": [
-      "chair",
-      "cat",
-      "door",
-      "milk"
-    ],
-    "correctAnswer": "milk"
-  },
-  {
-    "id": 249,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accomodate",
-      "acommodate",
-      "accommodate",
-      "accomadate"
-    ],
-    "correctAnswer": "accommodate"
-  },
-  {
-    "id": 250,
-    "type": "vocabulary",
-    "question": "Translate 'двері' into English",
-    "options": [
-      "fish",
-      "door",
-      "dog",
-      "window"
-    ],
-    "correctAnswer": "door"
-  },
-  {
-    "id": 251,
-    "type": "vocabulary",
-    "question": "Translate 'вогонь' into English",
-    "options": [
-      "cat",
-      "dog",
-      "fire",
-      "milk"
-    ],
-    "correctAnswer": "fire"
-  },
-  {
-    "id": 252,
-    "type": "sentence",
-    "question": "I _____ going to the market.",
-    "options": [
-      "are",
-      "was",
-      "is",
-      "am"
-    ],
-    "correctAnswer": "am"
-  },
-  {
-    "id": 253,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "table",
-      "apple",
-      "bird",
-      "earth"
-    ],
-    "correctAnswer": "bird"
-  },
-  {
-    "id": 254,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "fire",
-      "cat",
-      "phone",
-      "dog"
-    ],
-    "correctAnswer": "phone"
-  },
-  {
-    "id": 255,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "sky",
-      "fire",
-      "moon",
-      "table"
-    ],
-    "correctAnswer": "moon"
-  },
-  {
-    "id": 256,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "cat",
-      "door",
-      "chair",
-      "moon"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 257,
-    "type": "vocabulary",
-    "question": "Translate 'двері' into English",
-    "options": [
-      "door",
-      "fire",
-      "sky",
-      "tree"
-    ],
-    "correctAnswer": "door"
-  },
-  {
-    "id": 258,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "chair",
-      "window",
-      "door",
-      "fish"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 259,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definately",
-      "definetely",
-      "defanitely",
-      "definitely"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 260,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listens",
-      "listen",
-      "listened",
-      "listening"
-    ],
-    "correctAnswer": "listens"
-  },
-  {
-    "id": 261,
-    "type": "vocabulary",
-    "question": "Translate 'телефон' into English",
-    "options": [
-      "window",
-      "sun",
-      "water",
-      "phone"
-    ],
-    "correctAnswer": "phone"
-  },
-  {
-    "id": 262,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "recieve",
-      "receeve",
-      "receive",
-      "receve"
-    ],
-    "correctAnswer": "receive"
-  },
-  {
-    "id": 263,
-    "type": "vocabulary",
-    "question": "Translate 'яблуко' into English",
-    "options": [
-      "earth",
-      "sky",
-      "apple",
-      "milk"
-    ],
-    "correctAnswer": "apple"
-  },
-  {
-    "id": 264,
-    "type": "vocabulary",
-    "question": "Translate 'сонце' into English",
-    "options": [
-      "dog",
-      "cat",
-      "table",
-      "sun"
-    ],
-    "correctAnswer": "sun"
-  },
-  {
-    "id": 265,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definately",
-      "definitely",
-      "definetely",
-      "defanitely"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 266,
-    "type": "vocabulary",
-    "question": "Translate 'вода' into English",
-    "options": [
-      "water",
-      "apple",
-      "bird",
-      "fire"
-    ],
-    "correctAnswer": "water"
-  },
-  {
-    "id": 267,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "defanitely",
-      "definitely",
-      "definately",
-      "definetely"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 268,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "embarras",
-      "embarrass",
-      "embarrasing",
-      "embarass"
-    ],
-    "correctAnswer": "embarrass"
-  },
-  {
-    "id": 269,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "acommodate",
-      "accommodate",
-      "accomadate",
-      "accomodate"
-    ],
-    "correctAnswer": "accommodate"
-  },
-  {
-    "id": 270,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "accomodate",
-      "accommodate",
-      "acommodate",
-      "accomadate"
-    ],
-    "correctAnswer": "accommodate"
-  },
-  {
-    "id": 271,
-    "type": "vocabulary",
-    "question": "Translate 'птах' into English",
-    "options": [
-      "tree",
-      "sky",
-      "bird",
-      "door"
-    ],
-    "correctAnswer": "bird"
-  },
-  {
-    "id": 272,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "sky",
-      "tree",
-      "house",
-      "bird"
-    ],
-    "correctAnswer": "tree"
-  },
-  {
-    "id": 273,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "begining",
-      "beggining",
-      "beggining",
-      "beginning"
-    ],
-    "correctAnswer": "beginning"
-  },
-  {
-    "id": 274,
-    "type": "vocabulary",
-    "question": "Translate 'будинок' into English",
-    "options": [
-      "milk",
-      "chair",
-      "car",
-      "house"
-    ],
-    "correctAnswer": "house"
-  },
-  {
-    "id": 275,
-    "type": "vocabulary",
-    "question": "Translate 'машина' into English",
-    "options": [
-      "tree",
-      "car",
-      "sun",
-      "fish"
-    ],
-    "correctAnswer": "car"
-  },
-  {
-    "id": 276,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "moon",
-      "earth",
-      "chair",
-      "milk"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 277,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "cat",
-      "chair",
-      "table",
-      "tree"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 278,
-    "type": "vocabulary",
-    "question": "Translate 'кіт' into English",
-    "options": [
-      "cat",
-      "car",
-      "earth",
-      "apple"
-    ],
-    "correctAnswer": "cat"
-  },
-  {
-    "id": 279,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "frend",
-      "friend",
-      "friand",
-      "freind"
-    ],
-    "correctAnswer": "friend"
-  },
-  {
-    "id": 280,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "defanitely",
-      "definetely",
-      "definately",
-      "definitely"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 281,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "defanitely",
-      "definitely",
-      "definetely",
-      "definately"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 282,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "neccessary",
-      "necessary",
-      "necessery",
-      "nessesary"
-    ],
-    "correctAnswer": "necessary"
-  },
-  {
-    "id": 283,
-    "type": "vocabulary",
-    "question": "Translate 'місяць' into English",
-    "options": [
-      "apple",
-      "water",
-      "cat",
-      "moon"
-    ],
-    "correctAnswer": "moon"
-  },
-  {
-    "id": 284,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "milk",
-      "tree",
-      "moon",
-      "earth"
-    ],
-    "correctAnswer": "tree"
-  },
-  {
-    "id": 285,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receve",
-      "recieve",
-      "receive",
-      "receeve"
-    ],
-    "correctAnswer": "receive"
-  },
-  {
-    "id": 286,
-    "type": "vocabulary",
-    "question": "Translate 'машина' into English",
-    "options": [
-      "table",
-      "apple",
-      "car",
-      "water"
-    ],
-    "correctAnswer": "car"
-  },
-  {
-    "id": 287,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "tree",
-      "door",
-      "fire",
-      "milk"
-    ],
-    "correctAnswer": "tree"
-  },
-  {
-    "id": 288,
-    "type": "vocabulary",
-    "question": "Translate 'вогонь' into English",
-    "options": [
-      "table",
-      "phone",
-      "tree",
-      "fire"
-    ],
-    "correctAnswer": "fire"
-  },
-  {
-    "id": 289,
-    "type": "vocabulary",
-    "question": "Translate 'земля' into English",
-    "options": [
-      "table",
-      "earth",
-      "apple",
-      "car"
-    ],
-    "correctAnswer": "earth"
-  },
-  {
-    "id": 290,
-    "type": "vocabulary",
-    "question": "Translate 'стіл' into English",
-    "options": [
-      "fire",
-      "table",
-      "car",
-      "apple"
-    ],
-    "correctAnswer": "table"
-  },
-  {
-    "id": 291,
-    "type": "vocabulary",
-    "question": "Translate 'вікно' into English",
-    "options": [
-      "fish",
-      "earth",
-      "window",
-      "cat"
-    ],
-    "correctAnswer": "window"
-  },
-  {
-    "id": 292,
-    "type": "vocabulary",
-    "question": "Translate 'небо' into English",
-    "options": [
-      "sky",
-      "chair",
-      "dog",
-      "earth"
-    ],
-    "correctAnswer": "sky"
-  },
-  {
-    "id": 293,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listens",
-      "listen",
-      "listening",
-      "listened"
-    ],
-    "correctAnswer": "listens"
-  },
-  {
-    "id": 294,
-    "type": "vocabulary",
-    "question": "Translate 'молоко' into English",
-    "options": [
-      "water",
-      "milk",
-      "door",
-      "car"
-    ],
-    "correctAnswer": "milk"
-  },
-  {
-    "id": 295,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "receive",
-      "receve",
-      "recieve",
-      "receeve"
-    ],
-    "correctAnswer": "receive"
-  },
-  {
-    "id": 296,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "enviroment",
-      "environent",
-      "envirenment",
-      "environment"
-    ],
-    "correctAnswer": "environment"
-  },
-  {
-    "id": 297,
-    "type": "spelling",
-    "question": "Choose the correctly spelled word",
-    "options": [
-      "definetely",
-      "defanitely",
-      "definately",
-      "definitely"
-    ],
-    "correctAnswer": "definitely"
-  },
-  {
-    "id": 298,
-    "type": "sentence",
-    "question": "She _____ to music every day.",
-    "options": [
-      "listened",
-      "listen",
-      "listens",
-      "listening"
-    ],
-    "correctAnswer": "listens"
-  },
-  {
-    "id": 299,
-    "type": "vocabulary",
-    "question": "Translate 'стілець' into English",
-    "options": [
-      "tree",
-      "sun",
-      "water",
-      "chair"
-    ],
-    "correctAnswer": "chair"
-  },
-  {
-    "id": 300,
-    "type": "vocabulary",
-    "question": "Translate 'дерево' into English",
-    "options": [
-      "earth",
-      "phone",
-      "tree",
-      "door"
-    ],
-    "correctAnswer": "tree"
+    "type": "cause_effect",
+    "question": "Why do we eat lunch?",
+    "options": ["To stay full", "To run", "To write", "To draw"],
+    "correctAnswer": "To stay full"
   }
 ]
