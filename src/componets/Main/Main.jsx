@@ -5,16 +5,15 @@ import { UsefulLinks } from "../UsefulLinks/UsefulLinks"
 import { Contacts } from "../Contacts/Contacts"
 import { Photos } from "../Photos/Photos"
 import { Reviews } from "../Reviews/Reviews"
-import {TestEnglish} from "../TestEnglish/TestEnglish"
+import {Testing} from "../Testing/Testing"
 
 export const Main = () => (
   <main>
     <Experience />
     <Slider />
-    {/* <Test/> */}
     <StudyMaterials />
     <UsefulLinks />
-    <TestEnglish />
+    <Testing />
     <Photos/>
     <Reviews/>
     <Contacts/>

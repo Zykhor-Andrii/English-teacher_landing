@@ -43,6 +43,15 @@ export const Navigation = ({ closeMenu }) => (
       <li className="nav__item">
         <a 
         className="nav__item-link"
+         href="#testing"
+         onClick={closeMenu}
+         >
+          Пройти тест
+        </a>
+      </li>
+      <li className="nav__item">
+        <a 
+        className="nav__item-link"
          href="#photos"
          onClick={closeMenu}
          >

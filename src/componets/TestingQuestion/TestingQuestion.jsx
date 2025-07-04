@@ -1,6 +1,5 @@
 import classNames from "classnames";
-import "../TestEnglish/TestEnglish.scss"
-
+import "../Testing/Testing.scss";
 
 export const TestingQuestion = ({
   levelSubject,

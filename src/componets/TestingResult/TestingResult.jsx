@@ -1,4 +1,4 @@
-import "../TestEnglish/TestEnglish.scss";
+import "../Testing/Testing.scss";
 
 export const TestingResult = ({
   subjectName,

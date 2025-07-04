@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./TestEnglish.scss";
+import "./Testing.scss";
 import { TestingHeader } from "../TestingHeader/TestingHeader";
 import { TestingResult } from "../TestingResult/TestingResult";
 import { TestingQuestion } from "../TestingQuestion/TestingQuestion";
@@ -29,7 +29,7 @@ const getCorrectAnswersCount = (arrTest) => {
   return correctCount;
 };
 
-export const TestEnglish = () => {
+export const Testing = () => {
   const [questions, setQuestions] = useState({});
   const [levelSubject, setLevelSubject] = useState("beginner");
   const [arrTesting, setArrTesting] = useState([]);
@@ -158,7 +158,7 @@ export const TestEnglish = () => {
 
 
   return (
-    <section className="page_section testing">
+    <section id="testing" className="page_section testing">
       <div className="container">
         <div className="testing__content">
           <TestingHeader
