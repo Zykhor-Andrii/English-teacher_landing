@@ -53,7 +53,7 @@ export const Testing = () => {
     }
   };
 
-  console.log(testResults[subjectName]);
+  console.log(arrTesting);
 
   const getHistorySummaryLine = (itemArr, index) => {
     const subject = subjectHistory === "history" ? "Історія" : "Англійська";
@@ -113,8 +113,16 @@ export const Testing = () => {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
-      const randomIndex = getRandomInt(data.length);
-      setQuestions(data[randomIndex]);
+      const randomIndex = () => {
+        let index = getRandomInt(data.length);
+
+        while (arrTesting.some(item => item.id === index)) {
+          index =  getRandomInt(data.length);
+        }
+
+       return index;
+      } 
+      setQuestions(data[randomIndex()]);
     } catch (error) {
       console.error("Failed to fetch questions:", error);
     }
@@ -139,8 +147,6 @@ export const Testing = () => {
   const handleQustion = () => {
     getQuestions();
   };
-
-  console.log(chooseOption)
 
   useEffect(() => {
     setShowResultTest(false);
